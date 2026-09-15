@@ -6,7 +6,7 @@
 
 How can technology aid us in philological work — understanding, contextualizing, and critically editing texts? This seminar will explore a number of tools and techniques, and discuss approaches to working with a single manuscript, multiple witnesses texts, or a whole corpus in multiple languages. Examples will be drawn variously from Pali, Sanskrit, Tamil, & Tibetan, depending on interest, but the course material should be general enough for participants working in other languages as well.
 
-The central idea for this seminar is to approach philology through the lens of computation, both practically and theoretically. Since many people in the department work on critical editions, one main thread of the seminar will be the process of creating a digital edition. But along the way, we will also touch upon manuscript studies and corpus linguistics, and make forays into biology, computer science, folklore studies, graphic design, and philosophy.
+The central idea for this seminar is to approach philology through the lens of computation, both practically and theoretically. Since many people in the department work on critical editions, one main thread of the seminar will be the process of creating a digital edition. But along the way, we will also touch upon manuscript studies and corpus linguistics, and draw insights from biology, computer science, folklore studies, graphic design, and philosophy.
 
 
 ## Week 1 | 12 October | Introductions & warm-ups
