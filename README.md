@@ -31,8 +31,11 @@ For the next couple of weeks, we will practice transcribing manuscripts using th
 ### Bibliography
 
 Borges, Jorge Luis. 1946. "Del rigor en la ciencia." *Los Anales de Buenos Aires* 3: 53.
+
 Borges, Jorge Luis. 1966. "Del rigor en la ciencia." In *Historia universal de la infamia*. Sexta impresión. Buenos Aires: Emecé editores. 131–132.
+
 Borges, Jorge Luis. 1972. "Of Exactitude in Science." In *A Universal History of Infamy*. Translated by Norman Thomas di Giovanni. New York: E. P. Dutton & Co. 141.
+
 TEI Consortium. 2026. "TEI: Guidelines for Electronic Text Encoding and Interchange." *Text Encoding Initiative*. Last updated 28 July. <https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html>
 
 
@@ -45,9 +48,13 @@ We will continue to discuss the limits of transcription by looking at various ex
 ### Bibliography
 
 Bucher, Konrad. 2023. "Towards an ultra-diplomatic transcription of Wittgenstein's Nachlass." *Nordic Wittgenstein Review* 11. <https://doi.org/10.15845/nwr.v11.3655>
+
 Kierkegaard, Søren. 1920. *Samlede Værker:// *Enten ― Eller. Andet Bind.// Edited by Anders Bjørn Drachmann et al. Kjøbenhavn: Gyldendal. [332](https://archive.org/details/enteneller02kier/page/332/mode/1up)–[333](https://archive.org/details/enteneller02kier/page/333/mode/1up).
+
 Kierkegaard, Søren. 1978. "The Wife of the Orientalist." In *Parables of Kierkegaard.* Edited by Thomas C. Oden. Princeton: Princeton University Press. 126–127.
+
 Korzybski, Alfred. 1958. "On Structure." In *Science and Sanity: An Introduction to Non-Aristotelian Systems and General Semantics*. Fourth edition. New York: Institute of General Semantics. 55–65.
+
 Sandve, Geir Kjetil et al. 2013. "Ten Simple Rules for Reproducible Computational Research." *PLoS Computational Biology* 9(10): e1003285.  <https://doi.org/10.1371/journal.pcbi.1003285>
 
 
@@ -60,7 +67,9 @@ Until now, we have focused on transcribing the main text of the manuscript, but 
 ### Bibliography
 
 Li, Charles. 2025. "Scribes, editors, & librarians between tradition and modernity in late colonial India." In *South-Indian Manuscripts in Hamburg and Paris: Paratexts and Provenance.* Edited by Eva Wilden & Emmanuel Francis. Hamburg: Department of Indian & Tibetan Studies. <https://tst-project.github.io/cordier/>
+
 Muroya Yasutaka. 2010.  "A Study on the Marginalia in Some Nyāyamañjarī Manuscripts: The Reconstruction of a Lost Portion of the Nyāyamañjarīgranthibhaṅga." *Wiener Zeitschrift für die Kunde Südasiens* LII-LIII: 213–267. <https://austriaca.at/0xc1aa5572%200x002452ac.pdf>
+
 Prakash, Pranav. 2024. “Paratexting Persian Purāṇas: Probing Religious and Communal Boundaries in South Asian History.” *Textual Cultures: Texts, Contexts, Interpretation* 17(2): 157–193. <https://doi.org/10.14434/tc.v17i2.40322>
 
 
@@ -73,6 +82,7 @@ In order to compare two texts, we first need to split the text up into tokens. T
 ### Bibliography
 
 Eltschinger, Vincent. 2023. "What Comes First, Word or Sentence Meaning? Dharmakīrti as a Contextualist." In *To the Heart of Truth: felicitation volume for Eli Franco on the occasion of his seventieth birthday.* Edited by Hiroko Matsuoka et al. Wien: Universität Wien. <https://www.academia.edu/108838314/What_Comes_First_Word_or_Sentence_Meaning_Dharmak%C4%ABrti_as_a_Contextualist>
+
 Tehrani, Jamshid J. 2013. "The Phylogeny of Little Red Riding Hood." *PLoS ONE* 8(11): e78871. <https://doi.org/10.1371/journal.pone.0078871>
 
 
@@ -85,9 +95,13 @@ In recent years, more complex methods of tokenization have been employed for doi
 ### Bibliography
 
 Broder, Andrei Z. et al. 1997. "Syntactic clustering of the Web." *Computer Networks and ISDN Systems* 29: 1157–1166.
+
 Delétang, Grégoire et al. 2024. "Language Modeling is Compression." ICLR 2024. <https://arxiv.org/abs/2309.10668>
+
 Filliozat, Pierre-Sylvain. 2004. "Ancient Sanskrit Mathematics: An Oral Tradition and a Written Literature." In *History of Science, History of Text.* Edited by Karine Chemla. 137–157.
+
 Karpathy, Andrej. 2024. "minbpe: Minimal, clean code for the Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization." *GitHub*. <https://github.com/karpathy/minbpe>
+
 Wilkenfeld, Daniel A. 2018. "Understanding as compression." *Philosophical Studies* 176: 2807–2813.
 
 
@@ -100,7 +114,9 @@ The problem of comparing two texts is known as the pairwise alignment problem. I
 ### Bibliography
 
 Gotoh Osamu. 1982. "An Improved Algorithm for Matching Biological Sequences." *Journal of Molecular Biology* 162: 705–708.
+
 Needleman, S. B. & C. D. Wunsch. 1970. "A General Method Applicable to the Search for Similarities in the Amino Acid Sequence of Two Proteins." *Journal of Molecular Biology* 48: 443–453.
+
 Sung Wing-Kin. 2009. *Algorithms in Bioinformatics: A Practical Introduction*. London: CRC Press.
 
 
@@ -113,7 +129,9 @@ Most texts that we work on are present in more than two manuscripts, so we will 
 ### Bibliography
 
 Cilibrasi, Rudi & Paul M. B. Vitányi. 2005. "Clustering by Compression." *IEEE Transactions on Information Theory* 51(4): 1523–1545. <https://arxiv.org/abs/cs/0312044>
+
 Gusfield, Dan. 1997. "Multiple String Comparison — The Holy Grail." In *Algorithms on Strings, Trees, and Sequences*. Cambridge: Cambridge University Press. 332–369.
+
 Wang Lusheng & Jiang Tao. 1994. "On the complexity of multiple sequence alignment." *Journal of Computational Biology* 1(4): 337–348. 
 
 
@@ -126,6 +144,7 @@ Once our witnesses are collated, we can finally create a critical apparatus for 
 ### Bibliography
 
 Giannouli, Antonia. 2015. "Critical editions and the complementary apparatuses to a critial apparatus." *COMSt Bulletin* 1(1): 21–28. <https://www.aai.uni-hamburg.de/en/comst/pdf/bulletin1/pp21-28.pdf>
+
 Ponuthorai, Prem Kumar & Jon Loeliger. 2022. *Version Control with Git.* Third edition. Sebastopol, CA: O'Reilly.
 
 
@@ -138,8 +157,11 @@ Visual diagrams, like a critical apparatus, represent the end result of a long p
 ### Bibliography
 
 Brewer, Cynthia. 2016. *Designing Better Maps.* Second edition. Redlands, CA: Esri Press.
+
 European Union. 2023. "Data Visualization Guide."  *European Data.* <https://data.europa.eu/apps/data-visualisation-guide/>
+
 Kangas, Brian D. 2012. "Not Waving but Drowning: A Review of Tufte's *The Cognitive Style of Powerpoint.*" *International Journal of Teaching and Learning in Higher Education* 24(3): 412–423. <https://files.eric.ed.gov/fulltext/EJ1000695.pdf>
+
 Tufte, Edward R. 2007. *The Visual Display of Quantitative Information.* Second edition. Cheshire, CT: Graphics Press.
 
 
@@ -152,7 +174,9 @@ Philologists call it a stemma codicum, and biologists call it a phylogenetic tre
 ### Bibliography
 
 Baldauf, Sandra L. 2003. "Phylogeny for the faint of heart: a tutorial." *Trends in Genetics* 19(6): 345–351. <https://researchgate.net/publication/10712132_Phylogeny_for_the_faint_of_heart_A_tutorial>
+
 Huson, Daniel H. & Bryant, David. 2006. "Application of Phylogenetic Networks in Evolutionary Studies." Molecular Biology and Evolution 23(2): 254–267. <https://academic.oup.com/mbe/article/23/2/254/1118872>
+
 de Pinna, Mário et al. 2016. "Unrooted trees discovered independently in philology and phylogenetics: a remarkable case of methodological convergence." *Systematics and Biodiversity* 14(4): 317–326.
 
 
@@ -165,8 +189,11 @@ Both biologists and philologists have come up with methods for reconstructing a 
 ### Bibliography
 
 Fitch, Walter M. 1971. "Defining the course of Evolution: Minimum change for a specific tree topology." *Systematic Zoology* 20: 406–416. <https://jstor.org/stable/2412116>
+
 Maas, Paul. 1957. *Textkritik.* Leipzig: B. G. Teubner.
+
 Maas, Paul. 1958. *Textual Criticism*. Translated by B. Flower. Oxford: Clarendon Press.
+
 Trovato, Paolo. 2014. *Everything You Always Wanted to Know about Lachmann’s Method*. Translated by F. Poole. Padova: liberiauniversitaria.it.
 
 
@@ -179,6 +206,7 @@ The stemmatic method has sometimes been derided as overly "mechanical," and some
 ### Bibliography
 
 Biardeau, Madeleine. "Some More Considerations About Textual Criticism." *Purāṇa* X(2): 115–123.
+
 Katre, S. M. & P. K. Gode. 1941. *Introduction to Indian Textual Criticism.* Bombay: Karnatak Publishing House. <https://archive.org/details/IntroductionToIndianTextualCriticismS.M.Kartre>
 
 
