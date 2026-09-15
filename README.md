@@ -30,6 +30,8 @@ For the next couple of weeks, we will practice transcribing manuscripts using th
 
 **Keywords**: folio, recto, verso, IIIF
 
+**Skills unlocked**: searching a corpus with regular expressions
+
 ### Bibliography
 
 Borges, Jorge Luis. 1946. "Del rigor en la ciencia." *Los Anales de Buenos Aires* 3: 53.
@@ -46,6 +48,8 @@ TEI Consortium. 2026. "TEI: Guidelines for Electronic Text Encoding and Intercha
 We will continue to discuss the limits of transcription by looking at various examples across manuscript cultures. Every transcription practice has advantages and trade-offs, but is there a pratical compromise that we can settle upon that doesn't lose too much information, yet still captures enough of the manuscript for our research purposes? In week 6, we will explore this question further, and link it up with broader philosophical debates on the nature of cognition.
 
 **Keywords**: diplomatic edition, reproducibility, grapheme
+
+**Skills unlocked**: transcription using TEI XML
 
 ### Bibliography
 
@@ -65,6 +69,8 @@ Sandve, Geir Kjetil et al. 2013. "Ten Simple Rules for Reproducible Computationa
 Until now, we have focused on transcribing the main text of the manuscript, but there is a lot of information outside of that text that might be interesting for our research. Paratexts, in particular, give us a window into the life of the scribe and the context in which the text was copied. Marginal notes might contain snippets from lost texts. And non-textual information, such as leaf material, folio size, stringhole distance, and margin proportions, open up possibilities to study how written culture and technology spread across time and space.
 
 **Keywords**: blessing, colophon, completion statement, marginalia
+
+**Skills unlocked**: reading outside the box
 
 ### Bibliography
 
@@ -93,6 +99,8 @@ Tehrani, Jamshid J. 2013. "The Phylogeny of Little Red Riding Hood." *PLoS ONE* 
 In recent years, more complex methods of tokenization have been employed for doing work such as large-scale comparison of documents, and notably, training large language models. We will look at some of these methods, such as ngrams (originally termed "shingles") and byte-pair encoding, which was intially developed for data compression. Along the way, we will reflect on how well compression represents how we understand and cognize the world. We will return to ngrams and compression, in a more practical sense, in week 11.
 
 **Keywords**: byte-pair encoding, ngram, resemblance
+
+**Skills unlocked**: human cognition
 
 ### Bibliography
 
@@ -128,6 +136,8 @@ Most texts that we work on are present in more than two manuscripts, so we will 
 
 **Keywords**: distance matrix, heuristic
 
+**Skills unlocked**: automatic text collation
+
 ### Bibliography
 
 Cilibrasi, Rudi & Paul M. B. Vitányi. 2005. "Clustering by Compression." *IEEE Transactions on Information Theory* 51(4): 1523–1545. <https://arxiv.org/abs/cs/0312044>
@@ -143,6 +153,8 @@ Once our witnesses are collated, we can finally create a critical apparatus for 
 
 **Keywords**: variant reading, apparatus registers, sources, parallels, testimonia
 
+**Skills unlocked**: creating an online digital edition
+
 ### Bibliography
 
 Giannouli, Antonia. 2015. "Critical editions and the complementary apparatuses to a critial apparatus." *COMSt Bulletin* 1(1): 21–28. <https://www.aai.uni-hamburg.de/en/comst/pdf/bulletin1/pp21-28.pdf>
@@ -155,6 +167,8 @@ Ponuthorai, Prem Kumar & Jon Loeliger. 2022. *Version Control with Git.* Third e
 Visual diagrams, like a critical apparatus, represent the end result of a long process of abstraction. This week, we will take a break from the technical and theoretical material and delve into the practice of presenting your research results visually. We will take a tour through different charts, graphs, and schematics, and think about which of them are appropriate for what types of data. We will also touch on issues of accessibility.
 
 **Keywords**: chartjunk, cognitive load, data-ink ratio, visual hierarchy
+
+**Skills unlocked**: minimalist aesthetic sensibility
 
 ### Bibliography
 
@@ -188,6 +202,8 @@ Both biologists and philologists have come up with methods for reconstructing a 
 
 **Keywords**: ancestral reconstruction, "majority" reading
 
+**Skills unlocked**: reconstructing a text based on a tree
+
 ### Bibliography
 
 Fitch, Walter M. 1971. "Defining the course of Evolution: Minimum change for a specific tree topology." *Systematic Zoology* 20: 406–416. <https://jstor.org/stable/2412116>
@@ -205,6 +221,8 @@ The stemmatic method has sometimes been derided as overly "mechanical," and some
 
 **Keywords**: emendation, vulgate
 
+**Skills unlocked**: critical judgement
+
 ### Bibliography
 
 Biardeau, Madeleine. "Some More Considerations About Textual Criticism." *Purāṇa* X(2): 115–123.
@@ -215,3 +233,5 @@ Katre, S. M. & P. K. Gode. 1941. *Introduction to Indian Textual Criticism.* Bom
 ## Week 14 | 25 January | And beyond
 
 Although much of this course has been focused on creating a critical edition from multiple manuscript witnesses, the concepts and techniques that we have learned can be used for other kinds of research as well. We have briefly touched on these in the previous sessions, and in this final session, we will look a bit more in depth at some possible studies that you, a computational philologist, can now go forth and explore.
+
+**Achievement**: you are a computational philologist
