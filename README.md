@@ -7,9 +7,7 @@ How can technology aid us in philological work — understanding, contextualizin
 The central idea for this seminar is to approach philology through the lens of computation, both practically and theoretically. Since many people in the department work on critical editions, one main thread of the seminar will be the process of creating a digital edition. But along the way, we will also touch upon manuscript studies and corpus linguistics, and make forays into biology, computer science, folklore studies, graphic design, and philosophy.
 
 
-### Week 1 | 12 October
-
-## Introductions & warm-ups
+## Week 1 | 12 October | Introductions & warm-ups
 
 We will begin by introducing ourselves, what we're working on, and what we hope to get out of all this. We can consider fine-tuning the material that we will cover in the following sessions, so that it's tailored to everyone's interests (e.g., how much math can a philologist reasonably handle? What about philosophy?)
 
@@ -22,9 +20,7 @@ For the course, everyone should have installed some software designed to edit co
 Friedl, Jeffrey E. F. 2006. *Mastering Regular Expressions.* Third edition. Sebastopol, CA: O'Reilly.
 	
 
-### Week 2 | 19 October
-
-## Transcription as interpretation
+## Week 2 | 19 October | Transcription as interpretation
 
 We work primarily with texts, but where do these texts come from? Many of us will answer that we work from manuscripts, but reading a manuscript is not always so straightforward. Keeping in mind the fundamental philosophical issues inherent in language, cognition, and knowledge production, we will introduce TEI XML and explore the different degrees of diplomacy that can be employed when transcribing a manuscript.
 
@@ -40,9 +36,7 @@ Borges, Jorge Luis. 1972. "Of Exactitude in Science." In *A Universal History of
 TEI Consortium. 2026. "TEI: Guidelines for Electronic Text Encoding and Interchange." *Text Encoding Initiative*. Last updated 28 July. <https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html>
 
 
-### Week 3 | 26 October
-
-## Transcription as interpretation
+## Week 3 | 26 October | Transcription as interpretation
 
 We will continue to discuss the limits of transcription by looking at various examples across manuscript cultures. Every transcription practice has advantages and trade-offs, but is there a pratical compromise that we can settle upon that doesn't lose too much information, yet still captures enough of the manuscript for our research purposes? In week 6, we will explore this question further, and link it up with broader philosophical debates on the nature of cognition.
 
@@ -57,9 +51,7 @@ Korzybski, Alfred. 1958. "On Structure." In *Science and Sanity: An Introduction
 Sandve, Geir Kjetil et al. 2013. "Ten Simple Rules for Reproducible Computational Research." *PLoS Computational Biology* 9(10): e1003285.  <https://doi.org/10.1371/journal.pcbi.1003285>
 
 
-### Week 4 | 2 November
-
-## Paratexts & metadata
+## Week 4 | 2 November | Paratexts & metadata
 
 Until now, we have focused on transcribing the main text of the manuscript, but there is a lot of information outside of that text that might be interesting for our research. Paratexts, in particular, give us a window into the life of the scribe and the context in which the text was copied. Marginal notes might contain snippets from lost texts. And non-textual information, such as leaf material, folio size, stringhole distance, and margin proportions, open up possibilities to study how written culture and technology spread across time and space.
 
@@ -72,9 +64,7 @@ Muroya Yasutaka. 2010.  "A Study on the Marginalia in Some Nyāyamañjarī Manus
 Prakash, Pranav. 2024. “Paratexting Persian Purāṇas: Probing Religious and Communal Boundaries in South Asian History.” *Textual Cultures: Texts, Contexts, Interpretation* 17(2): 157–193. <https://doi.org/10.14434/tc.v17i2.40322>
 
 
-### Week 5 | 9 November
-
-## Comparing texts: tokenization
+## Week 5 | 9 November | Comparing texts: tokenization
 
 In order to compare two texts, we first need to split the text up into tokens. These tokens might be words, syllables, characters, or other units of comparison — even motifs, depending on the research question. We will explore these options as they apply to different languages and manuscript practices, and reflect on how tokenization embodies our assumptions about textual transmission.
 
@@ -86,9 +76,7 @@ Eltschinger, Vincent. 2023. "What Comes First, Word or Sentence Meaning? Dharmak
 Tehrani, Jamshid J. 2013. "The Phylogeny of Little Red Riding Hood." *PLoS ONE* 8(11): e78871. <https://doi.org/10.1371/journal.pone.0078871>
 
 
-### Week 6 | 16 November (via Zoom)
-
-## Comparing texts: tokenization
+## Week 6 | 16 November (via Zoom) | Comparing texts: tokenization
 
 In recent years, more complex methods of tokenization have been employed for doing work such as large-scale comparison of documents, and notably, training large language models. We will look at some of these methods, such as ngrams (originally termed "shingles") and byte-pair encoding, which was intially developed for data compression. Along the way, we will reflect on how well compression represents how we understand and cognize the world. We will return to ngrams and compression, in a more practical sense, in week 11.
 
@@ -103,9 +91,7 @@ Karpathy, Andrej. 2024. "minbpe: Minimal, clean code for the Byte Pair Encoding 
 Wilkenfeld, Daniel A. 2018. "Understanding as compression." *Philosophical Studies* 176: 2807–2813.
 
 
-### Week 7 | 23 November
-
-## Comparing texts: alignment
+## Week 7 | 23 November | Comparing texts: alignment
 
 The problem of comparing two texts is known as the pairwise alignment problem. In this session, we will introduce the algorithm and consider the different parameters that can be used to fine-tune it. This session can contain as little or as much math as is bearable; it is usually enough to press a button and get results without understanding the underlying process. But a little understanding will enable you to adjust the software to better suit your needs.
 
@@ -118,9 +104,7 @@ Needleman, S. B. & C. D. Wunsch. 1970. "A General Method Applicable to the Searc
 Sung Wing-Kin. 2009. *Algorithms in Bioinformatics: A Practical Introduction*. London: CRC Press.
 
 
-### Week 8 | 30 November
-
-## Comparing texts: alignment
+## Week 8 | 30 November | Comparing texts: alignment
 
 Most texts that we work on are present in more than two manuscripts, so we will need to solve the multisequence alignment problem in order to collate them. However, it has been shown that this problem has a computational complexity such that it is practically unsolvable as the number of texts, and their length, grow large. This session will introduce a practical algorithm that will produce a fairly accurate collation of a multiwitness text in a reasonable amount of time. As with last week, if you are not interested in the math, it is enough to know how to press a button.
 
@@ -133,9 +117,7 @@ Gusfield, Dan. 1997. "Multiple String Comparison — The Holy Grail." In *Algori
 Wang Lusheng & Jiang Tao. 1994. "On the complexity of multiple sequence alignment." *Journal of Computational Biology* 1(4): 337–348. 
 
 
-### Week 9 | 7 December
-
-## Comparing texts: critical apparatus
+## Week 9 | 7 December | Comparing texts: critical apparatus
 
 Once our witnesses are collated, we can finally create a critical apparatus for our text edition. This session will introduce Saktumiva, a tool for creating digital editions, based on diplomatic manuscript transcriptions and using the algorithms discussed in the previous sessions. In the course of the previous weeks, if you have prepared manuscript transcriptions, this week, you can set up a Saktumiva project and collate them to produce a critical apparatus. We will also briefly touch on version control using git and putting your edition online using GitHub.
 
@@ -147,9 +129,7 @@ Giannouli, Antonia. 2015. "Critical editions and the complementary apparatuses t
 Ponuthorai, Prem Kumar & Jon Loeliger. 2022. *Version Control with Git.* Third edition. Sebastopol, CA: O'Reilly.
 
 
-### Week 10 | 14 December
-
-## Visual design
+## Week 10 | 14 December | Visual design
 
 Visual diagrams, like a critical apparatus, represent the end result of a long process of abstraction. This week, we will take a break from the technical and theoretical material and delve into the practice of presenting your research results visually. We will take a tour through different charts, graphs, and schematics, and think about which of them are appropriate for what types of data. We will also touch on issues of accessibility.
 
@@ -163,9 +143,7 @@ Kangas, Brian D. 2012. "Not Waving but Drowning: A Review of Tufte's *The Cognit
 Tufte, Edward R. 2007. *The Visual Display of Quantitative Information.* Second edition. Cheshire, CT: Graphics Press.
 
 
-### Week 11 | 4 January
-
-## Text transmission & evolution
+## Week 11 | 4 January | Text transmission & evolution
 
 Philologists call it a stemma codicum, and biologists call it a phylogenetic tree, but its function is the same — to hypothesize how a text has changed over time, or its evolutionary history. As with all models, there are many caveats to be aware of. In this session, we will look at different methods for inferring a tree and then discuss what that tree represents. We will also touch on networks, an alternative representation of textual variation.
 
@@ -178,9 +156,7 @@ Huson, Daniel H. & Bryant, David. 2006. "Application of Phylogenetic Networks in
 de Pinna, Mário et al. 2016. "Unrooted trees discovered independently in philology and phylogenetics: a remarkable case of methodological convergence." *Systematics and Biodiversity* 14(4): 317–326.
 
 
-### Week 12 | 11 January
-
-## Text transmission & evolution
+## Week 12 | 11 January | Text transmission & evolution
 
 Both biologists and philologists have come up with methods for reconstructing a text based on a tree. In this session, we will compare two approaches — one biological, and the other philological — and see how the results might differ.
 
@@ -194,9 +170,7 @@ Maas, Paul. 1958. *Textual Criticism*. Translated by B. Flower. Oxford: Clarendo
 Trovato, Paolo. 2014. *Everything You Always Wanted to Know about Lachmann’s Method*. Translated by F. Poole. Padova: liberiauniversitaria.it.
 
 
-### Week 13 | 18 January
-
-## Text transmission & evolution
+## Week 13 | 18 January | Text transmission & evolution
 
 The stemmatic method has sometimes been derided as overly "mechanical," and some editors have turned to other methods of editing. But, especially when working with many manuscript witnesses, a stemmatic hypothesis can be a very useful tool to check your own intuitions as an editor. We will consider some different attitudes to "Lachmann's method" and look at textual examples where a stemma and an editor's judgement differ.
 
@@ -208,8 +182,6 @@ Biardeau, Madeleine. "Some More Considerations About Textual Criticism." *Purā�
 Katre, S. M. & P. K. Gode. 1941. *Introduction to Indian Textual Criticism.* Bombay: Karnatak Publishing House. <https://archive.org/details/IntroductionToIndianTextualCriticismS.M.Kartre>
 
 
-### Week 14 | 25 January
-
-## And beyond
+## Week 14 | 25 January | And beyond
 
 Although much of this course has been focused on creating a critical edition from multiple manuscript witnesses, the concepts and techniques that we have learned can be used for other kinds of research as well. We have briefly touched on these in the previous sessions, and in this final session, we will look a bit more in depth at some possible studies that you, a computational philologist, can now go forth and explore.
