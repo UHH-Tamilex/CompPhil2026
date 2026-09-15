@@ -17,10 +17,14 @@ As a warm-up excercise, we will practice searching through a text corpus using r
 
 For the course, everyone should have installed some software designed to edit code. If you don't have one, download VSCodium: <https://vscodium.com/>
 
+**Keywords**: regex, search pattern, string, wildcard
+
+**Skills unlocked**: searching a corpus with regular expressions
+
 ### Bibliography
 
 Friedl, Jeffrey E. F. 2006. *Mastering Regular Expressions.* Third edition. Sebastopol, CA: O'Reilly.
-	
+
 
 ## Week 2 | 19 October | Transcription as interpretation
 
@@ -29,8 +33,6 @@ We work primarily with texts, but where do these texts come from? Many of us wil
 For the next couple of weeks, we will practice transcribing manuscripts using the TST editor: <https://tst-project.github.io/editor>
 
 **Keywords**: folio, recto, verso, IIIF
-
-**Skills unlocked**: searching a corpus with regular expressions
 
 ### Bibliography
 
