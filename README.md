@@ -51,7 +51,7 @@ We will continue to discuss the limits of transcription by looking at various ex
 
 Bucher, Konrad. 2023. "Towards an ultra-diplomatic transcription of Wittgenstein's Nachlass." *Nordic Wittgenstein Review* 11. <https://doi.org/10.15845/nwr.v11.3655>
 
-Kierkegaard, Søren. 1920. *Samlede Værker:// *Enten ― Eller. Andet Bind.// Edited by Anders Bjørn Drachmann et al. Kjøbenhavn: Gyldendal. [332](https://archive.org/details/enteneller02kier/page/332/mode/1up)–[333](https://archive.org/details/enteneller02kier/page/333/mode/1up).
+Kierkegaard, Søren. 1920. *Samlede Værker: Enten ― Eller. Andet Bind.* Edited by Anders Bjørn Drachmann et al. Kjøbenhavn: Gyldendal. [332](https://archive.org/details/enteneller02kier/page/332/mode/1up)–[333](https://archive.org/details/enteneller02kier/page/333/mode/1up).
 
 Kierkegaard, Søren. 1978. "The Wife of the Orientalist." In *Parables of Kierkegaard.* Edited by Thomas C. Oden. Princeton: Princeton University Press. 126–127.
 
