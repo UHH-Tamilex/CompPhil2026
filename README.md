@@ -114,6 +114,8 @@ Filliozat, Pierre-Sylvain. 2004. "Ancient Sanskrit Mathematics: An Oral Traditio
 
 Karpathy, Andrej. 2024. "minbpe: Minimal, clean code for the Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization." *GitHub*. <https://github.com/karpathy/minbpe>
 
+Kriesel, D. 2015. "Lies, damned lies, and scans." Paper presented at FroSCon, University of Applied Science, Sankt Augustin, August. <https://www.dkriesel.com/en/blog/2013/0802_xerox-workcentres_are_switching_written_numbers_when_scanning>
+
 Wilkenfeld, Daniel A. 2018. "Understanding as compression." *Philosophical Studies* 176: 2807–2813.
 
 
@@ -197,6 +199,7 @@ Huson, Daniel H. & Bryant, David. 2006. "Application of Phylogenetic Networks in
 
 de Pinna, Mário et al. 2016. "Unrooted trees discovered independently in philology and phylogenetics: a remarkable case of methodological convergence." *Systematics and Biodiversity* 14(4): 317–326.
 
+Roelli, Philipp, ed. 2020. *Handbook of Stemmatology: History, Methodology, Digital Approaches.* Berlin: De Gruyter. <https://doi.org/10.1515/9783110684384>
 
 ## Week 12 | 11 January | Text transmission & evolution
 
@@ -226,6 +229,8 @@ The stemmatic method has sometimes been derided as overly "mechanical," and some
 **Skills unlocked**: critical judgement
 
 ### Bibliography
+
+Bakker, Hans T. 2019. "Some Methodological Considerations with Respect to the Critical Edition of Puranic Literature." In *Holy Ground: Where Art and Text Meet.* Leiden: Brill. 175–184. <https://doi.org/10.1163/9789004412071_010>
 
 Biardeau, Madeleine. "Some More Considerations About Textual Criticism." *Purāṇa* X(2): 115–123.
 
