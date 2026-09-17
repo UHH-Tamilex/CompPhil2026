@@ -63,6 +63,8 @@ Kierkegaard, Søren. 1978. "The Wife of the Orientalist." In *Parables of Kierke
 
 Korzybski, Alfred. 1958. "On Structure." In *Science and Sanity: An Introduction to Non-Aristotelian Systems and General Semantics*. Fourth edition. New York: Institute of General Semantics. 55–65.
 
+Kriesel, D. 2015. "Lies, damned lies, and scans." Paper presented at FroSCon, University of Applied Science, Sankt Augustin, August. <https://www.dkriesel.com/en/blog/2013/0802_xerox-workcentres_are_switching_written_numbers_when_scanning>
+
 Sandve, Geir Kjetil et al. 2013. "Ten Simple Rules for Reproducible Computational Research." *PLoS Computational Biology* 9(10): e1003285.  <https://doi.org/10.1371/journal.pcbi.1003285>
 
 
@@ -114,7 +116,7 @@ Filliozat, Pierre-Sylvain. 2004. "Ancient Sanskrit Mathematics: An Oral Traditio
 
 Karpathy, Andrej. 2024. "minbpe: Minimal, clean code for the Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization." *GitHub*. <https://github.com/karpathy/minbpe>
 
-Kriesel, D. 2015. "Lies, damned lies, and scans." Paper presented at FroSCon, University of Applied Science, Sankt Augustin, August. <https://www.dkriesel.com/en/blog/2013/0802_xerox-workcentres_are_switching_written_numbers_when_scanning>
+Liu Ting-Chun & Leon-Etienne Kühr. 2025. "51 Ways to Spell the Image Giraffe: The Hidden Politics of Token Languages in Generative AI." Paper presented at 39C3,Congress Center Hamburg, 28 December. <https://media.ccc.de/v/39c3-51-ways-to-spell-the-image-giraffe-the-hidden-politics-of-token-languages-in-generative-ai>
 
 Wilkenfeld, Daniel A. 2018. "Understanding as compression." *Philosophical Studies* 176: 2807–2813.
 
