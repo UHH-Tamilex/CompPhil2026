@@ -116,7 +116,7 @@ Filliozat, Pierre-Sylvain. 2004. "Ancient Sanskrit Mathematics: An Oral Traditio
 
 Karpathy, Andrej. 2024. "minbpe: Minimal, clean code for the Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization." *GitHub*. <https://github.com/karpathy/minbpe>
 
-Liu Ting-Chun & Leon-Etienne Kühr. 2025. "51 Ways to Spell the Image Giraffe: The Hidden Politics of Token Languages in Generative AI." Paper presented at 39C3,Congress Center Hamburg, 28 December. <https://media.ccc.de/v/39c3-51-ways-to-spell-the-image-giraffe-the-hidden-politics-of-token-languages-in-generative-ai>
+Liu Ting-Chun & Leon-Etienne Kühr. 2025. "51 Ways to Spell the Image Giraffe: The Hidden Politics of Token Languages in Generative AI." Paper presented at 39C3, Congress Center Hamburg, 28 December. <https://media.ccc.de/v/39c3-51-ways-to-spell-the-image-giraffe-the-hidden-politics-of-token-languages-in-generative-ai>
 
 Wilkenfeld, Daniel A. 2018. "Understanding as compression." *Philosophical Studies* 176: 2807–2813.
 
