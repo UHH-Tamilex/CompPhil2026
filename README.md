@@ -244,3 +244,8 @@ Katre, S. M. & P. K. Gode. 1941. *Introduction to Indian Textual Criticism.* Bom
 Although much of this course has been focused on creating a critical edition from multiple manuscript witnesses, the concepts and techniques that we have learned can be used for other kinds of research as well. We have briefly touched on these in the previous sessions, and in this final session, we will look a bit more in depth at some possible studies that you, a computational philologist, can now go forth and explore.
 
 **Achievement**: you are a computational philologist
+
+### Bibliography
+
+The Endings Project Team. 2025. "The Endings Project." Last modified 3 January. <https://endings.uvic.ca>
+
