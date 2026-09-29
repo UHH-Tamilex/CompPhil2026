@@ -6,7 +6,7 @@
 * Cambridge Digital Library <https://cudl.lib.cam.ac.uk>
 * CrossAsia <https://digital.crossasia.org/>
   * Lao, Northern Thai, Tibetan
-* Digital Vatian Library <https://opac.vatlib.it/mss/>
+* Digital Vatian Library <https://opac.vatlib.it/mss/search?rt%5B%5D=01&rt%5B%5D=02&rt%5B%5D=03&rt%5B%5D=04&f_o%5B%5D=0&f_v%5B%5D=ind&f_f%5B%5D=3&f_j%5B%5D=0&sm=oa&f_l%5B%5D=0&f[]=g%3A1>
 * Endangered Archives Project <https://eap.bl.uk>
 * Franckesche Stiftungen <https://digital.francke-halle.de/fsha/nav/classification/495501>
   * mainly Tamil Christian
