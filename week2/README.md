@@ -28,3 +28,4 @@
 * University of Manchester <https://www.digitalcollections.manchester.ac.uk/>
   * Pali <https://www.digitalcollections.manchester.ac.uk/collections/pali/>
 * University of Pennsylvania <https://digitalcollections.library.upenn.edu/items?f[collection_ssim][]=Collection%20of%20Indic%20Manuscripts&search_field=all_fields>
+* University of Tokyo <https://dzkimgs.l.u-tokyo.ac.jp/ut_skt_manuscripts/>
