@@ -3,16 +3,16 @@
 ## University of Hamburg, Winter semester 2026/27
 
 ### Mondays 
-### 10:15–11:45 CET (Germany, France, etc.)
-### 09:15–10:45 GMT (UK)
-### 13:45–15:15 IST (India; 14:45–16:15 from week 4)
-### 15:15–16:45 ICT (Thailand; 16:15–17:45 from week 4)
-### 17:15–18:45 JST (Japan; 18:15–19:45 from week 4)
+
+* **10:15–11:45 CET (Germany, France, etc.)**
+* **09:15–10:45 GMT (UK)**
+* **13:45–15:15 IST (India; 14:45–16:15 from week 4)**
+* **15:15–16:45 ICT (Thailand; 16:15–17:45 from week 4)**
+* **17:15–18:45 JST (Japan; 18:15–19:45 from week 4)**
 
 How can technology aid us in philological work — understanding, contextualizing, and critically editing texts? This seminar will explore a number of tools and techniques, and discuss approaches to working with a single manuscript, multiple witnesses texts, or a whole corpus in multiple languages. Examples will be drawn variously from Pali, Sanskrit, Tamil, & Tibetan, depending on interest, but the course material should be general enough for participants working in other languages as well.
 
 The central idea for this seminar is to approach philology through the lens of computation, both practically and theoretically. Since many people in the department work on critical editions, one main thread of the seminar will be the process of creating a digital edition. But along the way, we will also touch upon manuscript studies and corpus linguistics, and draw insights from biology, computer science, folklore studies, graphic design, and philosophy.
-
 
 ## Week 1 | 12 October | Introductions & warm-ups
 
@@ -252,7 +252,8 @@ Although much of this course has been focused on creating a critical edition fro
 
 ### Bibliography
 
+The Endings Project Team. 2025. "The Endings Project." Last modified 3 January. <https://endings.uvic.ca>
+
 Tumadóttir, Anna. 2026. "A Principled Approach as the Sands Shift." Creative Commons. 21 September. <https://creativecommons.org/2026/09/21/a-principled-approach-as-the-sands-shift/>
 
-The Endings Project Team. 2025. "The Endings Project." Last modified 3 January. <https://endings.uvic.ca>
 
