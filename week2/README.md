@@ -25,6 +25,7 @@
 * TST Project <https://tst-project.github.io/>
 * Universität Hamburg <https://digitalisate.sub.uni-hamburg.de/recherche?tx_dlf_listview%5Baction%5D=main&tx_dlf_listview%5Bcontroller%5D=ListView&tx_dlf_listview%5Bpage%5D=1&tx_dlf_listview%5Bsearch%5D%5Bcollection%5D=272&cHash=c9c80f57c944ec7980e20b4e3606086b>
 * Universität Tübingen <https://opendigi.ub.uni-tuebingen.de/digitue/southasia>
+* Universitäts- und Landesbibliothek Sachsen-Anhalt <https://opendata.uni-halle.de/handle/1981185920/31823>
 * University of Manchester <https://www.digitalcollections.manchester.ac.uk/>
   * Pali <https://www.digitalcollections.manchester.ac.uk/collections/pali/>
 * University of Pennsylvania <https://digitalcollections.library.upenn.edu/items?f[collection_ssim][]=Collection%20of%20Indic%20Manuscripts&search_field=all_fields>
