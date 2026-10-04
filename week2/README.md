@@ -23,6 +23,7 @@
 * Österreichische Nationalbibliothek <https://onb.digital/>
 * SAMHiTA <https://samhita.iicdelhi.in/>
 * TST Project <https://tst-project.github.io/>
+  * links to images from Gallica, Didomena <https://didomena.ehess.fr>, and Nakala <https://nakala.fr>
 * Universität Hamburg <https://digitalisate.sub.uni-hamburg.de/recherche?tx_dlf_listview%5Baction%5D=main&tx_dlf_listview%5Bcontroller%5D=ListView&tx_dlf_listview%5Bpage%5D=1&tx_dlf_listview%5Bsearch%5D%5Bcollection%5D=272&cHash=c9c80f57c944ec7980e20b4e3606086b>
 * Universität Tübingen <https://opendigi.ub.uni-tuebingen.de/digitue/southasia>
 * Universitäts- und Landesbibliothek Sachsen-Anhalt <https://opendata.uni-halle.de/handle/1981185920/31823>
