@@ -22,7 +22,12 @@ Here are some corpora on GitHub that you can use:
 
 ### Other
 
-* [github.com/con-jo-ry/dharmatxt ](https://github.com/con-jo-ry/dharmatxt )  (DHARMA project files converted to plain text)
+* [github.com/con-jo-ry/dharmatxt](https://github.com/con-jo-ry/dharmatxt )  (DHARMA project files converted to plain text)
 * [github.com/aso2101/prakrit_texts](https://github.com/aso2101/prakrit_texts)  (Prakrit, from Andrew Ollett)
 * [github.com/aso2101/kannada_texts](https://github.com/aso2101/kannada_texts)  (Kannada, from Andrew Ollett)
 * [github.com/chchch/jlor-iast](https://github.com/chchch/jlor-iast)  (courtesy of Jain Quantum, converted to IAST)
+
+## other corpus projects
+
+* [SanskritTravelogue](https://huggingface.co/datasets/SanskritVoyager/SanskritTravelogue/blob/8ed06c0167463a4873d79ff627bf20c02bd89cc9/README.md)
+* [SiPaKosa](https://arxiv.org/html/2603.29221v1)
