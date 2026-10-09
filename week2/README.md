@@ -19,6 +19,7 @@
   * McGill University Library <https://archive.org/details/mcgilluniversityrarebooks?and[]=language%3A%22Sanskrit%22&and[]=language%3A%22Pali%22&and[]=language%3A%22Burmese%22&and[]=language%3A%22Sinhalese%22&and[]=language%3A%22Oriya%22&and[]=language%3A%22Sanskrit%20(Sarada%20alphabet)%22>
   * Royal Asiatic Society London <https://archive.org/details/royalasiaticsociety>
 * Leiden University Libraries <https://digitalcollections.universiteitleiden.nl/>
+* Library of Congress <https://www.loc.gov/collections/south-asian-digital-collection/about-this-collection/>
 * Münchener DigitalisierungsZentrum Digitale Bibliothek <https://www.digitale-sammlungen.de>
 * Österreichische Nationalbibliothek <https://onb.digital/>
 * SAMHiTA <https://samhita.iicdelhi.in/>
