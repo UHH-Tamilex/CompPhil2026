@@ -6,9 +6,9 @@
 
 * **10:15–11:45 CET (Germany, France, etc.)**
 * **09:15–10:45 GMT (UK)**
-* **13:45–15:15 IST (India; 14:45–16:15 from week 4)**
-* **15:15–16:45 ICT (Thailand; 16:15–17:45 from week 4)**
-* **17:15–18:45 JST (Japan; 18:15–19:45 from week 4)**
+* **13:45–15:15 IST (India; 14:45–16:15 from week 3)**
+* **15:15–16:45 ICT (Thailand; 16:15–17:45 from week 3)**
+* **17:15–18:45 JST (Japan; 18:15–19:45 from week 3)**
 
 How can technology aid us in philological work — understanding, contextualizing, and critically editing texts? This seminar will explore a number of tools and techniques, and discuss approaches to working with a single manuscript, multiple witnesses texts, or a whole corpus in multiple languages. Examples will be drawn variously from Pali, Sanskrit, Tamil, & Tibetan, depending on interest, but the course material should be general enough for participants working in other languages as well.
 
@@ -46,6 +46,8 @@ Borges, Jorge Luis. 1946. "Del rigor en la ciencia." *Los Anales de Buenos Aires
 Borges, Jorge Luis. 1966. "Del rigor en la ciencia." In *Historia universal de la infamia*. Sexta impresión. Buenos Aires: Emecé editores. 131–132.
 
 Borges, Jorge Luis. 1972. "Of Exactitude in Science." In *A Universal History of Infamy*. Translated by Norman Thomas di Giovanni. New York: E. P. Dutton & Co. 141.
+
+Brandt, Carmen & Pushkar Sohoni. 2018. "Script and identity ― the politics of writing in South Asia: an introduction." _South Asian History and Culture_ 9(1): 1–15.
 
 TEI Consortium. 2026. "TEI: Guidelines for Electronic Text Encoding and Interchange." *Text Encoding Initiative*. Last updated 28 July. [www.tei-c.org/release/doc/tei-p5-doc/en/html](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html)
 
