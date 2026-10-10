@@ -132,7 +132,7 @@ matches _mkhan pa_ and _mkha' pa_ but NOT _mkhas pa._
 
 ## Quantifiers
 
-##*
+## *
 
 The character `*` means zero or more of the preceding character.
 
