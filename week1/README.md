@@ -34,3 +34,13 @@ These projects are focused on creating datasets for LLM applications; we won't b
 
 * [SanskritTravelogue](https://huggingface.co/datasets/SanskritVoyager/SanskritTravelogue/blob/8ed06c0167463a4873d79ff627bf20c02bd89cc9/README.md)
 * [SiPaKosa](https://arxiv.org/html/2603.29221v1)
+
+## Regular expressions
+
+Examples shown this week (and more!) can be found here: [regex.md](regex.md)
+
+For even more regular expressions, see:
+
+* [Regular Expressions for Linguists: A Life Skill](https://web.mit.edu/hackl/www/lab/turkshop/slides/week2-regex.pdf)
+* [cheat sheet for the above](https://web.mit.edu/hackl/www/lab/turkshop/slides/regex-cheatsheet.pdf)
+* [MDN Regular expressions syntax cheat sheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet)
