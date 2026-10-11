@@ -238,7 +238,7 @@ where `\S{1,5}` means "1–5 of any non-space character." This matches _pracchin
 ```regex
 vāḻi.{2,15}tōḻi
 ```
-where `.{2,15}` means "2–15 of any character." This matches _vāḻi yōtōḻi, vāḻiyō makaḷainiṉ tōḻi, vāḻiya eṉat tōḻi, vāḻivēṇ ṭaṉṉai |eṉtōḻi,_ etc. but NOT _vāḻi tōḻi._
+where `.{2,15}` means "2–15 of any character." This matches _vāḻiyō tōḻi, vāḻiyō makaḷainiṉ tōḻi, vāḻiya eṉat tōḻi, vāḻivēṇ ṭaṉṉai |eṉtōḻi,_ etc. but NOT _vāḻi tōḻi._
 
 #### Tibetan
 ```regex
