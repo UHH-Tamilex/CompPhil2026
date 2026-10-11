@@ -23,7 +23,7 @@ la.ang
 ```
 matches _la ang,_ _la'ang_, etc.
 
-## \w
+## \w (or \S)
 The character `\w` means any word character (e.g., not a space).
 > [!IMPORTANT]
 > Depending on the software, this may not work with diacritics (ā, ṭ, ś, etc.) or non-Latin scripts. As an alternative, you can use `\S` (any non-space character).
@@ -68,7 +68,7 @@ dpal\smo
 ```
 matches _dpal mo._
 
-##\n
+## \n
 
 The character `\n` matches a newline.
 
@@ -196,9 +196,21 @@ The character `+` means one or more of the preceding character.
 
 #### Pali
 ```regex
-bodhisat+o
+viñ+āṇa
 ```
-matches _bodhisato,_  _bodhisatto,_ _bodhisattto,_ etc.
+matches _viñāṇa, viññāṇa, viñññāṇa,_ etc.
+
+#### Sanskrit
+```regex
+nandiśarm+aṇa
+```
+matches _nandiśarmaṇa, nandiśarmmaṇa, nandiśarmmmaṇa,_ etc.
+
+#### Tamil
+```regex
+veḷḷik+iḻamai
+```
+matches _veḷḷikiḻamai, veḷḷikkiḻamai, veḷḷikkkiḻamai_ etc.
 
 #### Tibetan
 > [!IMPORTANT]
