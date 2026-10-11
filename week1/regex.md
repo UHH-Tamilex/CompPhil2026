@@ -215,7 +215,7 @@ matches _veḷḷikiḻamai, veḷḷikkiḻamai, veḷḷikkkiḻamai_ etc.
 #### Tibetan
 > [!IMPORTANT]
 > If you want to match a plus sign, you need to write `\+`.
-> Example: `vat\+sa la` matches _vat+sa la_ in Extended Wylie transliteration. `vat+sa la` will match _vattsa la._ 
+> Example: `bat\+sa la` matches _bat+sa la_ in Extended Wylie transliteration. `bat+sa la` will match _battsa la._ 
 
 ## {}
 You can specify a range using `{}`.

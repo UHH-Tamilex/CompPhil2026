@@ -44,3 +44,5 @@ For even more regular expressions, see:
 * [Regular Expressions for Linguists: A Life Skill](https://web.mit.edu/hackl/www/lab/turkshop/slides/week2-regex.pdf)
 * [cheat sheet for the above](https://web.mit.edu/hackl/www/lab/turkshop/slides/regex-cheatsheet.pdf)
 * [MDN Regular expressions syntax cheat sheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet)
+* [Die regulären Ausdrüke](https://www.dh-lehre.gwi.uni-muenchen.de/?p=328)
+* [Classical Chinese DH: Regular expressions](https://digitalsinology.org/classical-chinese-dh-regular-expressions/)
