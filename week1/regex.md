@@ -249,3 +249,30 @@ where `.{1,10}` means "1–10 of any character." This matches _mkhan po chos kyi
 
 > [!TIP]
 > If you want to match across line breaks, use `[\S\s\n]` instead of `.`.
+
+## Alternation
+
+## (|)
+
+`(xx|yy)` matches xx or yy
+
+#### Sanskrit
+
+```regex
+dhar(e|eṇa|ena|sya) kṣetr
+```
+matches _dharme kṣetr[e], dharmeṇa kṣetr[e], dharmena kṣetr[e],_ and _dharmasya kṣetr[e]_.
+
+#### Tamil
+
+```regex
+(perum?|irum?|ta[ṇṭ])pōtu
+```
+matches _perupōtu, perumpōtu, irupōtu, irumpōtu, taṇpōtu,_ and _taṭpōtu._
+
+#### Tibetan
+
+```regex
+phun sum tshogs pa bs(grub|ag) pa
+```
+matches _phun sum tshogs pa bsgrub pa_ and _phun sum tshogs pa bsag pa._
