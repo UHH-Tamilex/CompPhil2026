@@ -7,9 +7,9 @@ The character `.` means any character.
 
 #### Pali/Sanskrit
 ```regex
-evam.va
+eva.eva
 ```
-matches _evameva, eva va[tvā] eva va[deyya]_, etc.
+matches _evameva, eva eva, evadeva_, etc.
 
 #### Tamil
 ```regex
@@ -186,7 +186,7 @@ matches _pūm nāṟu,_ _pūmnāṟu,_ _pū nāṟu,_ or _pūnāṟu._
 
 #### Tibetan
 ```regex
-pa ?d? ?ma dmar po
+pa ?d ?ma dmar po
 ```
 matches _padma dmar po,_ _pad ma dmar po,_ and _pa dma dmar po._
 
