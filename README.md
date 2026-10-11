@@ -56,7 +56,7 @@ TEI Consortium. 2026. "TEI: Guidelines for Electronic Text Encoding and Intercha
 
 We will continue to discuss the limits of transcription by looking at various examples across manuscript cultures. Every transcription practice has advantages and trade-offs, but is there a practical compromise that we can settle upon that doesn't lose too much information, yet still captures enough of the manuscript for our research purposes? In week 6, we will explore this question further, and link it up with broader philosophical debates on the nature of cognition.
 
-**Keywords**: diplomatic edition, reproducibility, grapheme
+**Keywords**: diplomatic edition, grapheme
 
 **Skills unlocked**: transcription using TEI XML
 
@@ -162,7 +162,7 @@ Wang Lusheng & Jiang Tao. 1994. "On the complexity of multiple sequence alignmen
 
 Once our witnesses are collated, we can finally create a critical apparatus for our text edition. This session will introduce Saktumiva, a tool for creating digital editions, based on diplomatic manuscript transcriptions and using the algorithms discussed in the previous sessions. In the course of the previous weeks, if you have prepared manuscript transcriptions, this week, you can set up a Saktumiva project and collate them to produce a critical apparatus. We will also briefly touch on version control using git and putting your edition online using GitHub.
 
-**Keywords**: variant reading, apparatus registers, sources, parallels, testimonia
+**Keywords**: variant reading, apparatus registers, sources, parallels, testimonia, reproducibility
 
 **Skills unlocked**: creating an online digital edition
 
