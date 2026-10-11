@@ -256,6 +256,13 @@ where `.{1,10}` means "1–10 of any character." This matches _mkhan po chos kyi
 
 `(xx|yy)` matches xx or yy
 
+#### Pali
+
+```regex
+sarīraṃ (vaṭṭ|vatt|vaddh)etvā
+```
+matches _sarīraṃ vaṭṭetvā, sarīraṃ vattetvā,_ and _sarīraṃ vaddhetvā._
+
 #### Sanskrit
 
 ```regex
