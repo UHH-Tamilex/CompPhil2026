@@ -10,7 +10,7 @@ Here are some corpora on GitHub that you can use:
 ### Sanskrit
 
 * [github.com/con-jo-ry/ilx_skt_training](https://github.com/con-jo-ry/ilx_skt_training)  (courtesy of the Intellexus project)
-* [github.com/con-jo-ry/aggregated-skt-mss-extracts](https://github.com/con-jo-ry/aggregated-skt-mss-extracts)  (Sanskrit plus some Tamil)
+* [github.com/chchch/aggregated-skt-mss-extracts](https://github.com/chchch/aggregated-skt-mss-extracts)  (Sanskrit plus some Tamil and Tibetan)
 
 ### Tamil
 
