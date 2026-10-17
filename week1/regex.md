@@ -266,7 +266,7 @@ matches _sarīraṃ vaṭṭetvā, sarīraṃ vattetvā,_ and _sarīraṃ vaddhe
 #### Sanskrit
 
 ```regex
-dhar(e|eṇa|ena|sya) kṣetr
+dharm(e|eṇa|ena|sya) kṣetr
 ```
 matches _dharme kṣetr[e], dharmeṇa kṣetr[e], dharmena kṣetr[e],_ and _dharmasya kṣetr[e]_.
 
