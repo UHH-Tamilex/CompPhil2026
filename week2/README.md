@@ -35,7 +35,7 @@
 
 ## How to find a IIIF manifest
 
-* look for the IIIF ifon
+* look for the IIIF icon
 * for archive.org items, see [iiif.io/guides/guides/archive.org](https://iiif.io/guides/guides/archive.org/)
 ## More on XML
 
