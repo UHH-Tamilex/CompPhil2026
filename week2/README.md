@@ -33,6 +33,10 @@
 * University of Pennsylvania <https://digitalcollections.library.upenn.edu/items?f[collection_ssim][]=Collection%20of%20Indic%20Manuscripts&search_field=all_fields>
 * University of Tokyo <https://dzkimgs.l.u-tokyo.ac.jp/ut_skt_manuscripts/>
 
+## How to find a IIIF manifest
+
+* look for the IIIF ifon
+* for archive.org items, see [iiif.io/guides/guides/archive.org](https://iiif.io/guides/guides/archive.org/)
 ## More on XML
 
 [A Short Introduction to XML](https://lecture2go.uni-hamburg.de/l2go/-/get/v/60972) (Eugenia Sokolinski)
