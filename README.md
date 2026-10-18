@@ -39,6 +39,8 @@ For the next couple of weeks, we will practice transcribing manuscripts using th
 
 **Keywords**: folio, recto, verso, IIIF
 
+**Skills unlocked**: Unicode homograph attack
+
 ### Bibliography
 
 Borges, Jorge Luis. 1946. "Del rigor en la ciencia." *Los Anales de Buenos Aires* 3: 53.
@@ -55,7 +57,7 @@ Meletis, Dimitrios &amp; Christa Dürscheid. 2022. _Writing Systems and Their Us
 
 Schmalz, X., E. Marinus, M. Coltheart, et al. 2015. "Getting to the bottom of orthographic depth." _Psychonomic Bulletin & Review_ 22:1614–1629. [doi:10.3758/s13423-015-0835-2](https://doi.org/10.3758/s13423-015-0835-2)
 
-TEI Consortium. 2026. "TEI: Guidelines for Electronic Text Encoding and Interchange." *Text Encoding Initiative*. Last updated 28 July. [www.tei-c.org/release/doc/tei-p5-doc/en/html](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html)
+Suzuki, Hiroaki et al. 2019. "ShamFinder: An Automated Framework for Detecting IDN Homographs." _IMC '19: Proceedings of the Internet Neasurement Conference._ 449–462. [doi:10.1145/3355369.3355587](https://doi.org/10.1145/3355369.3355587)
 
 
 ## Week 3 | 26 October | Transcription as interpretation
@@ -78,6 +80,7 @@ Korzybski, Alfred. 1958. "On Structure." In *Science and Sanity: An Introduction
 
 Kriesel, D. 2015. "Lies, damned lies, and scans." Paper presented at FroSCon, University of Applied Science, Sankt Augustin, August. [www.dkriesel.com/en/blog/2013/0802_xerox-workcentres_are_switching_written_numbers_when_scanning](https://www.dkriesel.com/en/blog/2013/0802_xerox-workcentres_are_switching_written_numbers_when_scanning)
 
+TEI Consortium. 2026. "TEI: Guidelines for Electronic Text Encoding and Interchange." *Text Encoding Initiative*. Last updated 28 July. [www.tei-c.org/release/doc/tei-p5-doc/en/html](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html)
 
 ## Week 4 | 2 November | Paratexts & metadata
 
