@@ -49,6 +49,12 @@ Borges, Jorge Luis. 1972. "Of Exactitude in Science." In *A Universal History of
 
 Brandt, Carmen & Pushkar Sohoni. 2018. "Script and identity ― the politics of writing in South Asia: an introduction." _South Asian History and Culture_ 9(1): 1–15.
 
+Technical Committee ISO/TC 46 Subcommittee SC 2. 2001. _ISO 15919: Transliteration of Devanagari and related Indic scripts into Latin characters._ First edition. International Organization for Standardization: Switzterland.
+
+Meletis, Dimitrios &amp; Christa Dürscheid. 2022. _Writing Systems and Their Use: An Overview of Grapholinguistics._ Berlin: De Gruyter Mouton. [doi:10.1515/978311075783](https://library.oapen.org/handle/20.500.12657/57214)
+
+Schmalz, X., E. Marinus, M. Coltheart, et al. 2015. "Getting to the bottom of orthographic depth." _Psychonomic Bulletin & Review_ 22:1614–1629. [doi:10.3758/s13423-015-0835-2](https://doi.org/10.3758/s13423-015-0835-2)
+
 TEI Consortium. 2026. "TEI: Guidelines for Electronic Text Encoding and Interchange." *Text Encoding Initiative*. Last updated 28 July. [www.tei-c.org/release/doc/tei-p5-doc/en/html](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html)
 
 
@@ -99,6 +105,8 @@ In order to compare two texts, we first need to split the text up into tokens. T
 ### Bibliography
 
 Eltschinger, Vincent. 2023. "What Comes First, Word or Sentence Meaning? Dharmakīrti as a Contextualist." In *To the Heart of Truth: felicitation volume for Eli Franco on the occasion of his seventieth birthday.* Edited by Hiroko Matsuoka et al. Wien: Universität Wien. [www.academia.edu/108838314/What_Comes_First_Word_or_Sentence_Meaning_Dharmak%C4%ABrti_as_a_Contextualist](https://www.academia.edu/108838314/What_Comes_First_Word_or_Sentence_Meaning_Dharmak%C4%ABrti_as_a_Contextualist)
+
+Share, David L. &amp; Peter T. Daniels. "Aksharas, alphasyllabaries, abugidas, alphabets and orthographic depth: Reflections in Rimzhim, Katz and Fowler (2014)." _Writing Systems Research_ 8(1): 17–31.
 
 Tehrani, Jamshid J. 2013. "The Phylogeny of Little Red Riding Hood." *PLoS ONE* 8(11): e78871. [doi:10.1371/journal.pone.0078871](https://doi.org/10.1371/journal.pone.0078871)
 
