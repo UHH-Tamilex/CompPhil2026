@@ -7,7 +7,7 @@
          <editor role="cataloguer"><persName>Sonam CHUSANG</persName><orgName>University of British Columbia</orgName></editor><editor role="cataloguer"><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2026</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -23,14 +23,23 @@
   This short manuscript contains a collection of Sanskrit <term xml:lang="sa">mantra</term>s, each preceded by a title in Tibetan. It begins with a mantra for indigestion and ends with a mantra for general self-protection. Most of these mantras can be found in the <ref target="https://online.adarshah.org/index.html?kdb=jiangkangyur&amp;sutra=J763&amp;page=105-297b">Kangyur</ref>.
 </p></summary>
                   
-               <msItem xml:id="T1" defective="false"><title xml:lang="bo-Tibt">སྔགས་འབུམ་གྱིས་དབུ་</title><textLang mainLang="bod"/></msItem></msContents>
+               <msItem xml:id="T1" defective="false"><title xml:lang="bo-Tibt">སྔགས་འབུམ་གྱིས་དབུ་</title><textLang mainLang="bod"/><rubric xml:lang="bo-Tibt"><pb n="1r" facs="3"/> <lb/>༄༅།། <space/> །།སྔགས་འབུམ་གྱིས་དབུ་བཞུགསྷོ་</rubric><incipit xml:lang="bo-Tibt"><pb n="1v" unit="folio" facs="4"/> <lb/>༄༅།། <space/>   །།མ་ཞུ་བའི་ནད་ཞི་བར་བྱེད་པའི་སྔགས་ <space/> ཏདྱ་ཐཱ་ <space/> ཧུ་རེ་ཧུ་རེ་ཧུ་ཊ་ག་ཏ་ནེ་སྭཱ་ཧཱ་ <space/> ༈ <space/></incipit><explicit xml:lang="bo-Tibt"><pb n="2r" facs="5"/><lb n="6"/>སུ་ཤྲི་ཡེ་ན་མ་ཨུཏྟ་མ་ཤྲི་ཡེ་སྭཱ་ཧཱ། <space/> ༈ <space/> བདག་བསྲུང་བའི་སྔགས་ <space/> ཏདྱ་ཐཱ་ <space/> ཨོཾ་ཨ་ལི་ཀཱ་ལི་ཨ་ལི་ཀཱ་ལི་མུཏ་ཙི་ཏེ་<lb n="7"/>སྭཱ་ཧཱ་</explicit></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi" rend="manuscript">
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="paper handmade">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="2"/>
                            <dimensions type="object" unit="mm">
                               
@@ -44,20 +53,11 @@
                               
                               
                            <width quantity="210"/><height min="50" max="60"/></dimensions>
-                        </extent>
-                        
-                        
-                        
-                     <foliation><locus facs="4">1v</locus>, left margin: <q xml:lang="bo-Tibt">གཅིག།</q>, <locus facs="5">2r</locus>, left margin: <q xml:lang="bo-Tibt">གཉིས།</q>.</foliation><condition>Some wear on the edges.</condition></supportDesc>
+                        </extent><foliation><locus facs="4">1v</locus>, left margin: <q xml:lang="bo-Tibt">གཅིག།</q>, <locus facs="5">2r</locus>, left margin: <q xml:lang="bo-Tibt">གཉིས།</q>.</foliation><condition>Some wear on the edges.</condition></supportDesc>
                      <layoutDesc>
                         
                      <layout writtenLines="7">Double margin lines in red.</layout></layoutDesc>
-                  </objectDesc>
-                  
-                  
-                  
-                  
-               <handDesc><handNote scope="sole" script="dbumed" medium="ink black"/></handDesc><additions>
+                  </objectDesc><handDesc><handNote scope="sole" script="dbumed" medium="ink black"/></handDesc><additions>
                   <desc type="title" subtype="running">Left margin, <q xml:lang="bo-Tibt">སྔགས་འབུམ</q>.</desc><desc type="documenting-note" subtype="detached">On the <locus facs="1">paper sleeve</locus>, <q xml:lang="bo-Tibt">མཁའ་མཉམ།</q> is written and crossed out.</desc><desc type="shelfmark" subtype="detached">On the <locus facs="1">paper sleeve</locus>, <q xml:lang="fr">Tibétain 679</q>.</desc><desc type="stamp" subtype="beginning end"><q xml:lang="fr">Bibliothèque nationale</q> stamp, 20 mm diameter.</desc><desc type="stamp" subtype="beginning">Unidentified stamp on <locus facs="3">1r</locus>, 13 mm diameter.</desc></additions><bindingDesc>
                      <binding>
                         
@@ -67,13 +67,13 @@
                     <p>Paper sleeve.</p></binding>
                   </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian"/>
                      
-                  </origin>
-                  
-                  
-               </history>
+                  </origin></history>
                <additional>
                   <listBibl>
                      
@@ -87,19 +87,19 @@
    <revisionDesc><change when="2022-09">First version.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://api.nakala.fr/data/10.34847/nkl.d88028pa/0040b55d46cb60ac76f55c3ca15f784983a7e5b5"/></facsimile>
-<text corresp="#T1" xml:lang="bo-Tibt"><body>
+<text corresp="#T1" xml:lang="bo"><body>
  <p>
 <milestone n="1r" unit="folio" facs="3"/>
-<lb n="1"/><seg function="rubric">༄༅།། <space/> །།སྔགས་འབུམ་གྱིས་དབུ་བཞུགསྷོ་</seg>
+<lb n="1"/>༄༅།། <space/> །།སྔགས་འབུམ་གྱིས་དབུ་བཞུགསྷོ་
   </p>
 <p>
 <milestone n="1v" unit="folio" facs="4"/>
-  <lb n="1"/><seg function="incipit">༄༅།། <space/>   །།མ་ཞུ་བའི་ནད་ཞི་བར་བྱེད་པའི་སྔགས་ <space/> ཏདྱ་ཐཱ་ <space/> ཧུ་རེ་ཧུ་རེ་ཧུ་ཊ་ག་ཏ་ནེ་སྭཱ་ཧཱ་ <space/> ༈ <space/></seg>
+  <lb n="1"/>༄༅།། <space/>   །།མ་ཞུ་བའི་ནད་ཞི་བར་བྱེད་པའི་སྔགས་ <space/> ཏདྱ་ཐཱ་ <space/> ཧུ་རེ་ཧུ་རེ་ཧུ་ཊ་ག་ཏ་ནེ་སྭཱ་ཧཱ་ <space/> ༈ <space/>
   </p>
   <p>བད་ཀན་གྱི་ནད་སེལ་བའི་<lb n="2"/>སྔགས་ <space/> ༀ་ཤཱནྟི་ཤཱནྟི་བི་ཏི་ཤཱ་ནི་སརྦྦ་བི་ཏི་མུ་ཡ་མྱགས་སྭཱ་ཧཱ་ <space/> ༈ <space/>
   </p>
   <p>
-    ཀྵ་ཡའི་ནད་སེལ་བའི་སྔགས་ <space/> ན་མོ་ཧ་ཏུ་ཧེ་ཀེ་སྭཱ་ཧཱ་ <lb n="3"/>༈ <space/>
+    ཀྵ་ཡའི་ནད་སེལ་བའི་སྔགས་ <space/> ན་མོ་ཧ་ཏུ་ཧེ་ཀེ་སྭཱ་ཧཱ་ <lb n="3"/>༈ <space/>
   </p>
   <p>
     ཡང་རིཾས་ནད་རབ་ཏུ་ཞི་བྱེད་ཀྱི་སྔགས་ <space/> ཏདྱ་ཐཱ་ <space/> ཨི་ལི་མེ་ཏི་མེ་ལི་ཏ་ནེ་སུ་ཧ་ནེ་ཛྭ་ར་བནྡྷ་མེ་ཨེ་ཀ་ཧི་ཀ་ན་ཀྲྀ་ཧི་<lb n="4"/>གཉྫ་ཏུ་ཙ་ཀསྣི་ཏྱ་ཛྭ་རི་སྭཱ་ཧཱ་ <space/> ༈ <space/>
@@ -130,12 +130,12 @@
     འཇཾ་དཔལ་གྱི་ཡྒིེ་འབྲུ་༡་པ་ <space/> ཏདྱ་ཐཱ་ <space/> ༀ་ཀྵྞཾ་ <space/> འདི་རབ་ཏུ་གསང་ནས་བཟླས་ན་ལས་དང་དོན་ཐཾད་འགྲུབ་པོ་ <space/> ༈ <space/>
   </p>
     <p>
-ༀ་གྷེ་ཙ་ན་<lb n="5"/>ཧཱུཾ་ <space/> ཞེས་པ་འདི་ལན་༡་བརྗོད་ཀྱང་སྐལ་པ་སྟོང་དུ་བསགས་པའི་སྡིག་པ་འདགོ་ <space/> ༈ <space/>
+ༀ་གྷེ་ཙ་ན་<lb n="5"/>ཧཱུཾ་ <space/> ཞེས་པ་འདི་ལན་༡་བརྗོད་ཀྱང་སྐལ་པ་སྟོང་དུ་བསགས་པའི་སྡིག་པ་འདགོ་ <space/> ༈ <space/>
     </p>
     <p>
 ཕྱག་བྱ་བའི་སྔགས་ <space/> ༀ་ན་མོ་མཉྫུ་ཤྲཱི་ཡེ་ན་མཿ<lb n="6"/>སུ་ཤྲི་ཡེ་ན་མ་ཨུཏྟ་མ་ཤྲི་ཡེ་སྭཱ་ཧཱ། <space/> ༈ <space/>
   </p>
   <p>
-    <seg function="explicit">བདག་བསྲུང་བའི་སྔགས་ <space/> ཏདྱ་ཐཱ་ <space/> ཨོཾ་ཨ་ལི་ཀཱ་ལི་ཨ་ལི་ཀཱ་ལི་མུཏ་ཙི་ཏེ་<lb n="7"/>སྭཱ་ཧཱ་</seg>
+ བདག་བསྲུང་བའི་སྔགས་ <space/> ཏདྱ་ཐཱ་ <space/> ཨོཾ་ཨ་ལི་ཀཱ་ལི་ཨ་ལི་ཀཱ་ལི་མུཏ་ཙི་ཏེ་<lb n="7"/>སྭཱ་ཧཱ་
   </p>
 </body></text></TEI>
