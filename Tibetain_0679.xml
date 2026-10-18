@@ -1,0 +1,141 @@
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="bo">snags 'bum gyis dbu</title></title>
+            
+         <editor role="cataloguer"><persName>Sonam CHUSANG</persName><orgName>University of British Columbia</orgName></editor><editor role="cataloguer"><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Tibétain 679</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>
+  This short manuscript contains a collection of Sanskrit <term xml:lang="sa">mantra</term>s, each preceded by a title in Tibetan. It begins with a mantra for indigestion and ends with a mantra for general self-protection. Most of these mantras can be found in the <ref target="https://online.adarshah.org/index.html?kdb=jiangkangyur&amp;sutra=J763&amp;page=105-297b">Kangyur</ref>.
+</p></summary>
+                  
+               <msItem xml:id="T1" defective="false"><title xml:lang="bo-Tibt">སྔགས་འབུམ་གྱིས་དབུ་</title><textLang mainLang="bod"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="paper handmade">
+                        <support>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="2"/>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="265"/><height quantity="85"/></dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           <width quantity="210"/><height min="50" max="60"/></dimensions>
+                        </extent>
+                        
+                        
+                        
+                     <foliation><locus facs="4">1v</locus>, left margin: <q xml:lang="bo-Tibt">གཅིག།</q>, <locus facs="5">2r</locus>, left margin: <q xml:lang="bo-Tibt">གཉིས།</q>.</foliation><condition>Some wear on the edges.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout writtenLines="7">Double margin lines in red.</layout></layoutDesc>
+                  </objectDesc>
+                  
+                  
+                  
+                  
+               <handDesc><handNote scope="sole" script="dbumed" medium="ink black"/></handDesc><additions>
+                  <desc type="title" subtype="running">Left margin, <q xml:lang="bo-Tibt">སྔགས་འབུམ</q>.</desc><desc type="documenting-note" subtype="detached">On the <locus facs="1">paper sleeve</locus>, <q xml:lang="bo-Tibt">མཁའ་མཉམ།</q> is written and crossed out.</desc><desc type="shelfmark" subtype="detached">On the <locus facs="1">paper sleeve</locus>, <q xml:lang="fr">Tibétain 679</q>.</desc><desc type="stamp" subtype="beginning end"><q xml:lang="fr">Bibliothèque nationale</q> stamp, 20 mm diameter.</desc><desc type="stamp" subtype="beginning">Unidentified stamp on <locus facs="3">1r</locus>, 13 mm diameter.</desc></additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    <p>Paper sleeve.</p></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin>
+                  
+                  
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Filliozat, Jean. 1936. <title xml:lang="fr"><ref target="gallica.bnf.fr/ark:/12148/btv1b525101308">Catalogue sommaire du Fonds Tibétain.</ref></title>. See p. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b525101308/f159.item">143</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>Transcribed in Tibetan script.</p></encodingDesc>
+      
+   <revisionDesc><change when="2022-09">First version.</change></revisionDesc></teiHeader>
+   <facsimile>
+   <graphic url="https://api.nakala.fr/data/10.34847/nkl.d88028pa/0040b55d46cb60ac76f55c3ca15f784983a7e5b5"/></facsimile>
+<text corresp="#T1" xml:lang="bo-Tibt"><body>
+ <p>
+<milestone n="1r" unit="folio" facs="3"/>
+<lb n="1"/><seg function="rubric">༄༅།། <space/> །།སྔགས་འབུམ་གྱིས་དབུ་བཞུགསྷོ་</seg>
+  </p>
+<p>
+<milestone n="1v" unit="folio" facs="4"/>
+  <lb n="1"/><seg function="incipit">༄༅།། <space/>   །།མ་ཞུ་བའི་ནད་ཞི་བར་བྱེད་པའི་སྔགས་ <space/> ཏདྱ་ཐཱ་ <space/> ཧུ་རེ་ཧུ་རེ་ཧུ་ཊ་ག་ཏ་ནེ་སྭཱ་ཧཱ་ <space/> ༈ <space/></seg>
+  </p>
+  <p>བད་ཀན་གྱི་ནད་སེལ་བའི་<lb n="2"/>སྔགས་ <space/> ༀ་ཤཱནྟི་ཤཱནྟི་བི་ཏི་ཤཱ་ནི་སརྦྦ་བི་ཏི་མུ་ཡ་མྱགས་སྭཱ་ཧཱ་ <space/> ༈ <space/>
+  </p>
+  <p>
+    ཀྵ་ཡའི་ནད་སེལ་བའི་སྔགས་ <space/> ན་མོ་ཧ་ཏུ་ཧེ་ཀེ་སྭཱ་ཧཱ་ <lb n="3"/>༈ <space/>
+  </p>
+  <p>
+    ཡང་རིཾས་ནད་རབ་ཏུ་ཞི་བྱེད་ཀྱི་སྔགས་ <space/> ཏདྱ་ཐཱ་ <space/> ཨི་ལི་མེ་ཏི་མེ་ལི་ཏ་ནེ་སུ་ཧ་ནེ་ཛྭ་ར་བནྡྷ་མེ་ཨེ་ཀ་ཧི་ཀ་ན་ཀྲྀ་ཧི་<lb n="4"/>གཉྫ་ཏུ་ཙ་ཀསྣི་ཏྱ་ཛྭ་རི་སྭཱ་ཧཱ་ <space/> ༈ <space/>
+  </p>
+  <p>
+    མིག་ནད་རབ་ཏུ་ཞི་བའི་སྔགས་ <space/> ཏདྱ་ཐཱ་ <space/> རུ་ཏི་རེ་ཕུ་རེ་དྷི་ར་ <space/> ཨཀྵི་ཕུ་རུ་དྷ་རི་བི་ག་<lb n="5"/>ལེ་ཕུ་བཱ་ཏེ་ཕུཿ <space/> བཱ་ཏེ་ལེ་ཕུཿ <space/> ཏི་ཏེ་ཕུ་ <space/> མཱི་ས་དུཾ་དུ་བྷི་ཕུ་པདྨ་ཨཀྵི་ཕུ་པདྨ་མ་དཎྚ་ཧ་རི་ཎི་ཡེ་ཕུ་སྭཱ་ཧཱ་ <space/> ༈ <space/>
+  </p>
+  <p>
+    མེའི་<lb n="6"/>ཟུག་དུ་ཞི་བྱེད་ཀྱི་སྔགས་ <space/> ༀ་བྷྲ་མ་ཎི་བྷྲ་མ་ཎི་ཛྙོ་རི་བྷྲ་མ་ཎི་སྭཱ་ཧཱ་ <space/> ༈ <space/>
+  </p>
+  <p>
+    མཁྲིས་པའི་ནད་སེལ་བའི་སྔགས་ <space/> ན་མོ་ཧེ་ཏུ་ཧེ་<lb n="7"/>གེ་སྭཱ་ཧཱ་ <space/> ༈ <space/>
+  </p>
+  <p>
+    དུག་ཐཾད་ཞི་བར་བྱེད་པའི་སྔགས་ <space/> ཏདྱ་ཐཱ་ <space/> ༀ་སུ་རུ་སུ་རུ་ཀ་བ་ར་བ་ར་ཀེ་བི་རི་ཧི་རི་ཤུདྡྷེ་བི་ཤུདྡྷེ་སྭཱ་ཧཱ་ <space/> ་
+  </p>
+<p>
+<milestone n="2r" facs="5" unit="folio"/>
+<lb n="1"/>༄༅།། <space/> ༈ <space/> །།འབྲུཾ་བུའི་ནད་ཞི་བར་བྱེད་པའི་སྔགས་ <space/> ཧེ་བྷ་ག་བཾ་མཉྫུ་ཤྲཱི་ཀུ་མཱ་ར་སརྦྦ་ཏ་ཐཱ་ག་ཏ་པ་ལ་བི་བྷི་ཛྙ་སརྦྦ་<lb n="2"/>ཏ་ཐཱ་ག་ཏཱ་ནཱཾ་ནཱ་ཡེ་སྟི་སྟིཥྛ་སརྦྦ་སཏྭཱ་ནཱཾ་སྭཱ་ཧཱ་ <space/> ༈ <space/>
+  </p>
+  <p>
+    ནད་ཐཾད་རབ་ཏུ་ཞི་བར་བྱེདའི་སྔགས་ <space/> ཏདྱ་ཐཱ་ <space/> བཛྲ་བཛྲ་མ་ཧཱ་བཛྲ་<lb n="3"/>སརྦྦ་བྱ་དྷི་ཧ་ན་ཧ་ན་བཛྲ་ཎ་སྭཱ་ཧཱ་ <space/> ༈ <space/>
+  </p>
+  <p>
+    བཅིངས་པ་ལས་འགྲོལ་པའི་སྔགས་ <space/> ཧཱ་རེ་ཧཱ་རེ་ཧཱ་ར་ཡ་བྷ་ག་བ་ཏེ་བནྡྷ་མོ་ཙ་ནི་སྭཱ་ཧཱ་<lb n="4"/>་ <space/> ༈ <space/>
+  </p>
+  <p>
+    འཇཾ་དཔལ་གྱི་ཡྒིེ་འབྲུ་༡་པ་ <space/> ཏདྱ་ཐཱ་ <space/> ༀ་ཀྵྞཾ་ <space/> འདི་རབ་ཏུ་གསང་ནས་བཟླས་ན་ལས་དང་དོན་ཐཾད་འགྲུབ་པོ་ <space/> ༈ <space/>
+  </p>
+    <p>
+ༀ་གྷེ་ཙ་ན་<lb n="5"/>ཧཱུཾ་ <space/> ཞེས་པ་འདི་ལན་༡་བརྗོད་ཀྱང་སྐལ་པ་སྟོང་དུ་བསགས་པའི་སྡིག་པ་འདགོ་ <space/> ༈ <space/>
+    </p>
+    <p>
+ཕྱག་བྱ་བའི་སྔགས་ <space/> ༀ་ན་མོ་མཉྫུ་ཤྲཱི་ཡེ་ན་མཿ<lb n="6"/>སུ་ཤྲི་ཡེ་ན་མ་ཨུཏྟ་མ་ཤྲི་ཡེ་སྭཱ་ཧཱ། <space/> ༈ <space/>
+  </p>
+  <p>
+    <seg function="explicit">བདག་བསྲུང་བའི་སྔགས་ <space/> ཏདྱ་ཐཱ་ <space/> ཨོཾ་ཨ་ལི་ཀཱ་ལི་ཨ་ལི་ཀཱ་ལི་མུཏ་ཙི་ཏེ་<lb n="7"/>སྭཱ་ཧཱ་</seg>
+  </p>
+</body></text></TEI>
