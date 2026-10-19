@@ -109,7 +109,7 @@ In order to compare two texts, we first need to split the text up into tokens. T
 
 Eltschinger, Vincent. 2023. "What Comes First, Word or Sentence Meaning? Dharmakīrti as a Contextualist." In *To the Heart of Truth: felicitation volume for Eli Franco on the occasion of his seventieth birthday.* Edited by Hiroko Matsuoka et al. Wien: Universität Wien. [www.academia.edu/108838314/What_Comes_First_Word_or_Sentence_Meaning_Dharmak%C4%ABrti_as_a_Contextualist](https://www.academia.edu/108838314/What_Comes_First_Word_or_Sentence_Meaning_Dharmak%C4%ABrti_as_a_Contextualist)
 
-Share, David L. &amp; Peter T. Daniels. "Aksharas, alphasyllabaries, abugidas, alphabets and orthographic depth: Reflections in Rimzhim, Katz and Fowler (2014)." _Writing Systems Research_ 8(1): 17–31.
+Share, David L. &amp; Peter T. Daniels. "Aksharas, alphasyllabaries, abugidas, alphabets and orthographic depth: Reflections on Rimzhim, Katz and Fowler (2014)." _Writing Systems Research_ 8(1): 17–31.
 
 Tehrani, Jamshid J. 2013. "The Phylogeny of Little Red Riding Hood." *PLoS ONE* 8(11): e78871. [doi:10.1371/journal.pone.0078871](https://doi.org/10.1371/journal.pone.0078871)
 
