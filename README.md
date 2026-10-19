@@ -60,7 +60,7 @@ Schmalz, X., E. Marinus, M. Coltheart, et al. 2015. "Getting to the bottom of or
 Suzuki, Hiroaki et al. 2019. "ShamFinder: An Automated Framework for Detecting IDN Homographs." _IMC '19: Proceedings of the Internet Neasurement Conference._ 449–462. [doi:10.1145/3355369.3355587](https://doi.org/10.1145/3355369.3355587)
 
 
-## Week 3 | 26 October | Transcription as interpretation
+## Week 3 | 26 October | Seeing what we want to see
 
 We will continue to discuss the limits of transcription by looking at various examples across manuscript cultures. Every transcription practice has advantages and trade-offs, but is there a practical compromise that we can settle upon that doesn't lose too much information, yet still captures enough of the manuscript for our research purposes? In week 6, we will explore this question further, and link it up with broader philosophical debates on the nature of cognition.
 
