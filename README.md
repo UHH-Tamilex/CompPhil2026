@@ -57,7 +57,7 @@ Meletis, Dimitrios &amp; Christa Dürscheid. 2022. _Writing Systems and Their Us
 
 Schmalz, X., E. Marinus, M. Coltheart, et al. 2015. "Getting to the bottom of orthographic depth." _Psychonomic Bulletin & Review_ 22:1614–1629. [doi:10.3758/s13423-015-0835-2](https://doi.org/10.3758/s13423-015-0835-2)
 
-Suzuki, Hiroaki et al. 2019. "ShamFinder: An Automated Framework for Detecting IDN Homographs." _IMC '19: Proceedings of the Internet Neasurement Conference._ 449–462. [doi:10.1145/3355369.3355587](https://doi.org/10.1145/3355369.3355587)
+Suzuki, Hiroaki et al. 2019. "ShamFinder: An Automated Framework for Detecting IDN Homographs." _IMC '19: Proceedings of the Internet Measurement Conference._ 449–462. [doi:10.1145/3355369.3355587](https://doi.org/10.1145/3355369.3355587)
 
 
 ## Week 3 | 26 October | Seeing what we want to see
