@@ -251,7 +251,7 @@ The stemmatic method has sometimes been derided as overly "mechanical," and some
 
 Bakker, Hans T. 2019. "Some Methodological Considerations with Respect to the Critical Edition of Puranic Literature." In *Holy Ground: Where Art and Text Meet.* Leiden: Brill. 175–184. <https://doi.org/10.1163/9789004412071_010>
 
-Biardeau, Madeleine. "Some More Considerations About Textual Criticism." *Purāṇa* X(2): 115–123.
+Biardeau, Madeleine. 1968. "Some More Considerations About Textual Criticism." *Purāṇa* X(2): 115–123.
 
 Katre, S. M. & P. K. Gode. 1941. *Introduction to Indian Textual Criticism.* Bombay: Karnatak Publishing House. [archive.org/details/IntroductionToIndianTextualCriticismS.M.Kartre](https://archive.org/details/IntroductionToIndianTextualCriticismS.M.Kartre)
 
