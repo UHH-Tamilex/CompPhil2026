@@ -1,4 +1,5 @@
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -23,7 +24,7 @@
   This short manuscript contains a collection of Sanskrit <term xml:lang="sa">mantra</term>s, each preceded by a title in Tibetan. It begins with a mantra for indigestion and ends with a mantra for general self-protection. Most of these mantras can be found in the <ref target="https://online.adarshah.org/index.html?kdb=jiangkangyur&amp;sutra=J763&amp;page=105-297b">Kangyur</ref>.
 </p></summary>
                   
-               <msItem xml:id="T1" defective="false"><title xml:lang="bo-Tibt">སྔགས་འབུམ་གྱིས་དབུ་</title><textLang mainLang="bod"/><rubric xml:lang="bo-Tibt"><pb n="1r" facs="3"/> <lb/>༄༅།། <space/> །།སྔགས་འབུམ་གྱིས་དབུ་བཞུགསྷོ་</rubric><incipit xml:lang="bo-Tibt"><pb n="1v" unit="folio" facs="4"/> <lb/>༄༅།། <space/>   །།མ་ཞུ་བའི་ནད་ཞི་བར་བྱེད་པའི་སྔགས་ <space/> ཏདྱ་ཐཱ་ <space/> ཧུ་རེ་ཧུ་རེ་ཧུ་ཊ་ག་ཏ་ནེ་སྭཱ་ཧཱ་ <space/> ༈ <space/></incipit><explicit xml:lang="bo-Tibt"><pb n="2r" facs="5"/><lb n="6"/>སུ་ཤྲི་ཡེ་ན་མ་ཨུཏྟ་མ་ཤྲི་ཡེ་སྭཱ་ཧཱ། <space/> ༈ <space/> བདག་བསྲུང་བའི་སྔགས་ <space/> ཏདྱ་ཐཱ་ <space/> ཨོཾ་ཨ་ལི་ཀཱ་ལི་ཨ་ལི་ཀཱ་ལི་མུཏ་ཙི་ཏེ་<lb n="7"/>སྭཱ་ཧཱ་</explicit></msItem></msContents>
+               <msItem xml:id="T1" defective="false"><title xml:lang="bo-Tibt">སྔགས་འབུམ་གྱིས་དབུ་</title><textLang mainLang="bod"/><rubric xml:lang="bo-Tibt"><pb n="1r" facs="3"/> <lb/>༄༅།།  །།སྔགས་འབུམ་གྱིས་དབུ་བཞུགསྷོ་</rubric><incipit xml:lang="bo-Tibt"><pb n="1v" unit="folio" facs="4"/> <lb/>༄༅།། །།མ་ཞུ་བའི་ནད་ཞི་བར་བྱེད་པའི་སྔགས་  ཏདྱ་ཐཱ་  ཧུ་རེ་ཧུ་རེ་ཧུ་ཊ་ག་ཏ་ནེ་སྭཱ་ཧཱ་  ༈ </incipit><explicit xml:lang="bo-Tibt"><pb n="2r" facs="5"/><lb n="6"/>སུ་ཤྲི་ཡེ་ན་མ་ཨུཏྟ་མ་ཤྲི་ཡེ་སྭཱ་ཧཱ།  ༈  བདག་བསྲུང་བའི་སྔགས་  ཏདྱ་ཐཱ་  ཨོཾ་ཨ་ལི་ཀཱ་ལི་ཨ་ལི་ཀཱ་ལི་མུཏ་ཙི་ཏེ་<lb n="7"/>སྭཱ་ཧཱ་</explicit></msItem></msContents>
                <physDesc>
                   
                   

@@ -1,0 +1,96 @@
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Bhāgavatapurāṇa</title></title>
+            
+         <editor role="cataloguer"><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Biblioteca Apostolica Vaticana</orgName>
+                  </repository>
+                  <idno type="shelfmark">Borg.ind.64</idno>
+                  <idno type="alternate"><idno>Provvisorio 27</idno></idno>
+               <idno type="URI">https://digi.vatlib.it/mss/detail/293783</idno></msIdentifier>
+               <msContents class="#STM">
+            <summary>Although this manuscript bears a <locus facs="3">paper note</locus> stating that it is the dictionary of <term xml:lang="sa">Amarasiṃha</term>, it contains rather the text of the <title xml:lang="sa">Bhāgavatapurāṇa</title>, <term xml:lang="sa">skandha</term> 10, from the beginning of <term xml:lang="sa">adhyāya</term> 1 to the <ref target="https://archive.org/details/Bhagavata_Purana_With_Multiple_Commentaries_TTD_Critical_Edition/Srimad%20Bhagavata%20Mahapuranam%20Skandha%2010%20Part%203/page/182/mode/1up">end</ref> of <term xml:lang="sa">adhyāya</term> 72. The first folio is unnumbered; folio numbering begins with the second folio, numbered 1 onwards. A number of folios are missing. A <locus facs="5">leaf</locus> from what seems to be a different manuscript, in Malayalam, has been inserted at the beginning.</summary>
+                  
+               <msItem defective="true"><title xml:lang="sa">Bhāgavatapurāṇa — skandha 10</title><textLang mainLang="san"/><rubric xml:lang="sa"><milestone n="0r" unit="folio" facs="9"/>
+<lb n="1"/>hariḥ śrīgaṇapataye namaḥ | avighnam astu | viṣṇurātaḥ |</rubric><incipit xml:lang="sa">kathito vaṃśavistāro bhavatā somasūryyayoḥ rājñāñ cobhayavaṃśyānāṃ caritaṃ paramātbhūtaṃ</incipit><explicit xml:lang="sa"><milestone n="107v" facs="186" unit="folio"/>
+<lb n="9"/>prajāḥ hāhākāro mahān āsīn nihate magadheśvare pūjayām āsatur bhīmaṃ parirabhya jayācyatau sadehadevan tattanayaṃ bhagavān_ bhūtabhāvanaḥ abhyaṣiñcad ameyātmā magadhānāṃ</explicit></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="2"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="101">1 + blank folio + unnumbered folio + 1-56, 76, 78-80, 82-85, 85bis-95, 97-105, 2 blank folios, 106-107</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <collation/>
+                        
+                        
+                     <foliation>Malayalam letter-numerals, left margin, recto, starting from the second folio (numbered 1).</foliation><condition>Some damage; part of the last folio missing.</condition></supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines="9 10"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="major" script="malayalam" scriptRef="#dotReph" medium="incised soot"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc type="documenting-note" subtype="title-page">On a <locus facs="3">paper title page, recto</locus>: <quote rend="block" xml:lang="la">
+  <lb n="1"/>Arm.6. Fila 4. Vol. III.
+  <lb n="2"/>Vocabularum Brahmanicum dictum
+  <lb n="3"/>Amarasimha
+  <lb n="4"/>Vide lib cui tit<del rend="scribble"><gap reason="illegible"/></del>
+</quote>
+
+On the <locus facs="4">verso</locus>: <quote rend="block" xml:lang="la">
+  <lb n="1"/>Arm.6. Fila 4. Vol. III.
+  <lb n="2"/>Vocabularum Brahmanicum
+  <lb n="3"/>dictum Amarasimha
+  <lb n="4"/>Vide lib cui tit. Examen Ind. Codic. Bibliot de Prop. Fide
+  <lb n="5"/>pag 76. N<hi rend="superscript">o</hi> 1. in notis. 
+</quote></desc><desc type="blessing" subtype="beginning marginal left"><locus facs="9">first folio, recto</locus>: <q xml:lang="sa"><unclear>śrī</unclear></q></desc><desc type="shelfmark" subtype="cover right">On the <locus facs="1">front cover</locus>: <q>Mus. Borg. P. F. Indiano 64</q>.</desc><desc type="shelfmark" subtype="cover right">On the <locus facs="193">back cover</locus>: <q>Mus. Borg. P. F. Provvisorio 27</q>.</desc></additions>
+                  <bindingDesc>
+                     <binding/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Narasiṃhācārya, N. C. V. (1997). <title xml:lang="sa"><ref target="https://archive.org/details/Bhagavata_Purana_With_Multiple_Commentaries_TTD_Critical_Edition/Srimad%20Bhagavata%20Mahapuranam%20Skandha%2010%20Part%201">Śrīmadbhāvagatapurāṇam — daśamaḥ skandhaḥ, prathamo bhāgaḥ</ref></title>. Tirupati: Tirumala Tirupati Devasthanams.</bibl><bibl>Narasiṃhācārya, N. C. V. (2000). <title xml:lang="sa"><ref target="https://archive.org/details/Bhagavata_Purana_With_Multiple_Commentaries_TTD_Critical_Edition/Srimad%20Bhagavata%20Mahapuranam%20Skandha%2010%20Part%202/">Śrīmadbhāvagatapurāṇam — daśamaḥ skandhaḥ, dvitīyo bhāgaḥ</ref></title>. Tirupati: Tirumala Tirupati Devasthanams.</bibl><bibl>Narasiṃhācārya, N. C. V. (2003). <title xml:lang="sa"><ref target="https://archive.org/details/Bhagavata_Purana_With_Multiple_Commentaries_TTD_Critical_Edition/Srimad%20Bhagavata%20Mahapuranam%20Skandha%2010%20Part%203/">Śrīmadbhāvagatapurāṇam — daśamaḥ skandhaḥ, tṛtīyo bhāgaḥ</ref></title>. Tirupati: Tirumala Tirupati Devasthanams.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>IAST transliteration. An underscore (_) represents an explicit hiatus.</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2022-04">First version.</change></revisionDesc>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+   <facsimile>
+   <graphic url="https://digi.vatlib.it/iiif/MSS_Borg.ind.64/manifest.json"/></facsimile>
+</TEI>

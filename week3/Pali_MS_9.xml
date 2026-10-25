@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <script src="../lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="pi">Dhammapadaṭṭhakathā</title></title>
+            
+         <editor role="cataloguer"><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>University of Manchester</orgName>
+                  </repository>
+                  <idno type="shelfmark">Pali MS 9</idno>
+                  <idno type="alternate"><idno>R38601</idno></idno>
+               <idno type="URI">https://www.digitalcollections.manchester.ac.uk/view/MS-PALI-00009</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>This manuscript contains the complete text of the commentary, attributed to <persName xml:lang="pi">Buddhaghosa</persName>, to the <title xml:lang="pi">Dhammapada</title>. It includes a table of contents at the beginning.</p>
+<p>This manuscript is among a large collection that was given by T. W. Rhys-Davids to the John Rylands Library at the University of Manchester. Although the printed catalogue gives no date, and the online catalogue record states that it is <q>undated</q>, there is a <term xml:lang="sa">Śaka</term> era date at the end of the manuscript.</p>Korzybski </summary>
+                  
+               <msItem defective="false"><title xml:lang="pi">Dhammapadaṭṭhakathā</title><author xml:lang="pi">Buddhaghosa</author><textLang mainLang="pli"/><rubric xml:lang="pi"><pb n="1v" facs="7"/>
+<lb n="1"/>namo tassa bhagavato arahato sammāsambuddhassa ෴</rubric><incipit xml:lang="pi"><pb n="1v" facs="7"/>
+<lb n="1"/><gap reason="ellipsis"/>mahāmohatamonaddho loke lokantadassinā</incipit><explicit xml:lang="pi"><pb n="302v" facs="310"/>
+<lb n="9"/><gap reason="ellipsis"/>෴ vaṃsālaṃkārabhūtena vipulavisuddhinā buddhaghoso ti guruhi gahitanāmadheyyena katā ayaṃ dhammapada<lb n="10"/>ssa atthavaṇṇanā ෴෴෴ sivam astu ෴෴෴෴ sakābdam― rāyisatyam ෴෴෴෴෴෴෴෴෴෴෴෴෴෴෴෴</explicit></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="folio" quantity="305"/>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="455"/>
+                              <height quantity="55"/>
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines="9 11"/>
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote scope="sole" script="sinhala"/></handDesc><additions>
+                  <desc type="blessing" subtype="beginning marginal left">On <locus facs="7:1">1v</locus>, <q xml:lang="sa">svasti siddham</q> written across three lines, with the final <q xml:lang="sa">m</q> in the middle next to the folio number 1 (<q xml:lang="sa">ka</q>).</desc></additions><bindingDesc>
+                     <binding>
+                        <p>Decorated wood cover.</p>
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole" quantity="2"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" notBefore="1790" notAfter="1791">According to the <term xml:lang="sa">Kaṭapayādi</term> numeral system, this manuscript is dated to <term xml:lang="sa">Śaka</term> 1712 (<term xml:lang="sa">rāyisatyam</term>).</origDate>
+                     
+                  <origPlace>Sri Lanka</origPlace></origin><acquisition><p>According to the catalogue, this manuscript was presented to the university in 1915 by T. W. Rhys-Davids.</p></acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Jayawickrama, N.A. 1972. <title type="article"><ref target="https://luna.manchester.ac.uk/luna/servlet/media/book/showBook/Manchester~25~25~1713~198920">Pali Manuscripts in the John Rylands University Library of Manchester,</ref></title> <title>Bulletin of the John Rylands Library</title> 55(1): 152.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc/><xenoData type="webannotation"><![CDATA[[["https://www.digitalcollections.manchester.ac.uk/iiif/MS-PALI-00009/canvas/7",{"id":"https://www.digitalcollections.manchester.ac.uk/iiif/MS-PALI-00009/canvas/7","items":[{"body":{"type":"TextualBody","value":"<p>sva sti</p>\n<p>m 1</p>\n<p>si ddha</p>"},"id":"2ea17770-2555-4dcb-be60-7110c018420d","motivation":"commenting","target":{"source":"https://www.digitalcollections.manchester.ac.uk/iiif/MS-PALI-00009/canvas/7","selector":[{"type":"FragmentSelector","value":"xywh=177,219,380,316"},{"type":"SvgSelector","value":"<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M177.48291,536.21577v-316.70443h380.37181v316.70443z\" data-paper-data=\"{&quot;state&quot;:null}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"}]},"type":"Annotation"}],"type":"AnnotationPage"}]]]]></xenoData></teiHeader>
+   <facsimile>
+   <graphic url="https://www.digitalcollections.manchester.ac.uk/iiif/MS-PALI-00009"/></facsimile>
+</TEI>

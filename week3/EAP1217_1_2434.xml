@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <script src="../lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Tivākaram — Teyvappeyart tokuti</title></title>
+            
+         <editor role="cataloguer"><persName>Charles Li</persName><orgName>Universität  Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>Tamilex</publisher>
+            <date>2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Tamil University</orgName>
+                  </repository>
+                  <idno type="shelfmark">EAP1217/1/2434</idno>
+                  <idno type="alternate"><idno>TU_TAMIL_1879_2402</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>This manuscript contains the first chapter of the <title xml:lang="ta">Tivākaram</title>, a Tamil thesaurus. This chapter, containing names of gods, is the most widely circulated.</summary>
+                  
+               <msItem defective="false"><title xml:lang="ta">Tivākaram</title><textLang mainLang="tam"/><incipit xml:lang="ta">civaṉ peyar
+caṅkara tiraiyoṉ
+kāmattaṇṇaṉ
+kaṅkātaraṉe
+karaimiṭattaṇṇal
+kūttaiyutaittoṉ
+kuṉṟaivilli
+yettuvākaṉaṉ
+tiriyampakaṉcoti
+nakkaccaṭaiyoṉ</incipit><explicit xml:lang="ta">centamiḷk kaviññaṉ
+kaviyaraṅ keṟum
+upaiyakavip pulavaṉ
+cerikuṇat taṉ
+paṇ kiḷavoṉ centaṉ
+arivuk karivāka
+tericoṟ tivākaṟattu
+</explicit><finalRubric xml:lang="ta">mutalāvatu teyvappeyar
+ttokuti mutintatu muṟṟum <g ref="#pcs"/></finalRubric></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf palmyra">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="folio" quantity="26"/>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="390"/>
+                              <height quantity="30"/>
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent><foliation>Tamil numerals, left margin, verso.</foliation></supportDesc>
+                     <layoutDesc>
+                        <layout columns="4"/>
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote scope="sole" script="tamil" medium="black incised"><desc>The scribe often substitutes <q xml:lang="ta">tta</q> for <q xml:lang="ta">ṟṟa</q>.</desc></handNote></handDesc><additions>
+                  <desc type="title" subtype="beginning marginal left">In the left margin of <locus facs="6">1r</locus>, <q xml:lang="ta" rend="block">
+  <lb/>tivāka<sic>ṟa</sic>m
+  <lb/>mutalāvatu
+    <lb/>teyvappeya
+    <lb break="no"/>rt tokuti
+</q></desc></additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole" quantity="1"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>Madras lexicon transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+   <graphic url="https://eap.bl.uk/archive-file/EAP1217-1-2434/manifest"/></facsimile>
+</TEI>

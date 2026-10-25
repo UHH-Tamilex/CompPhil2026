@@ -1,0 +1,125 @@
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="hi">Bhavaragītā</title></title>
+            
+         <editor role="cataloguer"><persName>Akshara Ravishankar Parmeswaran</persName><orgName>University of Chicago</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 703</idno>
+                  <idno type="alternate"><idno>Indien 57</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1046668</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/kw52jh37p</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>A copy of the <title xml:lang="hi">Bhavaragītā</title>, a version of the <title xml:lang="sa">Bhagavadgītā</title> in Braj (western Hindi).</p>
+<p>Seemingly a conversation between <term xml:lang="sa">Kṛṣṇa</term> and the <foreign xml:lang="sa">gopī</foreign>s. From the collection of Charles d’Ochoa (1816-1846).</p></summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="hi-Deva">भवरगीता</title><textLang mainLang="hin"/><rubric xml:lang="hi-Deva">श्री गणेशाय नमः 
+श्री राधाय ॥ चौपई ॥<space/>॥<space/>॥</rubric><incipit xml:lang="hi-Deva">ऊधौ को उपदेश सुनौ ब्रज नागरी ॥ 
+रूप सील लावन्य सवै गुन आगरी ॥ 
+प्रेम धुजार सरुपिनी उपजावन सुष पुंज ॥ 
+सुंदर शाम विलासिनी नववृंदावन कुंज ॥ 
+सुनो ब्रज बासिनी ॥ १ ॥
+कह्यो जस्याम संदेस एक मै तुम पैल्योयौ ॥ 
+कहन समे संकेत कहूं औसरहि पायौ ॥ 
+सोचत ही मन मे रह्यो कव पाउ इक ठांउ ॥
+<lb n="11"/>कहि संदेस न दलाल कौ वहुरी मधुपुरि जाउ ॥
+<lb n="12"/>सुनौ व्रज नागरी ॥ २ ॥
+<lb n="13"/>सुनत स्यम को नाम ग्राम गृह की सुधी भूली ॥
+<lb n="14"/>भरी आनंद रस हृदौ प्रम वोली इगफुली ॥
+<lb n="15"/>फुल की रोम सब अंग भय भरी आये जलनेन ॥
+<lb n="16"/>कंठ घुटे गदगिरा वोले जंतन वेन ॥</incipit><explicit xml:lang="hi-Deva">विषम प्रेम आवे सरहि नाही सुधि कोऊ ॥ 
+ोम रोम प्रति गोपि का क्यै गये सावल गात ॥
+कल्पतरो वर सावरौ ऴजवनित भई पात ॥
+उलहि अंग अंगते ॥ ७३ ॥
+कैसु चेत कही भले सषा पठ ये सुधी लावनी ॥
+अवगुन हमरे आनि तहा ते लगि दिषावन ॥ 
+ो मे उनमे आतरौ एकौ छिन भरी नाही ॥
+दो देवि मो मां सवे त्यौ मे उनहि मांहि ॥
+तरंगनी तारिज्यौ ॥ ७४ ॥
+गोपी आय दिषय एक करि के बन बारी ॥
+ऊधौ को भरम नीर बारि डारीव्या मोह कजारी ॥
+अपनो रूप दिषाय केली नो वहुरी दुराई ॥
+जनमुकुंद पावन भयौ सो वह लीला गाई ॥
+प्रेमरस पूजनी ॥ ७५ ॥ </explicit><finalRubric xml:lang="hi-Deva">इति श्री भवरगीत संपूर्णं ॥</finalRubric><colophon xml:lang="hi-Deva">श्री राम राम
+श्री राम कृष्नाय नमः ॥ ꣸ ॥</colophon></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="codex" rend="manuscript">
+                     <supportDesc material="paper">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="folio" quantity="16">{2} + 12 + {2} (u1 + U1 + u2)</measure>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           <width quantity="150"/><height quantity="245"/><depth quantity="5"/></dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="240"/>
+                              <height quantity="145"/>
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent><collation><desc xml:id="u1">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Element of binding. f[1]r marbled. 240 x 145 mm.</desc><desc xml:id="U1">12 folios = front <emph rend="bold"><title xml:lang="sa">Bhavaragītā</title>: Text</emph>. Nāgarī pagination 1-23 (recto and verso, top, middle). Library Arabic foliation 1-12 (recto top, right side). 240 x 145 mm.
+</desc><desc xml:id="u2">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Element of binding. f[2]v marbled. 240 x 145 mm.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines="17"/>
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote synch="#U1" scope="sole" script="devanagari" medium="ink black"/></handDesc><additions>
+                  <desc type="title" subtype="spine">Title printed in golden letters on the <locus facs="2">spine</locus>:
+<quote xml:lang="fr" rend="block">
+  BHAOR GUIT. POÈME BRIDJ BHACHA.
+</quote>
+       
+</desc><desc subtype="spine">BnF current shelfmark sticker: <quote>INDIEN 702</quote> (<locus facs="2">spine</locus>).</desc><desc subtype="cover front">BnF current shelfmark sticker: <quote>INDIEN 703</quote> (<locus facs="6">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">Shelfmark in black ink (<locus facs="7">f[2]r</locus>):
+<quote xml:lang="fr"> Ind. 57</quote></desc></additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    <p>Bound as a codex. ― The manuscript arrived without any binding. The binding was ordered by the BnF in the second half of the 19th century. From the use of fleurons surrounding the titling along the length of the spine without nerves, the binder appears to be M. <persName xml:lang="fr" role="binder">Zoubre</persName>, with whom the Library worked at that time. [information supplied by Jérôme Petit]</p></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" when="1842" notAfter="1846">No internal date. Dated to the 19th century by Cabaton (1912), on unstated grounds. Not after <persName role="collector"><ref target="https://catalogue.bnf.fr/ark:/12148/cb14379526x">Charles d'Ochoa</ref></persName> (1816-1846).</origDate>
+                     
+                  <origPlace>North India.</origPlace></origin><provenance><p>From the collection of <persName role="collector"><ref target="https://catalogue.bnf.fr/ark:/12148/cb14379526x">Charles d'Ochoa</ref></persName> (1816-1846).</p></provenance><acquisition><p>Acquired in 1847. See <title xml:lang="fr">BnF, département des Manuscrits, inventaire 1 = Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, nos. 4399.</p></acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine. 1912. <title xml:lang="fr">Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f120">p. 101, no. 703</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>Original text encoded / transliterated in Devanāgarī script.</p></encodingDesc>
+      
+   <revisionDesc><change when="2022-08">First version.</change><change when="2023-03">Revised and updated by <persName>Emmanuel FRANCIS</persName>. Version 1, March 2023.</change><change when="2023-01">Updated by <persName>Emmanuel FRANCIS</persName> with information supplied by Jérome Petit about the BnF acquisition number and the binding made for the BnF. Version 2, April 2023.</change></revisionDesc></teiHeader>
+   <facsimile>
+   </facsimile>
+</TEI>
