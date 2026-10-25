@@ -72,7 +72,7 @@ We will continue to discuss the limits of transcription by looking at various ex
 
 Bucher, Konrad. 2023. "Towards an ultra-diplomatic transcription of Wittgenstein's Nachlass." *Nordic Wittgenstein Review* 11. [doi:10.15845/nwr.v11.3655](https://doi.org/10.15845/nwr.v11.3655)
 
-Formigatti, Camillo. 2024. "&lt;title type='main'&gt;From the Shelves to the Web: Cataloguing Sanskrit Manuscripts in the Digital Era&lt;/title&gt;." In Francis & Wilden, eds., _South-Indian Manuscripts in Hamburg and Paris: Paratexts & Provenance._ Hamburg: Department of Indian & Tibetan Studies, Universität Hamburg. [doi:10.25592/uhhfdm.18222](https://www.fdr.uni-hamburg.de/record/18223)
+Formigatti, Camillo. 2025. "&lt;title type='main'&gt;From the Shelves to the Web: Cataloguing Sanskrit Manuscripts in the Digital Era&lt;/title&gt;." In Francis & Wilden, eds., _South-Indian Manuscripts in Hamburg and Paris: Paratexts & Provenance._ Hamburg: Department of Indian & Tibetan Studies, Universität Hamburg. [doi:10.25592/uhhfdm.18222](https://www.fdr.uni-hamburg.de/record/18223)
 
 Fowler, Robert L. 2024. "The Hercuaneum Papyri." _Manuscript Text and Cultures_ 3(1): 84–105. [doi:10.56004/v3.1rlf](https://doi.org/10.56004/v3.1rlf)
 
