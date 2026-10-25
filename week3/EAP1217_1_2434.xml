@@ -20,6 +20,7 @@
                   </repository>
                   <idno type="shelfmark">EAP1217/1/2434</idno>
                   <idno type="alternate"><idno>TU_TAMIL_1879_2402</idno></idno>
+                  <idno type="URI">https://eap.bl.uk/archive-file/EAP1217-1-2434</idno>
                </msIdentifier>
                <msContents class="#STM">
                   <summary>This manuscript contains the first chapter of the <title xml:lang="ta">Tivākaram</title>, a Tamil thesaurus. This chapter, containing names of gods, is the most widely circulated.</summary>
