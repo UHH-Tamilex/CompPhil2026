@@ -74,6 +74,10 @@ Bucher, Konrad. 2023. "Towards an ultra-diplomatic transcription of Wittgenstein
 
 Fowler, Robert L. 2024. "The Hercuaneum Papyri." _Manuscript Text and Cultures_ 3(1): 84–105. [doi:10.56004/v3.1rlf](https://doi.org/10.56004/v3.1rlf)
 
+Gough, Archibald Edward. 1878. _Papers relating to the collection and preservation of the reords of ancient Sanskrit literature in India._ Calcutta: Office of Superintendent of Government Printing. [urn:oclc:record:1050259780](https://archive.org/details/papersrelatingto00gougrich/)
+
+Hiralal, Rai Bahadur. 1926. _Catalogue of Sanskrit & Prakrit Manuscripts in the Central Provinces and Berar._ Nagpur: Government Press. [ark:/13960/t51g6351j](https://archive.org/details/in.ernet.dli.2015.107162/)
+
 Kierkegaard, Søren. 1920. *Samlede Værker: Enten ― Eller. Andet Bind.* Edited by Anders Bjørn Drachmann et al. Kjøbenhavn: Gyldendal. [332](https://archive.org/details/enteneller02kier/page/332/mode/1up)–[335](https://archive.org/details/enteneller02kier/page/335/mode/1up).
 
 Kierkegaard, Søren. 1978. "The Wife of the Orientalist." In *Parables of Kierkegaard.* Edited by Thomas C. Oden. Princeton: Princeton University Press. 126–127.
