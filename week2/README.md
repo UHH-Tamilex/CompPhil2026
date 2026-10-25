@@ -10,6 +10,8 @@
 * Endangered Archives Project <https://eap.bl.uk>
 * Franckesche Stiftungen <https://digital.francke-halle.de/fsha/nav/classification/495501>
   * mainly Tamil Christian
+* Hill Museum &amp; Manuscript Library <https://vhmml.org>
+  * Ālakkāṭṭŭ Mana Collection (DiPiKA) <https://www.vhmml.org/readingRoom/view/176382>
 * International Dunhuang Project <https://idp.bl.uk/discover/collection-categories/manuscripts/>
 * Internet Archive <https://archive.org>
   * Columbia University Libraries <https://archive.org/details/ColumbiaUniversityLibraries?tab=collection&and[]=language%3A%22Sanskrit%22&and[]=language%3A%22Tibetan%22&and[]=language%3A%22Prakrit%22>
