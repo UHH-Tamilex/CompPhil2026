@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <script src="../lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -23,7 +21,7 @@
                <idno type="URI">https://www.digitalcollections.manchester.ac.uk/view/MS-PALI-00009</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>This manuscript contains the complete text of the commentary, attributed to <persName xml:lang="pi">Buddhaghosa</persName>, to the <title xml:lang="pi">Dhammapada</title>. It includes a table of contents at the beginning.</p>
-<p>This manuscript is among a large collection that was given by T. W. Rhys-Davids to the John Rylands Library at the University of Manchester. Although the printed catalogue gives no date, and the online catalogue record states that it is <q>undated</q>, there is a <term xml:lang="sa">Śaka</term> era date at the end of the manuscript.</p>Korzybski </summary>
+<p>This manuscript is among a large collection that was given by T. W. Rhys-Davids to the John Rylands Library at the University of Manchester. Although the printed catalogue gives no date, and the online catalogue record states that it is <q>undated</q>, there is a <term xml:lang="sa">Śaka</term> era date at the end of the manuscript.</p></summary>
                   
                <msItem defective="false"><title xml:lang="pi">Dhammapadaṭṭhakathā</title><author xml:lang="pi">Buddhaghosa</author><textLang mainLang="pli"/><rubric xml:lang="pi"><pb n="1v" facs="7"/>
 <lb n="1"/>namo tassa bhagavato arahato sammāsambuddhassa ෴</rubric><incipit xml:lang="pi"><pb n="1v" facs="7"/>
