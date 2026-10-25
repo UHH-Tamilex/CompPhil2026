@@ -20,6 +20,10 @@ Manchester Pali MS 9 _Dhammapadaṭṭhakathā._
 
 Vatican Library IND 64 _Bhāgavatapurāṇa._
 
+## TST Guide
+
+A very comprehensive guide to transcription using the TST Editor, via [Google Docs](https://docs.google.com/document/d/14b1KnY2tKPWLvLcopoaUS0CWR13NHhV9f0QvKXrCrKE/edit?usp=sharing).
+
 ## workshop in TEI XML
 
 26–27 November 2026, led by Eugenia Sokolinski.
