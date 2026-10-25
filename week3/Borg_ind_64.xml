@@ -7,7 +7,7 @@
          <editor role="cataloguer"><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2026</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -25,31 +25,33 @@
 <lb n="1"/>hariḥ śrīgaṇapataye namaḥ | avighnam astu | viṣṇurātaḥ |</rubric><incipit xml:lang="sa">kathito vaṃśavistāro bhavatā somasūryyayoḥ rājñāñ cobhayavaṃśyānāṃ caritaṃ paramātbhūtaṃ</incipit><explicit xml:lang="sa"><milestone n="107v" facs="186" unit="folio"/>
 <lb n="9"/>prajāḥ hāhākāro mahān āsīn nihate magadheśvare pūjayām āsatur bhīmaṃ parirabhya jayācyatau sadehadevan tattanayaṃ bhagavān_ bhūtabhāvanaḥ abhyaṣiñcad ameyātmā magadhānāṃ</explicit></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
-                        <support>
-                           <measure unit="stringhole" quantity="2"/>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
-                        </support>
-                        <extent>
+                           
+                        </support><extent>
                            <measure unit="folio" quantity="101">1 + blank folio + unnumbered folio + 1-56, 76, 78-80, 82-85, 85bis-95, 97-105, 2 blank folios, 106-107</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        <collation/>
-                        
-                        
-                     <foliation>Malayalam letter-numerals, left margin, recto, starting from the second folio (numbered 1).</foliation><condition>Some damage; part of the last folio missing.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><foliation>Malayalam letter-numerals, left margin, recto, starting from the second folio (numbered 1).</foliation><condition>Some damage; part of the last folio missing.</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="9 10"/>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc><handNote scope="major" script="malayalam" scriptRef="#dotReph" medium="incised soot"/></handDesc>
-                  <decoDesc>
-                  </decoDesc>
-                  <additions>
+                  </objectDesc><handDesc><handNote scope="major" script="malayalam" scriptRef="#dotReph" medium="incised soot"/></handDesc><decoDesc>
+                  </decoDesc><additions>
                   <desc type="documenting-note" subtype="title-page">On a <locus facs="3">paper title page, recto</locus>: <quote rend="block" xml:lang="la">
   <lb n="1"/>Arm.6. Fila 4. Vol. III.
   <lb n="2"/>Vocabularum Brahmanicum dictum
@@ -63,19 +65,17 @@ On the <locus facs="4">verso</locus>: <quote rend="block" xml:lang="la">
   <lb n="3"/>dictum Amarasimha
   <lb n="4"/>Vide lib cui tit. Examen Ind. Codic. Bibliot de Prop. Fide
   <lb n="5"/>pag 76. N<hi rend="superscript">o</hi> 1. in notis. 
-</quote></desc><desc type="blessing" subtype="beginning marginal left"><locus facs="9">first folio, recto</locus>: <q xml:lang="sa"><unclear>śrī</unclear></q></desc><desc type="shelfmark" subtype="cover right">On the <locus facs="1">front cover</locus>: <q>Mus. Borg. P. F. Indiano 64</q>.</desc><desc type="shelfmark" subtype="cover right">On the <locus facs="193">back cover</locus>: <q>Mus. Borg. P. F. Provvisorio 27</q>.</desc></additions>
-                  <bindingDesc>
-                     <binding/>
-                  </bindingDesc>
-               </physDesc>
+</quote></desc><desc type="blessing" subtype="beginning marginal left"><locus facs="9">first folio, recto</locus>: <q xml:lang="sa"><unclear>śrī</unclear></q></desc><desc type="shelfmark" subtype="cover right">On the <locus facs="1">front cover</locus>: <q>Mus. Borg. P. F. Indiano 64</q>.</desc><desc type="shelfmark" subtype="cover right">On the <locus facs="193">back cover</locus>: <q>Mus. Borg. P. F. Provvisorio 27</q>.</desc></additions><bindingDesc>
+                     <binding><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian"/>
                      
-                  </origin>
-                  <provenance/>
-                  <acquisition/>
-               </history>
+                  </origin></history>
                <additional>
                   <listBibl>
                      
@@ -87,10 +87,10 @@ On the <locus facs="4">verso</locus>: <quote rend="block" xml:lang="la">
       <encodingDesc>
          
       <p>IAST transliteration. An underscore (_) represents an explicit hiatus.</p></encodingDesc>
-      <revisionDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2022-04">First version.</change></revisionDesc>
-   <xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2022-04">First version.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://digi.vatlib.it/iiif/MSS_Borg.ind.64/manifest.json"/></facsimile>
 </TEI>
