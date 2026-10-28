@@ -12,6 +12,7 @@
   * mainly Tamil Christian
 * Hill Museum &amp; Manuscript Library <https://vhmml.org>
   * Ālakkāṭṭŭ Mana Collection (DiPiKA) <https://www.vhmml.org/readingRoom/view/176382>
+  * DREAMSEA project <https://www.hmmlcloud.org/dreamsea/index.php>
 * International Dunhuang Project <https://idp.bl.uk/discover/collection-categories/manuscripts/>
 * Internet Archive <https://archive.org>
   * Columbia University Libraries <https://archive.org/details/ColumbiaUniversityLibraries?tab=collection&and[]=language%3A%22Sanskrit%22&and[]=language%3A%22Tibetan%22&and[]=language%3A%22Prakrit%22>
