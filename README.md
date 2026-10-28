@@ -74,7 +74,7 @@ Bucher, Konrad. 2023. "Towards an ultra-diplomatic transcription of Wittgenstein
 
 Formigatti, Camillo. 2025. "&lt;title type='main'&gt;From the Shelves to the Web: Cataloguing Sanskrit Manuscripts in the Digital Era&lt;/title&gt;." In Francis & Wilden, eds., _South-Indian Manuscripts in Hamburg and Paris: Paratexts & Provenance._ Hamburg: Department of Indian & Tibetan Studies, Universität Hamburg. [doi:10.25592/uhhfdm.18222](https://www.fdr.uni-hamburg.de/record/18223)
 
-Fowler, Robert L. 2024. "The Hercuaneum Papyri." _Manuscript Text and Cultures_ 3(1): 84–105. [doi:10.56004/v3.1rlf](https://doi.org/10.56004/v3.1rlf)
+Fowler, Robert L. 2024. "The Herculaneum Papyri." _Manuscript Text and Cultures_ 3(1): 84–105. [doi:10.56004/v3.1rlf](https://doi.org/10.56004/v3.1rlf)
 
 Gough, Archibald Edward. 1878. _Papers relating to the collection and preservation of the reords of ancient Sanskrit literature in India._ Calcutta: Office of Superintendent of Government Printing. [urn:oclc:record:1050259780](https://archive.org/details/papersrelatingto00gougrich/)
 
@@ -100,12 +100,17 @@ Until now, we have focused on transcribing the main text of the manuscript, but 
 
 ### Bibliography
 
+Formigatti, Camillo. 2022. "Colophons in Fourteenth-Century Nepalese Manuscripts: Materials for the Study of the Nepalese Renaissance (I)." In *The Syntax of Colophons: A Comparative Study across Pothi Manuscripts.* Edited by Nalini Balbir & Giovanni Ciotti. Berlin: De Gruyter. [doi:10.1515/9783110795271-003](https://www.degruyterbrill.com/document/doi/10.1515/9783110795271-003/html)
+
+Franceschini, Marco. 2025. "On the Wrong Dates in the Colophons of Tamil Nadu MAnuscripts: Data, Observations, Interpretative Hypotheses." In *Praśasti: Studies in Indology Presented to Nalini Balbir by Colleagues, Students, and Friends.* Edited by Jérôme Petit & Georges-Jean Pinault. Halle an der Saale: Universitätsverlag Halle-Wittenberg. [fid4sa-repository.ub.uni-heidelberg.de/4643/13/Franceschini Praśasti.pdf](https://fid4sa-repository.ub.uni-heidelberg.de/4643/13/Franceschini%20Pras%CC%81asti.pdf)
+
 Li, Charles. 2025. "Scribes, editors, & librarians between tradition and modernity in late colonial India." In *South-Indian Manuscripts in Hamburg and Paris: Paratexts and Provenance.* Edited by Eva Wilden & Emmanuel Francis. Hamburg: Department of Indian & Tibetan Studies. [tst-project.github.io/cordier](https://tst-project.github.io/cordier/)
 
 Muroya Yasutaka. 2010.  "A Study on the Marginalia in Some Nyāyamañjarī Manuscripts: The Reconstruction of a Lost Portion of the Nyāyamañjarīgranthibhaṅga." *Wiener Zeitschrift für die Kunde Südasiens* LII-LIII: 213–267. [austriaca.at/0xc1aa5572%200x002452ac.pdf](https://austriaca.at/0xc1aa5572%200x002452ac.pdf)
 
 Prakash, Pranav. 2024. “Paratexting Persian Purāṇas: Probing Religious and Communal Boundaries in South Asian History.” *Textual Cultures: Texts, Contexts, Interpretation* 17(2): 157–193. [doi:10.14434/tc.v17i2.40322](https://doi.org/10.14434/tc.v17i2.40322)
 
+victornpb. 2024. "Photo Measurement Tool." _GitHub._ [github.com/victornpb/measure](https://github.com/victornpb/measure)
 
 ## Week 5 | 9 November | Comparing texts: tokenization
 
