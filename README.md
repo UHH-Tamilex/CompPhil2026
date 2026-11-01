@@ -90,27 +90,37 @@ Kriesel, D. 2015. "Lies, damned lies, and scans." Paper presented at FroSCon, Un
 
 TEI Consortium. 2026. "TEI: Guidelines for Electronic Text Encoding and Interchange." *Text Encoding Initiative*. Last updated 28 July. [www.tei-c.org/release/doc/tei-p5-doc/en/html](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html)
 
-## Week 4 | 2 November | Paratexts & metadata
+## Week 4 | 2 November | Reading outside the box
 
 Until now, we have focused on transcribing the main text of the manuscript, but there is a lot of information outside of that text that might be interesting for our research. Paratexts, in particular, give us a window into the life of the scribe and the context in which the text was copied. Marginal notes might contain snippets from lost texts. And non-textual information, such as leaf material, folio size, stringhole distance, and margin proportions, open up possibilities to study how written culture and technology spread across time and space.
 
 **Keywords**: blessing, colophon, completion statement, marginalia
 
-**Skills unlocked**: reading outside the box
+**Skills unlocked**: paratext sleuthery
 
 ### Bibliography
 
+Epishkina, Anna, et al. 2024. "Historical notes on Russian cryptography." _Journal of Computer Virology and Hacking Techniques_ 20: 277–293. [researchgate.net/publication/370774696_Historical_notes_on_Russian_cryptography](https://www.researchgate.net/publication/370774696_Historical_notes_on_Russian_cryptography)
+
 Formigatti, Camillo. 2022. "Colophons in Fourteenth-Century Nepalese Manuscripts: Materials for the Study of the Nepalese Renaissance (I)." In *The Syntax of Colophons: A Comparative Study across Pothi Manuscripts.* Edited by Nalini Balbir & Giovanni Ciotti. Berlin: De Gruyter. [doi:10.1515/9783110795271-003](https://www.degruyterbrill.com/document/doi/10.1515/9783110795271-003/html)
 
-Franceschini, Marco. 2025. "On the Wrong Dates in the Colophons of Tamil Nadu MAnuscripts: Data, Observations, Interpretative Hypotheses." In *Praśasti: Studies in Indology Presented to Nalini Balbir by Colleagues, Students, and Friends.* Edited by Jérôme Petit & Georges-Jean Pinault. Halle an der Saale: Universitätsverlag Halle-Wittenberg. [fid4sa-repository.ub.uni-heidelberg.de/4643/13/Franceschini Praśasti.pdf](https://fid4sa-repository.ub.uni-heidelberg.de/4643/13/Franceschini%20Pras%CC%81asti.pdf)
+Franceschini, Marco. 2025. "On the Wrong Dates in the Colophons of Tamil Nadu Manuscripts: Data, Observations, Interpretative Hypotheses." In *Praśasti: Studies in Indology Presented to Nalini Balbir by Colleagues, Students, and Friends.* Edited by Jérôme Petit & Georges-Jean Pinault. Halle an der Saale: Universitätsverlag Halle-Wittenberg. [fid4sa-repository.ub.uni-heidelberg.de/4643/13/Franceschini Praśasti.pdf](https://fid4sa-repository.ub.uni-heidelberg.de/4643/13/Franceschini%20Pras%CC%81asti.pdf)
+
+Heron-Allen, Edward. 1931. _The gods of the fourth world: being prolegomena towards a discourse upon the Buddhist religion and its acquired pantheon._  Pelican Press: London.
 
 Li, Charles. 2025. "Scribes, editors, & librarians between tradition and modernity in late colonial India." In *South-Indian Manuscripts in Hamburg and Paris: Paratexts and Provenance.* Edited by Eva Wilden & Emmanuel Francis. Hamburg: Department of Indian & Tibetan Studies. [tst-project.github.io/cordier](https://tst-project.github.io/cordier/)
 
 Muroya Yasutaka. 2010.  "A Study on the Marginalia in Some Nyāyamañjarī Manuscripts: The Reconstruction of a Lost Portion of the Nyāyamañjarīgranthibhaṅga." *Wiener Zeitschrift für die Kunde Südasiens* LII-LIII: 213–267. [austriaca.at/0xc1aa5572%200x002452ac.pdf](https://austriaca.at/0xc1aa5572%200x002452ac.pdf)
 
+Nosnitsin, Denis. 2015. "Deconstructing a manuscript collection: the case of Araʿro Täklä Haymanot (Gulo Mäḵäda, East Tǝgray)." In _Essays in Ethiopian Manuscript Studies,_ ed. A Bausi et al. Harrassowitz Verlag. 23–58. [https://academia.edu/38102816/Denis_Nosnitsin_Deconstructing_a_manuscript_collection_the_case_of_Araʿro_Täklä_Haymanot_Gulo_Mäḵäda_East_Tǝgray_](https://www.academia.edu/38102816/Denis_Nosnitsin_Deconstructing_a_manuscript_collection_the_case_of_Ara%CA%BFro_T%C3%A4kl%C3%A4_Haymanot_Gulo_M%C3%A4%E1%B8%B5%C3%A4da_East_T%C7%9Dgray_) 
+
 Prakash, Pranav. 2024. “Paratexting Persian Purāṇas: Probing Religious and Communal Boundaries in South Asian History.” *Textual Cultures: Texts, Contexts, Interpretation* 17(2): 157–193. [doi:10.14434/tc.v17i2.40322](https://doi.org/10.14434/tc.v17i2.40322)
 
+Oberliesen, Rolf. 1982. _Information, Daten, und Signale: Geschichte technischer Informationsverarbeitung._ Hamburg: Rowohlt Taschenbuch Verlag.
+
 victornpb. 2024. "Photo Measurement Tool." _GitHub._ [github.com/victornpb/measure](https://github.com/victornpb/measure)
+
+Yano M. & Fushimi M. 2004. "Pancanga (version 3.14)." _Kyoto Sangyo University._ [www.cc.kyoto-su.ac.jp/~yanom/pancanga](https://www.cc.kyoto-su.ac.jp/~yanom/pancanga/index.html)
 
 ## Week 5 | 9 November | Comparing texts: tokenization
 

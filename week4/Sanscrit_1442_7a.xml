@@ -1,0 +1,129 @@
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Saṃkrāntadhanaviṣaya</title></title>
+            
+         <editor role="cataloguer"><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>Universität Hamburg</publisher>
+            <date>2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sanscrit 1442.7a</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>This single folio contains a short treatise on inheritance. In its form and content, it mirrors chapter 17 of the <title xml:lang="sa">Vaiṣṇavadharmaśāstra</title>, to which it may be a commentary. It deals with the same three topics in order: inheritance in case there is no male heir (<term xml:lang="sa">aputradhana</term>), inheritance in case of reunited coparceners (<term xml:lang="sa">saṃsṛṣṭidhana</term>), and women's property (<term xml:lang="sa">strīdhana</term>). However, this manuscript goes into much more detail. In the <title xml:lang="sa">Vaiṣṇavadharmaśāstra</title>, the property of a man with no male heir goes to his wife, then daughter, then father, then mother, then brother, then a brother's son. In this manuscript, more subcategories are enumerated — for example, the term <q>brother's son</q> has been expanded to <q>a uterine brother's son, then a half-brother's son, then a brother's grandson</q> (<locus facs="4">folio 1r</locus>, lines 2-3).</p>
+<p>One important divergence in this manuscript is that it allows for the sisters of the deceased to inherit property, in the absence of a brother's grandson (<q xml:lang="sa">bhrātuṣputrasya putraḥ tadabhāve bhaginī</q>, <locus facs="4">folio 1r</locus>, line 3), which was not traditionally sanctioned.</p>
+<p>Notably, <persName xml:lang="sa">Nandapaṇḍita</persName>'s <title xml:lang="sa">Keśavavaijayantī</title> commentary on the <title xml:lang="sa">Vaiṣṇavadharmaśāstra</title> — as well as the <title xml:lang="sa">Bālambhaṭṭī (Lakṣmīvyākhyāna)</title> commentary on the <title xml:lang="sa">Mitākṣarā</title> (ed. Setlur 1914, <ref target="https://archive.org/details/in.ernet.dli.2015.282261/page/n788/mode/1up">775</ref>) — do argue for the right of a sister to inherit, by interpreting <q xml:lang="sa">bhrātaraḥ</q> as an <term xml:lang="sa">ekaśeṣa</term> compound to mean <q>brothers and sisters</q>. In fact, the <title xml:lang="sa">Keśavavaijayantī</title> also interprets <q xml:lang="sa">bhrātṛputrāḥ</q> as an <term xml:lang="sa">ekaśeṣa</term> compound, to also include the sons of sisters (ed. Krishnamacharya 1964, 254). However, the right of a sister to inherit was a disputed point in the Anglo-Indian courts of law, and explicitly rejected in the <title xml:lang="sa">Vyavahāramayūkha</title> (ed. Kane 1926, <ref target="https://archive.org/details/vyavaharamayukhaofnikanthabhattapandurangvamankanebss_202003_420_s/page/n207/mode/1up">142</ref>).</p>
+<p>Another text that seems to argue for the right of a sister to inherit is the <title xml:lang="sa">Vivādaratnākara</title> of <persName xml:lang="sa">Caṇḍeśvara</persName>. Commenting on a verse from the now lost <title xml:lang="sa">Devalasmṛti</title>, <persName xml:lang="sa">Caṇḍeśvara</persName> interprets <q xml:lang="sa">tulyā duhitaro</q>, <q>equal daughters</q>, to mean <q xml:lang="sa">tulyāḥ sodaryyāḥ</q> (ed. <persName xml:lang="sa">Smṛtitīrtha</persName> 1931, <ref target="https://archive.org/details/vivadaratnakaraofchandesvaraed.kamalakrishnasmritiratnaasiaticsociety_202003_738_R/page/n614/mode/1up">599</ref>), which Setlur translates as <q>uterine sisters</q> (1911, <ref target="https://archive.org/details/in.ernet.dli.2015.95456/page/n716/mode/1up">233</ref>). This may not have been <persName>Devala</persName>'s intention, though; rather, he may have been referring to a daughter being equal to a son — <q xml:lang="sa">putreṇa duhitā samā</q> (<title xml:lang="sa">Mānavadharmaśāstra</title> 9.130, ed. Olivelle 2005, 770) — when a sonless man makes his daughter a "female son" (<term xml:lang="sa">putrikā</term>). Wadekar's reconstruction of the <title xml:lang="sa">Devalasmṛti</title> reads <q xml:lang="sa">kulyā duhitaro</q> (1996, 215) here.</p>
+<p>In any case, what sets this manuscript apart from the two aforementioned texts as well as from traditional law is how it states, as a simple matter of fact, that sisters may inherit. It does not attempt to interpret a traditional text nor give any arguments for the rights of sisters; it simply includes them in the line of succession.</p></summary>
+                  
+               <msItem xml:id="SaṃDha" defective="false"><title xml:lang="sa">Saṃkrāntadhanaviṣaya</title><textLang mainLang="san"/><incipit xml:lang="sa"><pb n="1r" facs="4"/>
+<lb/><note place="above"><unclear>saṃ</unclear>krāntadhanaviṣayam idaṃ</note> aputrasya putrapautraprapautraparyyantarahitasya mṛtasya dhane prathamaṃ patnī adhikārinī — |</incipit><explicit xml:lang="sa"><pb n="1r" facs="4"/>
+<lb n="6"/><gap reason="ellipsis"/> tayor abhāve bhaginīputrasya <lb n="7"/>ta<sic>dbhā</sic>ve bhartṛbhāgineyādīnāṃ — | 
+    tadabhāve svabhrātṛputrasya tadabhāve jāmātus tadabhāve svaśurasya |</explicit><finalRubric xml:lang="sa"><pb n="1r" facs="4"/>
+<lb n="7"/><gap reason="ellipsis"/> iti aputradhanasaṃsṛṣṭidha-<lb n="8"/>nastrīdhanānām adhikāraḥ kramaḥ || ॰ ||</finalRubric></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="paper">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                           
+                        <p>Orpiment.</p></support><extent>
+                           <measure unit="folio" quantity="1"/>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="355"/>
+                              <height quantity="120"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width min="255" max="265"/><height min="60" max="65"/></dimensions></extent><condition>Good condition.</condition></supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines="11"/>
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote scope="sole" script="bengali" scriptRef="#bengaliRa" medium="ink black"/></handDesc><additions>
+                  <desc type="blessing" subtype="beginning marginal top left"><locus facs="4">folio 1r</locus>, <q xml:lang="sa">śrīhariḥ</q></desc></additions><bindingDesc>
+                     <binding><decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" notBefore="1800" notAfter="1900">19th century.</origDate>
+                     
+                  </origin><provenance><p>Part of the collection of <persName role="collector">Palmyr Cordier</persName>.</p></provenance><acquisition><p>Acquired by <persName role="collector">Jean Filliozat</persName> for the BnF.</p></acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl><persName xml:lang="sa">Kamalakṛṣṇa Smṛtitīrtha</persName>. 1931. <title>Vivāda-ratnākara: a treatise on Hindu law</title>. Calcutta: Asiatic Society of Bengal.
+</bibl><bibl>Kane, P. V. 1926. <title>The Vyavahāra Mayūkha of Bhaṭṭa Nīlakaṇṭha</title>. Poona: Bhandarkar Oriental Institute.</bibl><bibl>Krishnamarcharya, V. 1964. <title>Viṣṇusmṛti with the Commenary Keśavavaijayantī of Nandapaṇḍita</title>. Chennai: Adyar Library.</bibl><bibl>Li, Charles. 2021. <title type="article">Lakṣmīdevī’s ‘intellectual petticoats’ and the flamewar they inspired.</title> <title><ref target="https://tst.hypotheses.org/">Texts Surrounding Texts: Satellite Stanzas, Prefaces and Colophons in South-Indian Manuscripts (Paris BnF and Hamburg Stabi collections)</ref></title>. 11 June. <ref target="https://tst.hypotheses.org/2542">https://tst.hypotheses.org/2542</ref></bibl><bibl>Li, Charles. 2021. <title type="article">The invisible sisters of Anglo-Hindu inheritance law.</title> <title><ref target="https://tst.hypotheses.org">Texts Surrounding Texts: Satellite Stanzas, Prefaces and Colophons in South-Indian Manuscripts (Paris BnF and Hamburg Stabi collections)</ref></title>. 3 August. <ref target="https://tst.hypotheses.org/2602">https://tst.hypotheses.org/2602</ref></bibl><bibl>Mandlik, Vishwanath Narayan. 1880. <title>The Vyavahára Mayúkha, in original, with an English translation, also the Yajñavalkya Smṛiti</title>. Bombay: Education Society's Press. </bibl><bibl>Olivelle, Patrick. 2007. <title>Manu's code of law: critical edition and translation of the Mānava-Dharmaśāstra</title>. New Delhi: Oxford University Press.
+</bibl><bibl>Olivelle, Patrick. 2009. <title>The law code of Viṣṇu</title>. Cambridge, Mass: Harvard University.
+</bibl><bibl>Setlur, S. S. 1911. <title>A Complete collection of Hindu law books on inheritance</title>. Madras: V. Kalyanaram Iyer.</bibl><bibl>Setlur, S. S. 1912. <title>The Mitākshara with Visvarūpa and commentaries of Subōdhini and Bālambhaṭṭi</title>. Madras: Brahmavadin Press.
+</bibl><bibl>Wadekar, Mukund Lalji. 1996. <title>Devalasmṛti, reconstruction and critical study</title>. Delhi: Koshal Book Depot.
+</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <p>Spaces added between words where possible.</p></encodingDesc>
+      
+   <revisionDesc>
+      <change when="2021-07">First version.</change></revisionDesc></teiHeader>
+  <facsimile>
+    <graphic url="https://tst-project.github.io/img/Sanscrit_1442.7/index.json" facs="4"/>
+  </facsimile>
+<text corresp="#SaṃDha" xml:lang="sa"><body>
+  <p>
+    <pb n="1r" facs="4"/><lb/><note place="above"><unclear>saṃ</unclear>krāntadhanaviṣayam idaṃ</note> aputrasya putrapautraprapautraparyyantarahitasya mṛtasya dhane prathamaṃ patnī adhikārinī — | 
+    tadabhāve adattā kanyā tadabhāve vā<unclear>g_da</unclear>ttā kanyā <lb n="2"/>tadabhāve dattā kanyā | 
+    tadabhāve dauhitras tadabhāve pitā<note place="top-margin">piteti dhanam ūrddhvagāmi <unclear>bhūvā</unclear> tat_śvaśurasyeti yāvat — 2</note> tadabhāve mātā<note place="top-margin">striyāḥ svasaṃkrāntadhane tasyāṃ mṛtāyāṃ tat_svāmi<add place="above">naḥ</add> mātṛbhrātṛvaimātreyatat_putrāṇāṃ bhavati iti bhāvaḥ 2</note> tadabhāve bhrātaraḥ | 
+    tatra prathamaṃ sodaraḥ tadabhāve vaimātreya<lb n="3"/>bhrātaraḥ | 
+    tadabhāve sahodarabhrātṛputraḥ tadabhāve vaimātreyabhrātṛputraḥ | 
+    ta<sic>dbhā</sic>ve bhrātuṣputrasya putraḥ tadabhāve bhaginī — | 
+    tadabhā-<lb n="4"/>ve bhāgineyaḥ |
+    ta<sic>dbhā</sic>ve pitāmahaḥ tadabhāve pitāmahī tadabhāve pitāmahasya pauhitrāntaḥ santānaḥ tadabhāve prapitāmahaḥ <lb n="5"/>tadabhāve prapitāmahī — |
+    tadabhāve prapitāmaha pauhitrāntaḥ santānaḥ | 
+    yathā prapitāmahyantābhāve prapitāmahaputras tadabhāve pitṛ<lb n="6"/>vyaḥ ta<sic>dbhā</sic>ve piṭrvyaputraḥ tadabhāve pitṛvyapautraḥ tadabhāve prapitāmahaduhitā tadabhāve prapitāmahapauhitras ta<sic>dbhā</sic>ve dhanivṛ<lb n="7"/>ddhaprapautraprabhṛtis trayaḥ tadabhāve vṛddhaprapitāmahādi tadabhāve yathākramaṃ <unclear>āntra</unclear>bāndhavāpitṛbāndhavāmātṛbāndha<sic>vāvāḥ</sic> | 
+    ta<sic>dbhā</sic>ve śiṣyaḥ 
+    <lb n="8"/>tadabhāve udāśīnaḥ |</p>
+  <p>saṃsṛṣṭimātṛparyyantarahitasya dhane prathamaṃ sodāro 'nyodaryyo 'pi yadi saṃsṛṣṭaḥ tatrāpi sodara eva | 
+    yadi a<lb n="9"/>nyodaryyaḥ saṃsṛṣṭī — sodaro 'saṃsṛṣṭī tadā vibhāgaḥ samaḥ yady api sodaro na saṃsṛṣṭaḥ vaimātreyaḥ saṃsṛṣṭī — tadā vibhājya samaṃ grāmyaṃ ||
+  </p>
+  <p>
+    <lb n="10"/>atha strīdhanādhikāriṇaḥ || 
+    tatra <unclear>ārtte</unclear> sati prathamaṃ putrānūḍhayos tulyādhikāraḥ |
+    tatra <unclear>ekāt__vā</unclear>bhāve 'nyat__vasyādhikāraḥ || 
+    tayo<lb n="11"/>r abhāve vāgdattayo adhikāraḥ | 
+    tasyā — abhāve putravatyāḥ sambhāvitaputrayoś ca | <unclear>o</unclear>nyādhikāraḥ | tādṛśaduhitrabhāve pau<pb facs="5" n="1v"/>trādhikāraḥ tasyābhāve pauhitrādhikāraḥ tadabhāve sapatnīputraḥ tat__putrayoḥ krameṇādhikāraḥ | 
+    tasyābhāve prapautrasyādhikāraḥ | 
+    <lb n="2"/>tasyābhāve ba<unclear>ndha</unclear>vidhavayor adhikāraḥ | 
+    bandhyāvidhavāparyyantābhāve pitṛmātṛdattasthāvaradhane bhrātur evādhikāraḥ | pitṛmātṛdattavyati<lb n="3"/>riktadhane bharttur adhikāraḥ | 
+    iti saṃ<unclear>molya</unclear> strīdhane | 
+    pāriṇāyye tu viśeṣaḥ | 
+    mātuḥ pariṇayakāmena dve dhane 'nyakālīna<del>ma</del>pitrya<lb n="4"/>dattadhane ca putramatve pi anūḍhādīnām adhikāraḥ | 
+    anūḍhādīnām abhāve — putrasyādhikāraḥ tasyābhāve bharttur adhikāraḥ tadabhāve mā-<lb n="5"/>tur adhikāraḥ | 
+    anūḍhā kanyā dhane | 
+    prathamaṃ sodarasyādhikāraḥ tadabhāve mātur adhikāraḥ tadabhāve pituḥ | 
+    sarvveṣv eva strīdhane<lb n="6"/>ṣu pitṛparyyantābhāve devarasyādhikāraḥ | tadabhāve bhrātṛsvastaradevaraputrayos tulyādhikāraḥ | 
+    tayor abhāve bhaginīputrasya <lb n="7"/>ta<sic>dbhā</sic>ve bhartṛbhāgineyādīnāṃ — | 
+    tadabhāve svabhrātṛputrasya tadabhāve jāmātus tadabhāve svaśurasya |
+    iti aputradhanasaṃsṛṣṭidha-<lb n="8"/>nastrīdhanānām adhikāraḥ kramaḥ || ॰ ||
+  </p>
+</body></text></TEI>

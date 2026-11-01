@@ -1,0 +1,114 @@
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa-Latn">Āryāparimitāyurjñānanāmamahāyānasūtra</title></title>
+            
+         <editor role="cataloguer"><persName>Sonam CHUSANG</persName><orgName>University of British Columbia</orgName></editor><editor role="cataloguer"><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>Universität Hamburg</publisher>
+            <date>2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Tibétain 529</idno>
+                  <idno type="alternate"><idno>Cordier tibétain 7</idno></idno>
+                  
+               <idno type="URI">https://nakala.fr/10.34847/nkl.ed6fz6f3</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>This single folio contains a Buddhist Sanskrit <term xml:lang="sa">mantra</term> with a short Tibetan commentary, written in Tibetan Uchen script. The Sanskrit text reads:
+</p>
+  <q xml:lang="sa-Latn" rend="block">
+om̐ namo bhagavate | aparimita-āyurjñānasuviniścitatejorājāya | tathāgatāya | arhate samyaksaṃbuddhāya | tad yathā | om̐ puṇye puṇye mahāpuṇye aparimitapuṇye aparimitapuṇyajñānasambhāropacite | om̐ sarvasaṃskārapariśuddhadharmate gaganasamudgate svabhāvaviśuddhe mahānayaparivāre svāhā |
+  </q>
+<p>
+  The foliation indicates that this folio was part of a longer manuscript (See Tibétain 525 <term xml:lang="bo-Tibt">འཕགས་པ་ཚེ་དང་ཡེ་ཤེས་དཔག་ཏུ་མེད་པ་ཞེས་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོ།</term>, the same text in 30 folios).
+</p></summary>
+                  
+               <msItem xml:id="ĀA" defective="true"><title xml:lang="bo"><title xml:lang="sa-Latn">Āryāparimitāyurjñānanāmamahāyānasūtra</title></title><textLang mainLang="bod" otherLangs="san"/><incipit xml:lang="bo-Tibt"><pb n="1r" facs="4"/>
+<lb n="1"/>༄༅།<space/> །པུ་ཎྱེ་ཨ་པ་རི་མི་ཏ་པུ་ཎྱེ་ཨ་པ་རི་མི་ཏ་པུ་ཎྱ་ཛྙཱ་ན་སམྦྷཱ་རོ་པ་ཙི་ཏེ།</incipit><explicit xml:lang="bo-Tibt"><pb n="1v" facs="5"/>
+<lb n="5"/><gap reason="ellipsis"/> །ༀ་ན་མོ་བྷ་ག་ཝ་ཏེ།</explicit></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="paper">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                           
+                        </support><extent>
+                           <measure unit="folio" quantity="1"/>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="305"/>
+                              <height quantity="75"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="245"/><height quantity="415"/></dimensions></extent><foliation>On <locus facs="4">1r</locus>, in the left margin, the number 9 (<term xml:lang="bo-Tibt">དགུ</term>).</foliation></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout writtenLines="5" style="inline-commentary">Double margin lines. Gold text on black background. Margin painted green on recto side.</layout></layoutDesc>
+                  </objectDesc><handDesc><handNote scope="sole" script="dbucan" medium="ink gold"/></handDesc><decoDesc>
+                  </decoDesc><additions>
+                  <desc type="documenting-note" subtype="detached">A <locus facs="2">title card</locus> in Cordier's hand giving the title in Tibetan and Sanskrit. The Sanskrit title is misspelled <q xml:lang="sa-Latn-t-sa-Deva">āryāpārimitā...</q>.</desc></additions><bindingDesc>
+                     <binding><decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" notAfter="1900"/>
+                     
+                  </origin><provenance><p>Part of the collection of <persName role="collector">Palmyr Cordier</persName>.</p></provenance><acquisition><p>Acquired by <persName role="collector">Jean Filliozat</persName> for the BnF.</p></acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Filliozat, Jean. 1934. <title xml:lang="fr" type="article">État des manuscrits sanscrits, bengalis et tibétains de la collection Palmyr Cordier.</title> <title xml:lang="fr">Journal asiatique</title> CCXXIV: 155-173. See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93324c/f171.item">p. 169</ref>.</bibl><bibl>Filliozat, Jean. 1936. <title xml:lang="fr"><ref target="gallica.bnf.fr/ark:/12148/btv1b525101308">Catalogue sommaire du Fonds Tibétain.</ref></title>. See p. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b525101308/f107.item">91</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>Transcribed diplomatically in Tibetan script. In the summary, the Sanskrit text has been transliterated in IAST. om̐ represents an oṃkāra symbol.</p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2022-06">First version.</change></revisionDesc></teiHeader>
+   <facsimile>
+   <graphic url="https://api.nakala.fr/data/10.34847/nkl.ed6fz6f3/016cb6dda185e63145303adfda11b94b67bdc491"/>
+   </facsimile>
+<text corresp="#ĀA" xml:lang="bo-Tibt"><body>
+  <p>
+   <pb n="1r" facs="4"/>
+    <lb n="1"/>༄༅།<space/> །པུ་ཎྱེ་ཨ་པ་རི་མི་ཏ་པུ་ཎྱེ་ཨ་པ་རི་མི་ཏ་པུ་ཎྱ་ཛྙཱ་ན་སམྦྷཱ་རོ་པ་ཙི་ཏེ། ༀ་སརྦ་སཾ་སྐཱ་ར་པ་རི་ཤུདྡྷ་དྷརྨ་ཏེ་ག་ག་ན་ས་མུདྒ་ཏེ་སྭ་བྷཱ་ཝ་<lb n="2"/>བི་ཤུདྡྷེ་མཧཱ་ན་ཡ་པ་རི་ཝཱ་རེ་སྭཱཧཱ།
+  </p>
+  <p>
+    གང་ཞིག་ཚེ་དང་ཡེ་ཤེས་དཔག་ཏུ་མེད་པའི་མདོ་སྡེ་འདི་ཡི་གེར་འབྲི་འམ། འབྲིར་འཇུག་ན། དེའི་་་<lb n="3"/>མཚམས་མེད་པ་ལྔ་ཡང་ཡོངས་སུ་བྱང་བར་འགྱུར་རོ།
+  </p>
+  <p>
+    །ༀ་ན་མོ་བྷ་ག་ཝ་ཏེ། ཨ་པ་རི་མི་ཏ་ཨཱ་ཡུ་རྫྙཱ་ན་སུ་བི་ནི་ཤྩི་ཏ་ཏེ་ཛོ་རཱ་ཛཱ་ཡ། ཏ་ཐཱ་<lb n="4"/>ག་ཏཱ་ཡ། ཨརྷ་ཏེ་སམྱཀྶཾ་བུདྡྷཱ་ཡ། ཏདྱ་ཐཱ། ༀ་པུ་ཎྱེ་པུ་ཎྱེ་མཧཱ་པུ་ཎྱེ་ཨ་པ་རི་མི་ཏ་པུ་ཎྱེ་ཨ་པ་རི་མི་ཏ་པུ་ཎྱ་ཛྙཱ་ན་སམྦྷཱ་རོ་པ་ཙི་ཏེ། ༀ་སརྦ་སཾ་<lb n="5"/>སྐཱ་ར་པ་རི་ཤུདྡྷ་དྷརྨ་ཏེ་ག་ག་ན་ས་མུདྒ་ཏེ་སྭ་བྷཱ་ཝ་བི་ཤུདྡྷེ་མཧཱ་ན་ཡ་པ་རི་ཝཱ་རེ་སྭཱཧཱ།
+  </p>
+  <p>
+    གང་ཞིག་ཚེ་དང་ཡེ་ཤེས་དཔག་ཏུ་མེད་པའི་མདོ་སྡེ་འདི་་་<pb n="1v" facs="5"/>ཡི་གེར་འབྲི་འམ། ཡི་གེར་འབྲིར་འཇུག་ན། དེའི་སྡིག་པའི་ཕུང་པོ་རི་རབ་ཙམ་ཡང་<add place="below">ཡོངས་སུ་</add>བྱང་བར་འགྱུར་རོ།
+  </p>
+  <p>
+    །ༀ་ན་མོ་བྷ་ག་ཝ་ཏེ། <lb n="2"/>ཨ་པ་རི་མི་ཏ་ཨཱ་ཡུརྫྙཱ་ན་སུ་བི་ནི་ཤྩི་ཏ་ཏེ་ཛོ་རཱ་ཛཱ་ཡ། ཏ་ཐཱ་ག་ཏཱ་ཡ། ཨརྷ་ཏེ་སམྱཀྶཾ་བུདྡྷཱ་ཡ། ཏདྱ་ཐཱ། ༀ་པུ་ཎྱེ་པུ་ཎྱེ་མཧཱ་པུ་ཎྱེ། <lb n="3"/>ཨ་པ་རི་མི་ཏ་པུ་ཎྱེ་ཨ་པ་རི་མི་ཏ་པུ་ཎྱ་ཛྙཱ་ན་སམྦྷཱ་རོ་པ་ཙི་ཏེ། ༀ་སརྦ་སཾ་སྐཱ་ར་པ་རི་ཤུདྡྷ་དྷརྨ་ཏེ་ག་ག་ན་ས་མུདྒ་ཏེ་སྭ་བྷཱ་ཝ་བི་ཤུདྡྷེ་མཧཱ་ན་<lb n="4"/>ཡ་པ་རི་ཝཱ་རེ་སྭཱཧཱ།
+  </p>
+  <p>
+    གང་ཞིག་ཚེ་དང་ཡེ་ཤེས་དཔག་ཏུ་མེད་པའི་མདོ་སྡེ་འདི་ཡི་གེར་འབྲི་འམ། ཡི་གེར་འབྲིར་འཇུག་ན། དེ་ལ་བདུད་<lb n="5"/>དང་བདུད་ཀྱི་རིགས་ཀྱི་ལྷ་དང་། གནོད་སྦྱིན་དང་། སྲིན་པོས་གླགས་བཙལ་ཀྱང་གླགས་རྙེད་པར་མི་འགྱུར་རོ།
+  </p>
+  <p>།ༀ་ན་མོ་བྷ་ག་ཝ་ཏེ།</p>
+</body></text></TEI>

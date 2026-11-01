@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="pi">Dhammapadaṭṭhakathā</title></title>
+            
+         <editor role="transcriber"><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>Universität Hamburg</publisher>
+            <date>2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>University of Manchester</orgName>
+                  </repository>
+                  <idno type="shelfmark">Pali MS 9</idno>
+                  <idno type="alternate"><idno>R38601</idno></idno>
+               <idno type="URI">https://www.digitalcollections.manchester.ac.uk/view/MS-PALI-00009</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>This manuscript contains the complete text of the commentary, attributed to <persName xml:lang="pi">Buddhaghosa</persName>, to the <title xml:lang="pi">Dhammapada</title>. It includes a table of contents at the beginning.</p>
+<p>This manuscript is among a large collection that was given by T. W. Rhys-Davids to the John Rylands Library at the University of Manchester. Although the printed catalogue gives no date, and the online catalogue record states that it is <q>undated</q>, there is a <term xml:lang="sa">Śaka</term> era date at the end of the manuscript.</p></summary>
+                  
+               <msItem xml:id="DhPA-Man9" defective="false"><title xml:lang="pi">Dhammapadaṭṭhakathā</title><author xml:lang="pi">Buddhaghosa</author><textLang mainLang="pli"/><rubric xml:lang="pi"><pb n="1v" facs="7"/>
+<lb n="1"/>namo tassa bhagavato arahato sammāsambuddhassa ෴</rubric><incipit xml:lang="pi"><pb n="1v" facs="7"/>
+<lb n="1"/><gap reason="ellipsis"/>mahāmohatamonaddho loke lokantadassinā</incipit><explicit xml:lang="pi"><pb n="302v" facs="310"/>
+<lb n="9" break="no"/>mbhidādi<del>ppa</del>ppabhedaguṇapatimaṇḍite uttarimanussadhamma a<unclear>ppa</unclear>ṭihatabuddhīnaṃ theravaṃsappadīpānāṃ therāṇaṃ mahāvihāravāsīnāṃ ෴ vaṃsā<subst>l<del>ā</del><add rend="implied">a</add></subst>ṃkārabhūtena vipulavisuddhinā buddhaghoso ti guruhi gahitanāmadheyyena katā ayaṃ dhammapada<lb n="10"/>ssa atthavaṇṇanā ෴෴෴ sivam astu ෴෴෴෴ sakābdam― rāyisatyam ෴෴෴෴෴෴෴෴෴෴෴෴෴෴෴෴</explicit></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="folio" quantity="305"/>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="455"/>
+                              <height quantity="55"/>
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines="9 11"/>
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote scope="sole" script="sinhala"/></handDesc><additions>
+                  <desc type="blessing" subtype="beginning marginal left">On <locus facs="7:1">1v</locus>, <q xml:lang="sa">svasti siddham</q> written across three lines, with the final <q xml:lang="sa">m</q> in the middle next to the folio number 1 (<q xml:lang="sa">ka</q>).</desc></additions><bindingDesc>
+                     <binding>
+                        <p>Decorated wood cover.</p>
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole" quantity="2"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" notBefore="1790" notAfter="1791">According to the <term xml:lang="sa">Kaṭapayādi</term> numeral system, this manuscript is dated to <term xml:lang="sa">Śaka</term> 1712 (<term xml:lang="sa">rāyisatyam</term>).</origDate>
+                     
+                  <origPlace>Sri Lanka</origPlace></origin><acquisition><p>According to the catalogue, this manuscript was presented to the university in 1915 by T. W. Rhys-Davids.</p></acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Jayawickrama, N.A. 1972. <title type="article"><ref target="https://luna.manchester.ac.uk/luna/servlet/media/book/showBook/Manchester~25~25~1713~198920">Pali Manuscripts in the John Rylands University Library of Manchester,</ref></title> <title>Bulletin of the John Rylands Library</title> 55(1): 152.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST transliteration.</p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[["https://www.digitalcollections.manchester.ac.uk/iiif/MS-PALI-00009/canvas/7",{"id":"https://www.digitalcollections.manchester.ac.uk/iiif/MS-PALI-00009/canvas/7","items":[{"body":{"type":"TextualBody","value":"<p>sva sti</p>\n<p>m 1</p>\n<p>si ddha</p>"},"id":"2ea17770-2555-4dcb-be60-7110c018420d","motivation":"commenting","target":{"source":"https://www.digitalcollections.manchester.ac.uk/iiif/MS-PALI-00009/canvas/7","selector":[{"type":"FragmentSelector","value":"xywh=177,219,380,316"},{"type":"SvgSelector","value":"<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M177.48291,536.21577v-316.70443h380.37181v316.70443z\" data-paper-data=\"{&quot;state&quot;:null}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"}]},"type":"Annotation"}],"type":"AnnotationPage"}]]]]></xenoData><revisionDesc/></teiHeader>
+   <facsimile>
+   <graphic url="https://www.digitalcollections.manchester.ac.uk/iiif/MS-PALI-00009"/></facsimile>
+<text corresp="#DhPA-Man9" xml:lang="pi"><body>
+  <p>
+    <pb n="1v" facs="7"/>
+    <lb/>namo tassa bhagavato arahato sammāsambuddhassa ෴
+  </p>
+  <lg>
+    <l>mahāmohatamonaddho loke lokantadassinā</l>
+    <l>yena saddha<lb/>mmapajjoto jalito jalitiddhinā ෴</l>
+  </lg>
+  <lg>
+    <l>tassa pāde namassitvā sambuddhassa sirīmato</l>
+    <l>saddhammaṃ cassa pūjetvā katvā saṃ<lb/>ghassa <unclear>ca</unclear>ñjaliṃ ෴</l>
+  </lg>
+  <lg>
+    <l>taṃ taṃ kāraṇam āgamma dhammādhammesu kovido</l>
+    <l>sampattasaddhammapado satthā dhammapadaṃ subhaṃ <lb/> ෴ ෴</l>
+  </lg>
+  <lg>
+    <l>desesi karuṇāvegasamussāhitamānaso</l>
+    <l>yaṃ ve devamanussānaṃ pītipāmojjavaḍḍhanaṃ ෴ ෴</l>
+  </lg>
+  <lg>
+    <l><lb/>paramparābhatā tassa nipuṇā atthavaṇṇanā</l>
+    <l>yā tambapaṇṇidīpamhi dīpabhāsāya saṇṭhitā  ෴ ෴</l>
+  </lg>
+  <lg>
+  <l>na sādhayati se<lb/>sānaṃ sattānaṃ hitasampadaṃ</l>
+  <l>appeva nāma sādheyya sabbalokassa sā hitaṃ  ෴ ෴</l>
+  </lg>
+  <lg>
+    <l>iti <subst><del>sā</del><add place="below">ā</add></subst>siṃsamāṇena dante<lb/>na samacāriṇā</l>
+    <l>kumārakassapenāhaṃ there<unclear>ṇa</unclear> thiracetasā  ෴</l>
+  </lg>
+  <lg>
+    <l>saddhammaṭṭhitikāmena sakkaccaṃ abhiyācito</l>
+    <l>taṃ bhāsaṃ <lb/>ativitthāragaṇañ ca vacanakkamaṃ</l>
+  </lg>
+  <lg>
+    <l>pahāyāropayitvāna tantibhāsaṃ manoramaṃ  ෴</l>
+    <l>gāthānaṃ vyañjaṇapadaṃ yaṃ tattha na <lb/>vibhāvitaṃ</l>
+  </lg>
+  <lg>
+    <l>kevalaṃ taṃ vibhāvitvā <unclear>se</unclear>saṃ tam eva atthato  ෴ ෴</l>
+    <l>bhāsantarena bhāsissaṃ āvahanto vibhā<lb/>vinaṃ</l>
+    <l>maṇaso pītipāmojjaṃ atthadhammūpanissitaṃti ෴ ෴</l>
+  </lg>
+  <lg>
+    <l>manopubbaṅgamādhammā manoseṭṭhā manomayā</l>
+    <l>ma<pb n="2r" facs="7"/><lb/>nasā ce paduṭṭhena bhāsati vā karoti vā <del>෴</del></l>
+    <l>tato naṃ dukkham anveti cakkaṃ va vahato padan ti ෴</l>
+  </lg>
+  <p>ayaṃ dhammadesanā kattha bhāsitāti sāvatthiyaṃ kaṃ ārabbhāti cakkhupālattheraṃ</p>
+  <p>sāvatthiyaṃ kira mahāsuvaṇṇo nāma kuṭimbiko ahosi aḍḍho mahaddhano mahābhogo aput<lb/>tako so ekadivasaṃ nhānatitthaṃ gantvā āgacchanto antarāmagge <unclear>sampa</unclear>nnasākhaṃ ekaṃ vanaspatiṃ disvā ayaṃ mahesakkhāya devatāya adhiggahīto bhavissatīti tassa heṭṭhābhāgaṃ sodhāpetvā pākāraparikkhepaṃ kārāpetvā vā<unclear>ṭṭha</unclear>kaṃ okirāpetvā dhajapatākaṃ ussāpetvā vanaṣpatiṃ alaṃkaritvā pu<lb/>ttaṃ vā dhītaraṃ vā labhitvā tumhākaṃ mahāsakkāraṃ karissāmīti patthanaṃ katvā pakkāmi ෴</p>
+</body></text></TEI>
