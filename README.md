@@ -72,7 +72,7 @@ We will continue to discuss the limits of transcription by looking at various ex
 
 Bucher, Konrad. 2023. "Towards an ultra-diplomatic transcription of Wittgenstein's Nachlass." *Nordic Wittgenstein Review* 11. [doi:10.15845/nwr.v11.3655](https://doi.org/10.15845/nwr.v11.3655)
 
-Formigatti, Camillo. 2025. "&lt;title type='main'&gt;From the Shelves to the Web: Cataloguing Sanskrit Manuscripts in the Digital Era&lt;/title&gt;." In Francis & Wilden, eds., _South-Indian Manuscripts in Hamburg and Paris: Paratexts & Provenance._ Hamburg: Department of Indian & Tibetan Studies, Universität Hamburg. [doi:10.25592/uhhfdm.18222](https://www.fdr.uni-hamburg.de/record/18223)
+Formigatti, Camillo. 2025. "&lt;title type='main'&gt;From the Shelves to the Web: Cataloguing Sanskrit Manuscripts in the Digital Era&lt;/title&gt;." In _South-Indian Manuscripts in Hamburg and Paris: Paratexts & Provenance._ Edited by Emmanuel Francis & Eva Wilden. Hamburg: Department of Indian & Tibetan Studies, Universität Hamburg. [doi:10.25592/uhhfdm.18222](https://www.fdr.uni-hamburg.de/record/18223)
 
 Fowler, Robert L. 2024. "The Herculaneum Papyri." _Manuscript Text and Cultures_ 3(1): 84–105. [doi:10.56004/v3.1rlf](https://doi.org/10.56004/v3.1rlf)
 
@@ -108,7 +108,7 @@ Franceschini, Marco. 2025. "On the Wrong Dates in the Colophons of Tamil Nadu Ma
 
 Heron-Allen, Edward. 1931. _The gods of the fourth world: being prolegomena towards a discourse upon the Buddhist religion and its acquired pantheon._  Pelican Press: London.
 
-Li, Charles. 2025. "Scribes, editors, & librarians between tradition and modernity in late colonial India." In *South-Indian Manuscripts in Hamburg and Paris: Paratexts and Provenance.* Edited by Eva Wilden & Emmanuel Francis. Hamburg: Department of Indian & Tibetan Studies. [tst-project.github.io/cordier](https://tst-project.github.io/cordier/)
+Li, Charles. 2025. "Scribes, editors, & librarians between tradition and modernity in late colonial India." In *South-Indian Manuscripts in Hamburg and Paris: Paratexts and Provenance.* Edited by Emmanuel Francis & Eva Wilden. Hamburg: Department of Indian & Tibetan Studies. [tst-project.github.io/cordier](https://tst-project.github.io/cordier/)
 
 Muroya Yasutaka. 2010.  "A Study on the Marginalia in Some Nyāyamañjarī Manuscripts: The Reconstruction of a Lost Portion of the Nyāyamañjarīgranthibhaṅga." *Wiener Zeitschrift für die Kunde Südasiens* LII-LIII: 213–267. [austriaca.at/0xc1aa5572%200x002452ac.pdf](https://austriaca.at/0xc1aa5572%200x002452ac.pdf)
 
