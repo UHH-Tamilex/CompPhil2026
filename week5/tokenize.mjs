@@ -15,7 +15,7 @@ const submit = () => {
 
 const wordboundary = str => {
 const seg = new Intl.Segmenter([], { granularity: 'word' });
-  return [...seg.segment(str)].map(s => s.segment);
+  return [...seg.segment(str)].map(s => s.segment).filter(s => s.trim() !== '');
 };
 const grapheme = str => {
   const seg = new Intl.Segmenter([], { granularity: 'grapheme' });
@@ -79,11 +79,19 @@ const split = (str,type='aksara') => {
       return acc;
     },[]);
   }
-  const scripted = split.map(c => {
+  const scripted = split.map((c,i) => {
       const iast = Sanscript.t(maybejoin(c),'slpish','iast')
-      return type !== 'character' ? Sanscript.t(iast,'iast',script) : iast;
+      if(type === 'character') {
+        if(iast === 'a' && /^\u200d/.test(split[i+1]))
+          return '';
+        return iast;
+      }
+      return Sanscript.t(iast,'iast',script);
   });
-  return type === 'character' ? scripted.filter(c => !/^[\u200c-\u200d]$/.test(c)) : scripted;
+
+  return type === 'character' ? 
+    scripted.filter(c => c !== '' && !/^[\u200c-\u200d]$/.test(c)) : 
+    scripted;
 };
 
 const toewts = text => {
