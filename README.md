@@ -126,7 +126,9 @@ Yano M. & Fushimi M. 2004. "Pancanga (version 3.14)." _Kyoto Sangyo University._
 
 In order to compare two texts, we first need to split the text up into tokens. These tokens might be words, syllables, characters, or other units of comparison — even motifs, depending on the research question. We will explore these options as they apply to different languages and manuscript practices, and reflect on how tokenization embodies our assumptions about textual transmission.
 
-**Keywords**: akṣara, character, eḻuttu, normalization, token
+**Keywords**: akṣara, character, eḻuttu, token
+
+**Skills unlocked**: double articulation
 
 ### Bibliography
 
@@ -153,7 +155,7 @@ Volterra, Virginia. 2014. "Chi ha paura della lingua dei segni?" _Psicologia cli
 
 In recent years, more complex methods of tokenization have been employed for doing work such as large-scale comparison of documents, and notably, training large language models. We will look at some of these methods, such as ngrams (originally termed "shingles") and byte-pair encoding, which was initially developed for data compression. Along the way, we will reflect on how well compression represents how we understand and cognize the world. We will return to ngrams and compression, in a more practical sense, in week 11.
 
-**Keywords**: byte-pair encoding, ngram, resemblance
+**Keywords**: byte-pair encoding, ngram, normalization, resemblance
 
 **Skills unlocked**: human cognition
 
