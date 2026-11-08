@@ -140,6 +140,8 @@ Share, David L. &amp; Peter T. Daniels. "Aksharas, alphasyllabaries, abugidas, a
 
 Tehrani, Jamshid J. 2013. "The Phylogeny of Little Red Riding Hood." *PLoS ONE* 8(11): e78871. [doi:10.1371/journal.pone.0078871](https://doi.org/10.1371/journal.pone.0078871)
 
+Volterra, Virginia. 2014. "Chi ha paura della lingua dei segni?" _Psicologia clinica dello Sviluppo_ XVIII(3): 425–477. [lissubito.com/wp-content/uploads/2015/10/Volterra-chi-ha-paura-dei-segni.pdf](https://www.lissubito.com/wp-content/uploads/2015/10/Volterra-chi-ha-paura-dei-segni.pdf) 
+
 
 ## Week 6 | 16 November (via Zoom) | Tokenization II: Do we even need grammar?
 
