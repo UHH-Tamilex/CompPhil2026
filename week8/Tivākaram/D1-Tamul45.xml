@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Tivākaram</title></title>
+            
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>Tamilex</publisher>
+            <date>2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Royal Library Copenhagen</orgName>
+                  </repository>
+                  <idno type="shelfmark">Cod Tamul 45</idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>This manuscript of the <title xml:lang="ta">Tivākaram</title> is not yet digitized. Transcription comes from images taken by Giovanni Ciotti.</summary>
+                  
+               <msItem xml:id="D1" defective="false"><title xml:lang="ta">Tivākaram</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf palmyra">
+                     <support>
+                        </support><extent>
+                           <measure unit="folio" quantity="18">title folio, 1–14, 3 unnumbered.</measure>
+                           <dimensions type="object" unit="mm">
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="410"/>
+                              <height quantity="30"/>
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc>
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote scope="sole" script="tamil" medium="black incised soot"/></handDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     <origPlace>Tamilnadu</origPlace>
+                  </origin></history>
+               <additional>
+                  <listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>Madras lexicon transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile></facsimile>
+  <text corresp="#D1" xml:lang="ta">
+    <body>
+      <pb n="1r"/>
+      <lg>
+        <l><lb/>tantimukat tentai cataṅkaip patampōṟṟic</l>
+        <l>cintai viḷakkāṉ tīvākaṟattil <space/> vavnta</l>
+        <l><lb/>tokutiyoru paṉireṇṭuñ cōrāmal nērē</l>
+        <l>pakutiyuṟavar maṉamē paṟṟu <g ref="#pcs"/></l>
+      </lg>
+    </body>
+  </text>
+</TEI>

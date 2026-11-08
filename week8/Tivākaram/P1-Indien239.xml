@@ -1,0 +1,103 @@
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Tivākaram</title></title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 239</idno>
+                  <idno type="alternate"><idno>Tamoul 239</idno><idno>Ducler 2</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103772f</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52514605j</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>A complete copy of the <title xml:lang="ta">Tivākaram</title>.</p></summary>
+                  
+               <msItem synch="#U1" xml:id="P1" defective="false"><title xml:lang="ta">Tivākaram: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf">
+                        
+                        
+                     
+                     
+                     <support>
+                           
+                           
+                        <p>Regularly shaped. Rounded edges.</p></support><extent>
+                           <measure unit="folio" quantity="166">{1} + {1} + 163 + {1} (U1 + U2 + U3 + U4). </measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.
+       </desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Tivākaram</title>: Title Page</emph>. No foliation.
+</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Tivākaram</title>: Front Matter</emph> (Invocation). No foliation.
+</desc><desc xml:id="U3">163 folios = <emph rend="bold"><title xml:lang="ta">Tivākaram</title>: Text</emph>. Tamil foliation 1-163. Parallel Arabic foliation 1-163.
+</desc><desc xml:id="U4">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.
+</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.
+</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout>Layout in columns (3 and sometimes 4).</layout></layoutDesc>
+                  </objectDesc><handDesc><handNote synch="#U1" scope="sole" script="latin" medium="incised soot"><desc><persName role="scribe">Ducler's scribe</persName>.</desc></handNote><handNote synch="#U2 #U3" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="incised soot"><desc><persName role="scribe">Ducler's scribe</persName>.</desc></handNote></handDesc><additions>
+                  <desc type="commenting-note documenting-note" subtype="detached">Description of the contents on a detached sheet of paper (not covered by Gallica photos):
+<quote xml:lang="fr" rend="block">
+  <lb n="1"/>M<hi rend="superscript">r</hi> Ducler, N° 24
+  <lb n="2"/>intitulé Tivagaram, ou
+  <lb n="3"/>Dictionnaire des noms de sivane, birma, et
+  <lb n="4"/>vichenou, et autres Divinités; des arts, et metiers
+  <lb n="5"/>(ouvrage anonyme)  
+</quote></desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF current shelfmark sticker: <quote>INDIEN 239</quote> (<locus facs="1">front cover, recto</locus>).</desc></additions><bindingDesc>
+                     <binding><p>Original brown <material>wood</material> covers</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" notAfter="1832" notBefore="1828">No internal date. Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912). By <persName role="scribe">Ducler's scribe</persName>, working around 1830. Probably not before 1828 (date of the earliest internally dated Ducler's manuscript). Not later than its first mention (Burnouf 1832). </origDate>
+                     
+                  <origPlace>South India, Pondicherry State, Karikal.</origPlace></origin><provenance><p>Copied for <persName xml:lang="fr" role="collector">Philippe Ducler</persName> by an unnamed copyist in Karaikal Jail. See Burnouf (1832).</p></provenance><acquisition><p>Acquired, July 22nd, 1833, from Philippe Ducler. See BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. TBC.</p></acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Burnouf, Eugène. 1832. <title type="article">Rapport fait au Conseil, dans la séance du 2 juillet 1832, sur les collections de manuscrits et de dessins rapportées de l’Inde par M. Ducler, administrateur de Carical, membre de la Société asiatique</title>. <title>Journal asiatique</title> 10: 84-91. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f87">p. 87, no. 2</ref>.</bibl><bibl>Cabaton, Antoine. 1912. <title xml:lang="fr">Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f56">p. 38, no. 239</ref>.</bibl><bibl>Velanguani Arokium [<persName xml:lang="ta">Vēḷāṅkaṇṇi Ārōkkiyam</persName>]. 1845. <title>Catalogue des manuscrits tamouls de la Bibliothèque royale</title>. BnF NAF 5443. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f25">p. 15, no. 24</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f127">f. 56r, no. 239</ref>. </bibl><bibl>James, Gregory. 2000. <title>Colporuḷ: A History of Tamil Dictionaries</title>. 1st edition. Chennai: Cre-A. — See p. 703.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2023-01">First version.</change></revisionDesc></teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52514605j/manifest.json" facs="1"/></facsimile>
+  <text synch="#U3" corresp="#P1" xml:lang="ta">
+    <body>
+    <pb facs="5" n="[0]r"/>
+      <lg>
+        <l><lb/>tantimukat tentai cataṅkaip patampōṟṟic</l>
+        <l>cintai viḷakkān tivākarattil <space/> vanta</l>
+        <l><lb/>tokutiyoru paṉṉiraṇṭun tōrā maṉērē</l>
+        <l>pakutiyuṟa vāmaṉamē <space/> paṟṟu <g ref="#pcs"/></l>
+      </lg>
+    </body>
+  </text>
+</TEI>

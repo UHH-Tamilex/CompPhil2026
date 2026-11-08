@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+        <title><title xml:lang="ta">Tivākaram</title>, ed. <persName xml:lang="ta">Tāṇṭavarāyamutaliyār</persName> 1840</title>
+            
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>Tamilex</publisher>
+            <date>2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Internet Archive</orgName>
+                  </repository>
+                  <idno type="shelfmark">ark:/13960/s2d24p15p9g</idno>
+                  <idno type="alternate"/>
+               <idno type="URI">https://archive.org/details/tva-bok-0028609</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>This is the second of two parts of the critical edition, published in 1993.</summary>
+                  
+               <msItem xml:id="EdT1" defective="false"><title xml:lang="ta">Tivākaram</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="codex" rend="movable-type">
+                     <supportDesc material="paper industrial">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="page" quantity="718">3 unnumbered, [517]-1231</measure>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc/><typeDesc><typeNote scope="sole" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="ink black"/></typeDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>Madras lexicon transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+    <graphic url="https://iiif.archive.org/iiif/tva-bok-0028609/manifest.json" facs="201"/></facsimile>
+  <text corresp="#EdT1" xml:lang="ta">
+    <body>
+      <pb n="0" facs="2"/>
+      <p><lb/><g ref="#pcs"/></p>
+      <head><lb/>centaṉ tivākaram.</head>
+      <head type="sub"><lb/>mulapāṭam.</head>
+      <head type="sub"><lb/>kāppu.</head>
+      <lg>
+        <l><lb/>tantimukat tentai cataṅkaip patampōṟṟic</l>
+        <l><lb/>cintai viḷakkān tivākarattuḷ vanta</l>
+        <l><lb/>tokutiyoru paṉṉiraṇṭuñ cōrāma ṉērē</l>
+        <l><lb/>pakutiyuṟa manamē paṟṟu</l>
+      </lg>
+
+      <p><lb/>civaṉ peyar ―</p> 
+    </body>
+  </text>
+</TEI>

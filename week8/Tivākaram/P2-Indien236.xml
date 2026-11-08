@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Collection (2 <title xml:lang="ta">Nikaṇṭu</title>s)</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 236</idno>
+                  <idno type="alternate"><idno>Tamoul 236</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1037694</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/6m311x183</idno></msIdentifier>
+               <msContents class="#MTM">
+                  <summary><p>Two <foreign xml:lang="ta">nikaṇṭu</foreign>s, apparently the <title xml:lang="ta">Tivākaram</title> twice, apparently by the same hand: 
+<list rend="numbered">
+<item>The <title xml:lang="ta">Tivākaram</title> (?), chapters 1-10 (U4).</item>
+<item>The <title xml:lang="ta">Tivākaram</title>, chapters 7-12 (U5; stopping short).</item>
+</list></p>
+<p>By a Christian copyist (see U1).</p>
+<p>Description based on the examination of the original manuscript (October 2021).</p>
+<p>Dimensions assessed at the time of examination.</p> 
+</summary>
+                  
+               <msItem synch="#U5" xml:id="P2" defective="true" class="#nikantu"><title xml:lang="ta">Nikaṇṭu <term xml:lang="en">(2 of 2) proper</term></title><textLang mainLang="tam"/><finalRubric xml:lang="ta">See selection below.</finalRubric></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf">
+                        
+                        
+                        
+                     <extent>
+                           <measure unit="folio" quantity="186">{1} + {2} + {1} + 124 + 57 + {2} (U1 + U2 + U3 + U4 + U5 + U6).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width min="380" max="385"/><height min="25" max="30"/></dimensions>
+                           <note>The leaves are broader in their middle than at their edges. </note>
+                        <dimensions type="object" unit="mm"><width quantity="390"/><height quantity="30"/><depth quantity="105"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blessing unblackened on recto. Verso blank. 380 x 30 mm.</desc><desc xml:id="U2">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. 385 x 30 mm. Right edges apparently truncated.
+</desc><desc xml:id="U3">1 folio = <emph rend="bold">TBC</emph>. Tamil foliation [1]. f[1]v blank. 380 x 25 mm. Some isolated stanzas.</desc><desc xml:id="U4">123 folios = <emph rend="bold"><title xml:lang="ta">Nikaṇṭu</title> proper (1 of 2)</emph>. Tamil foliation 1-2, 4-124. Incomplete: f3 missing. 385 x 30 mm.</desc><desc xml:id="U5">57 folios = <emph rend="bold"><title xml:lang="ta">Nikaṇṭu</title> proper (2 of 2)</emph>. Tamil foliation 1-57. f57v blank. 385 x 30 mm.</desc><desc xml:id="U6">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. f2 truncated. 385 x 25 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="3">Layout in columns for U4.</layout></layoutDesc>
+                  </objectDesc><handDesc>
+                     
+                  <handNote synch="#U4 #U5" scope="major" script="tamil" medium="incised soot"/></handDesc><additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 236</quote> (<locus facs="2">front cover, recto</locus>).</desc><desc synch="#U1" corresp="#T1" type="shelfmark" subtype="right"><quote>N° 6</quote> in black ink (<locus facs="14">f[1]r</locus>).</desc><desc synch="#U4" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below.</desc><desc synch="#U5" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below.</desc></additions><bindingDesc>
+                     <binding>
+                        <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 390 x 25 mm.</p>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" notAfter="1866">Not internal date. Not later than first mention in a catalogue.</origDate>
+                     <origPlace>South India, Tamil Nadu.</origPlace>
+                  </origin><provenance><p>Unknown.</p></provenance><acquisition>
+                     
+                  <p>Unknown.</p></acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f55">p. 37, no. 236</ref>.</bibl><bibl>James, Gregory. 2000. <title>Colporuḷ: A History of Tamil Dictionaries</title>. 1st edition. Chennai: Cre-A. — See p. 702.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f127">f. 56r, no. <del>220</del> 236</ref>. </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.              </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2021-10">Record created by <persName>Emmanuel FRANCIS</persName>.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
+   
+  <facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/6m311x183/manifest.json"/></facsimile>
+  <text synch="#U5" corresp="#P2" xml:lang="ta">
+    <body>
+      <pb facs="11" n="1r"/>
+      <lg>
+        <l>tavaḷat tāmarai tātā kōvil</l>
+        <l>avaḷaip pōttum aruntamiḻk kuṟittē <g ref="#pcs"/></l>
+      </lg>
+      <lg>
+        <l>aintu karattaṉai yāṉai mukattaṉai</l>
+        <l><lb/>yintu miḷampiṟai pōlu meyittaṉai</l>
+        <l>nanti <subst><del>mu</del><add>ma</add></subst>kaṉṟaṉai ñāṉak koḻuntaṉai</l>
+        <l>puntiyil vaittaṭi pōttukiṉ ṟē<lb/>ṉē <g ref="#pcs"/></l>
+      </lg>
+      <lg>
+        <l>poṉṉum naṉmaṇiyu muttum puṉainta</l>
+        <l>muṟakkuṭai nikaḻat tamiṉṉum puṇṭi</l>
+        <l>nīḻal vīttirunta vaṉaivar <lb/>maṉṉiya</l>
+        <l>nikaṇṭu cūḻāmaṇi yeṉaveṇtu colaveṉa</l>
+        <l>yiṉṉilan taṉṉila mikkora yāvaru miruntu kēḷ<sic>mī</sic>ṉ <g ref="pcs"/> 1 <g ref="$pcs"/></l>
+      </lg>
+      <lg>
+        <l>colloṭu poruḷuṇarntoṉ cotiṭanīti valavoṉ</l>
+        <l>nallaṟivāḷaṇaṅkoṉ naṟuṅkoṉṟa...</l>
+      </lg>
+    </body>
+  </text></TEI>

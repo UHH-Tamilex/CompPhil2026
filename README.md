@@ -122,13 +122,17 @@ victornpb. 2024. "Photo Measurement Tool." _GitHub._ [github.com/victornpb/measu
 
 Yano M. & Fushimi M. 2004. "Pancanga (version 3.14)." _Kyoto Sangyo University._ [www.cc.kyoto-su.ac.jp/~yanom/pancanga](https://www.cc.kyoto-su.ac.jp/~yanom/pancanga/index.html)
 
-## Week 5 | 9 November | Comparing texts: tokenization
+## Week 5 | 9 November | Tokenization I: Meaning(full|less) parts
 
 In order to compare two texts, we first need to split the text up into tokens. These tokens might be words, syllables, characters, or other units of comparison — even motifs, depending on the research question. We will explore these options as they apply to different languages and manuscript practices, and reflect on how tokenization embodies our assumptions about textual transmission.
 
 **Keywords**: akṣara, character, eḻuttu, normalization, token
 
 ### Bibliography
+
+de Boer, Bart, Wendy Sandler, & Simon Kirby, eds. 2012. "New perspectives on duality of patterning." _Language and Cognition_ 4(4): 251–259.
+
+Ladd, D Robert. 2012. "What is duality of patterning, anyway?" _Language and Cognition_ 4(4): 261–273.
 
 Eltschinger, Vincent. 2023. "What Comes First, Word or Sentence Meaning? Dharmakīrti as a Contextualist." In *To the Heart of Truth: felicitation volume for Eli Franco on the occasion of his seventieth birthday.* Edited by Hiroko Matsuoka et al. Wien: Universität Wien. [www.academia.edu/108838314/What_Comes_First_Word_or_Sentence_Meaning_Dharmak%C4%ABrti_as_a_Contextualist](https://www.academia.edu/108838314/What_Comes_First_Word_or_Sentence_Meaning_Dharmak%C4%ABrti_as_a_Contextualist)
 
@@ -137,7 +141,7 @@ Share, David L. &amp; Peter T. Daniels. "Aksharas, alphasyllabaries, abugidas, a
 Tehrani, Jamshid J. 2013. "The Phylogeny of Little Red Riding Hood." *PLoS ONE* 8(11): e78871. [doi:10.1371/journal.pone.0078871](https://doi.org/10.1371/journal.pone.0078871)
 
 
-## Week 6 | 16 November (via Zoom) | Comparing texts: tokenization
+## Week 6 | 16 November (via Zoom) | Tokenization II: Do we even need grammar?
 
 In recent years, more complex methods of tokenization have been employed for doing work such as large-scale comparison of documents, and notably, training large language models. We will look at some of these methods, such as ngrams (originally termed "shingles") and byte-pair encoding, which was initially developed for data compression. Along the way, we will reflect on how well compression represents how we understand and cognize the world. We will return to ngrams and compression, in a more practical sense, in week 11.
 

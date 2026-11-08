@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Tivākaram</title></title>
+            
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>Tamilex</publisher>
+            <date>2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>U. Vē. Cāminātaiyār Library</orgName>
+                  </repository>
+                  <idno type="shelfmark">UVSL 1572</idno>
+                  <idno type="alternate"><idno>TVA_PLM_002474</idno></idno>
+               <idno type="URI">https://archive.org/details/UVSL-1572</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>This manuscript of the <title xml:lang="ta">Tivākaram</title> was digitized by the Tamil Digital Library project.</summary>
+                  
+               <msItem xml:id="C2" defective="false"><title xml:lang="ta">Tivākaram</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf palmyra">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="folio" quantity="153"></measure>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="440"/>
+                              <height quantity="50"/>
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote scope="sole" script="tamil" medium="black incised soot"/></handDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole" quantity="2"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     <origPlace>Tamilnadu</origPlace>
+                  </origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>Madras lexicon transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+   <graphic url="https://iiif.archive.org/iiif/UVSL-1572/manifest.json"/></facsimile>
+  <text corresp="#C2" xml:lang="ta">
+    <body>
+      <pb n="[0]v" facs="3"/>
+      <lg>
+        <l><lb/><gap reason="lost"/> cataṅkaip patampōṟṟic</l>
+        <l>cintai viḷakkān tivākarattiṉ - vanta -</l>
+        <l>tokutiyoru paṉṉiraṇṭuñ cōrā maṉē<lb/><gap reason="lost"/></l>
+        <l><gap reason="lost"/><unclear>mē</unclear> paṟṟu <g ref="#pcs"/></l>
+      </lg>
+      <lg>
+        <l>tavaḷat tāmarai tātār kōyil</l>
+        <l>vaṉaippoṟṟutu maruntamiḻ kuṟittē <g ref="#pcs"/></l>
+      </lg>
+      <p>caṇmukaṉṟuṇai <g ref="#pcs"/> <g ref="#pcs"/></p>
+
+      <pb n="1r" facs="4"/>
+      <p><lb/>civaṉ peyar</p>
+    </body>
+  </text>
+</TEI>

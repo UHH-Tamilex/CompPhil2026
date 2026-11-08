@@ -1,0 +1,91 @@
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Tivākaram</title></title>
+         <editor role="cataloguer"><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 240</idno>
+                  <idno type="alternate"><idno>Tamoul 240</idno><idno>Velanguani Arokium 6</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103773q</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/c821gs18w</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>An incomplete <title xml:lang="ta">Tivākaram</title>:  chapter 1 only, that is, the <foreign xml:lang="ta">Teyvappeyarttokuti</foreign> ("section on the names of gods").</p>
+<p>By a Christian copiyst (see Christian crosses, Christian blessing, and Christian invocation, that is, a Christianized version of the traditional invocation of the <title xml:lang="ta">Tivākaram</title>).</p>
+<p>Description based on the examination of the original manuscript (November 2021).</p>
+<p>Dimensions assessed at the time of examination.</p> </summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Front Matter: Title and Invocation</term></title><textLang mainLang="tam"/><filiation><p>BnF, Indien 242 (U1).</p></filiation></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Tivākaram: Teyvappeyarttokuti</title><textLang mainLang="tam"/><filiation><p>BnF, Indien 242 (U2).</p></filiation></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf">
+                        
+                        
+                        
+                     <extent>
+                           <measure unit="folio" quantity="27">{1} + 26 (U1 + U2).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="410"/>
+                              <height quantity="25"/>
+                           </dimensions>
+                           <note>The leaves are broader in their middle than at their edges. </note>
+                        <dimensions type="object" unit="mm"><width quantity="410"/><height quantity="25"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Front Matter</emph> (title and invocation). No foliation. Shelfmark on recto.  Verso blank. 410 x 25 mm.</desc><desc xml:id="U2">26 folios = <emph rend="bold"> <title xml:lang="ta">Tivākaram</title>:  <foreign xml:lang="ta">Teyvappeyarttokuti</foreign></emph>. Tamil foliation [1]-26. 2-5 columns. No soot for f4-f25. f26r: light soot; foliation 27 corrected to 26. f26v more dark = original outside page. User Arabic foliation 27 added in black ink on f26v. 410 x 25 mm.
+
+
+</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Very good state of preservation, despite some boreholes.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="2 5"><foreign xml:lang="ta">Aṭi</foreign>-wise distribution (1 <foreign xml:lang="ta">aṭi</foreign> per line) for the invocation (U1). Final letter(s) occasionally indented at the end of line (U2).</layout></layoutDesc>
+                  </objectDesc><handDesc>
+                     
+                  <handNote synch="#U1 #U2" scope="major" script="tamil" scriptRef="#tamilOE" medium="incised"><desc>Double-curled <foreign xml:lang="ta">kompu</foreign> irregularly marked.</desc></handNote></handDesc><additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 240</quote> (<locus facs="2">front cover, recto</locus>).</desc><desc synch="#U1" corresp="#T1" type="shelfmark" subtype="left">Shelfmark in black ink: <quote>N° 6 bis</quote>  (<locus facs="4">f[1]r</locus>). This appears to be the number in Velanguani Arokium's catalogue (<ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f14">f. 2v, nos. 6, 21</ref>).</desc></additions><bindingDesc>
+                     <binding>
+                        <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 410 x 25 mm.</p>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" notAfter="1845">No internal date. Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912). Not after 1845, since apparently described in Velanguani Arokium's catalogue (1845).</origDate>
+                     <origPlace>South India, Tamil Nadu.</origPlace>
+                  </origin><provenance><p>Unknown.</p></provenance><acquisition>
+                     
+                  <p>Unknown.</p></acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f56">p. 38, nos. 240-242</ref>.</bibl><bibl>James, Gregory. 2000. <title>Colporuḷ: A History of Tamil Dictionaries</title>. 1st edition. Chennai: Cre-A. — See p. 62ff., 704.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f127">f. 56r, no. <del>224</del>240</ref>. </bibl><bibl>Velanguani Arokium [<persName xml:lang="ta">Vēḷāṅkaṇṇi Ārōkkiyam</persName>]. 1845. <title>Catalogue des manuscrits tamouls de la Bibliothèque royale</title>. BnF NAF 5443. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f14">f. 2v, nos. 6, 21</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+   <encodingDesc><p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.              </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2021-11">Record created by <persName>Emmanuel FRANCIS</persName>.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
+   
+  <facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/c821gs18w/manifest.json"/></facsimile>
+  <text synch="#U1" corresp="#T1" xml:lang="ta">
+    <body>
+      <lg>
+        <l><lb n="1"/>tantaicuta ṉispirittu cāntupa ṭatipōṟṟi</l>
+        <l><lb n="2"/>cintai viḷakkān tivākarattil ~ vanta</l>
+        <l><lb n="3"/>tokuti<del><gap reason="illegible" quantity="1" unit="character"/></del>yoru paṇiraṇṭuñ cōramaṉ ṉērē</l>
+        <l><lb n="4"/>pakutiyuṟa <unclear>vā</unclear>maṉamē pat<del>tu</del>tu <g ref="#pcs"/></l>
+      </lg>
+</body></text></TEI>
