@@ -132,11 +132,17 @@ In order to compare two texts, we first need to split the text up into tokens. T
 
 de Boer, Bart, Wendy Sandler, & Simon Kirby, eds. 2012. "New perspectives on duality of patterning." _Language and Cognition_ 4(4): 251–259.
 
+Konrad, Reiner et al. 2020. "dgskorpus_ber_09: Sylvester and Tweety." _DGS-Korpus, 3rd release._ [doi:10.25592/dgs.corpus-3.0-text-1419126](https://www.sign-lang.uni-hamburg.de/meinedgs/html/1419126_en.html)
+
 Ladd, D Robert. 2012. "What is duality of patterning, anyway?" _Language and Cognition_ 4(4): 261–273.
+
+Li, Charles. 2020–2026. "Quick palaeographer." _GitHub._ [github.com/chchch/quick-palaeographer](https://github.com/chchch/quick-palaeographer/)
 
 Eltschinger, Vincent. 2023. "What Comes First, Word or Sentence Meaning? Dharmakīrti as a Contextualist." In *To the Heart of Truth: felicitation volume for Eli Franco on the occasion of his seventieth birthday.* Edited by Hiroko Matsuoka et al. Wien: Universität Wien. [www.academia.edu/108838314/What_Comes_First_Word_or_Sentence_Meaning_Dharmak%C4%ABrti_as_a_Contextualist](https://www.academia.edu/108838314/What_Comes_First_Word_or_Sentence_Meaning_Dharmak%C4%ABrti_as_a_Contextualist)
 
 Share, David L. &amp; Peter T. Daniels. "Aksharas, alphasyllabaries, abugidas, alphabets and orthographic depth: Reflections on Rimzhim, Katz and Fowler (2014)." _Writing Systems Research_ 8(1): 17–31.
+
+Subramania Iyer, K. A., trans. 1977. _The Vākyapadīya of Bhartṛhari: Kāṇḍa II._ Delhi: Motilal Banarsidass.
 
 Tehrani, Jamshid J. 2013. "The Phylogeny of Little Red Riding Hood." *PLoS ONE* 8(11): e78871. [doi:10.1371/journal.pone.0078871](https://doi.org/10.1371/journal.pone.0078871)
 
