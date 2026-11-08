@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tokenizing a text</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<link rel="stylesheet" href="https://tst-project.github.io/lib/css/tufte.css" />
+<link rel="stylesheet" href="https://tst-project.github.io/lib/css/fonts.css" />
+<link rel="stylesheet" href="https://tst-project.github.io/lib/css/tst.css" />
+<style type="text/css">
+    body {
+        display: inherit;
+        padding-left: 12.5%;
+        margin: auto;
+        width: unset;
+        height: unset;
+        max-width: unset;
+    }
+
+    th {
+        text-align: left;
+    }
+    figure {
+    	margin: revert;
+    }
+    figcaption {
+    	float: initial;
+    	clear: initial;
+    	max-width: initial;
+    }
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 85%;
+}
+
+label {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+.input-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+    width: 85%;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    height: 2rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+input[type="number"] {
+    width: 3.5rem;
+}
+
+details {
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+details > :not(summary) {
+    margin-left: 1rem;
+}
+summary {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.horizontal > label {
+    width: 4rem;
+}
+
+details details > div {
+    width: 15rem;
+}
+
+input[name="language"] {
+    margin-top: 0.6rem;
+}
+
+input[name="language"] ~ details {
+    margin-top: 0.3rem;
+}
+input[name="language"] ~ details summary {
+    height: 0;
+}
+
+input[name="language"]:not(:checked) ~ details {
+    display: none;
+}
+#scoring label {
+    display: inline-block;
+    width: 9.5rem;
+}
+
+#results {
+    width: fit-content;
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+#results div {
+  border: 1px solid black;
+  padding: 0.2rem;
+  font-size: 1.4rem;
+}
+
+</style>
+</head>
+
+<body lang="en">
+    <article>
+        <h1>Tokenizing a text</h1>
+        <section>
+            <p>Use this tool to experiment with tokenizing a text in different ways. The input can be in IAST/Madras Lexicon transliteration or in Bengali, Burmese, Devanagari, Grantha, Malayalam, Newa, Sarada, Sinhalese, Tamil, Telugu, Tibetan, or Ge'ez script. Some options will additionally work for other scripts.</p>
+            <details style="max-width: 80%">
+          <summary>Sample texts</summary>
+            <p>ማርያም፡ በመዋዕሊሁ፡ ለአቡነ፡ ዮሐንስ፡ አመ፡ በዐሉ፡ ለአቡነ፡ በርተሎሜዎስ፡ መምህረ፡ ዘመዶ። ሶበ፡ ተጋብኡ፡ ሰብእ፡ በዕለተ፡ ተዝካሩ፡ ለገቢረ፡ በዐል፡ እስመ፡ ተሠርዐ፡ ቅድመ፡ ከመ፡ ይትጋብኡ፡ ሰብእ፡ ለገቢረ፡ በዐል፡ እለ፡ ሀለዉ፡ ታሕተ፡ ምኵናኑ፡ ለአቡነ፡ በርተሎሜዎስ፡ ወእለ፡ ተሰምዩ፡ በሢመተ፡ ዚአሁ፡ ወእም፬ ማዕዘኒሃ፡ ለምድር፡ ይትጋብኡ፡ ሰብእ፡ ከመ፡ ይሳተፉ፡ እምበረከታ፡ ለእግዝእትነ፡ ማርያም፡ ወላዲተ፡ አምላክ፡ እስመ፡ ይነጽሩ፡ ሥዕላ፡ በዕለተ፡ ዕረፍቱ፡ ለአቡነ፡</p>
+            <p>དཔལ་མོ་དབྱངས་ཅན་བློ་དང་སྡེ་གསུམ་གྱི༎ ཕུན་སུམ་ཚོགས་དང་འབྱོར་བ་མཛེས་པ་དང་༎ འཚོགས་ཆས་འཇིགས་མེད་ཚལ་དང་འཕགས་པ་དང་༎ བདུད་རྩི་རྣམས་ལ་དཔལ་ཞེས་རབ་ཏུ་གྲགས་༎</p>
+            <p>யாயா கியளே மாஅ யோளே
+            மடைமாண் செப்பிற் றமிய வைகிய </p>
+          <p>මහාමොහතමොනද්‍ධො ලොකෙ ලොකන‍්තදස‍්සිනා යෙන සද්‍ධම‍්මපජ‍්ජොතො ජලිතො ජලිතිද්‍ධිනා ෴</p>
+          <p>kalpātikrūrakālabhrukuṭikuṭilatākalpakalpāgramuṣṭiḥ
+            krudhyatkālīkaṭākṣāṅkita iva kalayan kāntim ekāntakālīm | </p>
+            </details>
+        </section>
+        <section style="display: flex; flex-direction: row; align-items: center; justify-content: center; width: fit-content; gap: 2rem">
+          <div style="flex-grow: 1; display: flex; flex-direction:column; align-items: center; gap: 1rem">
+            <textarea id="textinput" rows="5" cols="75" style="font-size: 1.2rem"></textarea>
+            <button id="tokenizesubmit" style="font-size: 1.2rem; padding: 0.5rem; width: fit-content">Tokenize</button>
+          </div>
+          <fieldset class="options" style="flex-grow: 0; width: max-content">
+              <details open>
+                  <summary>Tokenize by</summary>
+                  <div>
+                      <input type="radio" name="tokenization" value="whitespace" /><label>Whitespace</label>
+                  </div>
+                  <div>
+                      <input type="radio" name="tokenization" value="wordboundary" /><label>Unicode word boundaries</label>
+                  </div>
+                  <div>
+                      <input type="radio" name="tokenization" value="grapheme" /><label>Unicode grapheme</label>
+                  </div>
+                  <div>
+                      <input type="radio" name="tokenization" value="aksara" /><label>Syllables/Akṣaras (conjuncts and vowels together)</label>
+                  </div>
+                  <div>
+                      <input type="radio" name="tokenization" value="eluttu" checked /><label>Eḻuttu (without conjuncts)</label>
+                  </div>
+                  <div>
+                      <input type="radio" name="tokenization" value="char" /><label>Consonants and vowels separate</label>
+                  </div>
+              </details>
+          </fieldset>
+        </section>
+        <section>
+            <hr />
+            <div>
+                <div id="results">
+                </div>
+            </div>
+        </section>
+    </article>
+</body>
+<script type="module" src="tokenize.mjs"></script>
+</html>
