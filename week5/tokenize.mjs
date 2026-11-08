@@ -79,10 +79,11 @@ const split = (str,type='aksara') => {
       return acc;
     },[]);
   }
-  return split.map(c => {
+  const scripted = split.map(c => {
       const iast = Sanscript.t(maybejoin(c),'slpish','iast')
       return type !== 'character' ? Sanscript.t(iast,'iast',script) : iast;
   });
+  return type === 'character' ? scripted.filter(c => !/^[\u200c-\u200d]$/.test(c)) : scripted;
 };
 
 const toewts = text => {
