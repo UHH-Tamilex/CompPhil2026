@@ -134,6 +134,8 @@ In order to compare two texts, we first need to split the text up into tokens. T
 
 de Boer, Bart, Wendy Sandler, & Simon Kirby, eds. 2012. "New perspectives on duality of patterning." _Language and Cognition_ 4(4): 251–259.
 
+Centre for Sign Linguistics and Deaf Studies. 2026. "Module 5 ― Sign Phonetics and Phonology: Duality fo patterning." _The Asia-Pacific University Consortium for Sign Linguistics._ [cslds.org/apsl-consortium/sign-linguistics/5-sign-phonetics-and-phonology-duality-of-patterning](http://www.cslds.org/apsl-consortium/sign-linguistics/5-sign-phonetics-and-phonology-duality-of-patterning/)
+
 Konrad, Reiner et al. 2020. "dgskorpus_ber_09: Sylvester and Tweety." _DGS-Korpus, 3rd release._ [doi:10.25592/dgs.corpus-3.0-text-1419126](https://www.sign-lang.uni-hamburg.de/meinedgs/html/1419126_en.html)
 
 Ladd, D Robert. 2012. "What is duality of patterning, anyway?" _Language and Cognition_ 4(4): 261–273.
