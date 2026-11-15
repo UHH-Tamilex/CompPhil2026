@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tokenizing a text with BPE</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<link rel="stylesheet" href="https://tst-project.github.io/lib/css/tufte.css" />
+<link rel="stylesheet" href="https://tst-project.github.io/lib/css/fonts.css" />
+<link rel="stylesheet" href="https://tst-project.github.io/lib/css/tst.css" />
+<style type="text/css">
+    body {
+        display: inherit;
+        padding-left: 12.5%;
+        margin: auto;
+        width: unset;
+        height: unset;
+        max-width: unset;
+    }
+
+    th {
+        text-align: left;
+    }
+    figure {
+    	margin: revert;
+    }
+    figcaption {
+    	float: initial;
+    	clear: initial;
+    	max-width: initial;
+    }
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 85%;
+}
+
+label {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+.input-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+    width: 85%;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    height: 2rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+input[type="number"] {
+    width: 3.5rem;
+}
+
+details {
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+details > :not(summary) {
+    margin-left: 1rem;
+}
+summary {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.horizontal > label {
+    width: 4rem;
+}
+
+details details > div {
+    width: 15rem;
+}
+
+input[name="language"] {
+    margin-top: 0.6rem;
+}
+
+input[name="language"] ~ details {
+    margin-top: 0.3rem;
+}
+input[name="language"] ~ details summary {
+    height: 0;
+}
+
+input[name="language"]:not(:checked) ~ details {
+    display: none;
+}
+#scoring label {
+    display: inline-block;
+    width: 9.5rem;
+}
+
+#results {
+    width: fit-content;
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+#results div {
+  border: 1px solid black;
+  padding: 0.2rem;
+  font-size: 1.4rem;
+}
+
+.sample {
+    display: none;
+}
+</style>
+</head>
+
+<body lang="en">
+    <article>
+        <h1>Tokenizing a text</h1>
+        <section>
+            <p>Use this tool to experiment with tokenizing a text using Byte Pair Encoding (BPE). The input can be in IAST/Madras Lexicon transliteration or in Bengali, Burmese, Devanagari, Grantha, Malayalam, Newa, Sarada, Sinhalese, Tamil, Telugu, Tibetan, or Ge'ez script. Some options will additionally work for other scripts.</p>
+            <details style="max-width: 80%" id="samples">
+          <summary>Sample texts</summary>
+          <div class="samplebox">
+            <p><em>Genesis 1</em></p>
+             <p class="sample">በቀዳሚ፡ ገብረ፡ እግዚአብሔር፡ ሰማየ፡ ወምድረ። ወምድርሰ፡ ኢታስተርኢ፡ ወኢኮነት፡ ድሉተ፡ ወጽልመት፡ መልዕልተ፡ ቀላይ፡ ወመንፈሰ፡ እግዚአብሔር፡ ይጼልል፡ መልዕልተ፡ ማይ። ወይቤ፡ እግዚአብሔር፡ ለይኩን፡ ብርሃን፡ ወኮነ፡ ብርሃን። ወርእዮ፡ እግዚአብሔር፡ ለብርሃን፡ ከመ፡ ሠናይ፡ ወፈለጠ፡ እግዚአብሔር፡ ማእከለ፡ ብርሃን፡ ወማእከለ፡ ጽልመት። ወሰመዮ፡ እግዚአብሔር፡ ለብርሃን፡ ዕለተ፡ ወለጽልመት፡ ሌሊተ፡ ወኮነ፡ ሌሊተ፡ ወጸብሐ፡ ወኮነ፡ መዓልተ፡ ፩። ወይቤ፡ እግዚአብሔር፡ ለይኩን፡ ጠፈር፡ ማእከለ፡ ማይ፡ ከመ፡ ይፍልጥ፡ ማእከለ፡ ማይ፡ ወኮነ፡ ከማሁ። ወገብረ፡ እግዚአብሔር፡ ጠፈረ፡ ወፈለጠ፡ እግዚአብሔር፡ ማእብለ፡ ማይ፡ ዘታሕተ፡ ጠፈር፡ ወማእከለ፡ ማይ፡ ዘመልዕልተ፡ ጠፈር። ወሰመዮ፡ እግዚአብሔር፡ ለውእቱ፡ ጠፈር፡ ሰማየ፡ ወርእየ፡ እግዚአብሔር፡ ከመ፡ ሠናይ፡ ወኮነ፡ ሌሊተ፡ ወጸብሐ፡ ወኮነ፡ ካልእተ፡ ዕለተ። ወይቤ፡ እግዚአብሔር፡ ለይትጋባእ፡ ማይ፡ ዘመትሕተ፡ ሰማይ፡ ውስተ፡ አሐዱ፡ መካን፡ ወያስተርኢ፡ የብስ፡ ወኮነ፡ ከማሁ፡ ውተጋብአ፡ ማይ፡ ውስተ፡ ምእላዲሁ፡ ወአስተርአየ፡ የብስ። ወሰመዮ፡ እግዚአብሔር፡ ለየብስ፡ ምድረ፡ ወለምእላዲሁ፡ ለማይ፡ ሰመዮ፡ ባሕረ፡ ወርእየ፡ እግዚአብሔር፡ ከመ፡ ሠናይ። ወይቤ፡ እግዚአብሔር፡ ለታብቍል፡ ምድር፡ ሐመልማለ፡ ሣዕር፡ ዘይዘራእ፡ በበዘርኡ፡ ወበበዘመዱ፡ ወዘበበ፡ አምሳሊሁ፡ ወዕፀወ፡ ዘይፈሪ፡ ወይገብር፡ ፋሬሁ፡ ዘእምውስቴቱ፡ ዘርኡ፡ ዘይወጽእ፡ ዘይከውን፡ በበዘመዱ፡ ዲበ፡ ምድር፡ ወኮነ፡ ከማሁ። ወአውጽአት፡ ምድር፡ ሐመልማለ፡ ሣዕር፡ ዘይዘራእ፡ ዘርኡ፡ ዘበበዘመዱ፡ ወበበአርአያሁ፡ ወዕፀወ፡ ዘይፈሪ፡ ወይገብር፡ ፍሬሁ፡ ዘእምውስቴቱ፡ ዘርእ፡ ዘይከውን፡ በበዘመዱ፡ መልዕልተ፡ ምድር፡ ወርእየ፡ እግዚአብሔር፡ ከመ፡ ሠናይ። ወኮነ፡ ሌሊተ፡ ወጸብሐ፡ ወኮነ፡ ሣልስተ፡ ዕለት። ወይቤ፡ እግዚአብሔር፡ ይኩኑ፡ ብርሃናት፡ ውስተ፡ ጠፈረ፡ ሰማይ፡ ከመ፡ ያብርሁ፡ ዲበ፡ ምድር፡ ወይፍልጡ፡ ማእከለ፡ ዕለት፡ ወማእከለ፡ ሌሊት፡ ወይኩኑ፡ ለተአምር፡ ወለዘመን፡ ወለመዋዕል፡ ወለዓመታት። ወይኩኑ፡ ለአብርሆ፡ ውስተ፡ ጠፈረ፡ ሰማይ፡ ከመ፡ ያብርሁ፡ ዲበ፡ ምድር፡ ወኮነ፡ ከማሁ። ወገብረ፡ እግዚአብሔር፡ ብርሃናተ፡ ክልኤተ፡ ዐበይተ፡ ዘየዐቢ፡ ብርሃን፡ ከመ፡ ይምልክ፡ መዐልተ፡ ወዘይንእስ፡ ብርሃን፡ ከመ፡ ይምልክ፡ ሌሊተ፡ ምስለ፡ ከዋክብቲሁ። ወሤሞሙ፡ እግዚአብሔር፡ ውስተ፡ ጠፈረ፡ ሰማይ፡ ከመ፡ ያብርሁ፡ ዲበ፡ ምድር፡ ወይኰንንዋ፡ ለዕለት፡ ወለሌሊትኒ፡ ወይፍልጡ፡ ማእከለ፡ ሌሊት፡ ወማእከለ፡ ብርሃን፡ ወርእየ፡ እግዚአብሔር፡ ከመ፡ ሠናይ። ወኮነ፡ ሌሊተ፡ ወጸብሐ፡ ወኮነ፡ ራብዕተ፡ ዕለተ። ወይቤ፡ እግዚአብሔር፡ ለታውጽእ፡ ማይ፡ ዘይትሐወስ፡ ዘቦ፡ መንፈሰ፡ ሕይወት፡ ወአዕዋፈ፡ ዘይሠርር፡ መልዕልተ፡ ምድር፡ ወመትሕት፡ ሰማይ፡ ወኮነ፡ ከማሁ። ወገብረ፡ እግዚአብሔር፡ ዐናብርተ፡ ዐበይተ፡ ወኵሎ፡ ነፍሰ፡ ሕይወት፡ ዘይትሐወስ፡ ዘአውጽአ፡ ማይ፡ በበዘመዱ፡ ወኵሎ፡ ዖፈ፡ ዘይሠርር፡ በበዘመዱ፡ ወርእየ፡ እግዚአብሔር፡ ከመ፡ ሠናይ። ወባረኮሙ፡ እግዚአብሔር፡ ወይቤ፡ ብዝኁ፡ ወተባዝኁ፡ ወምልእዋ፡ ለምድር፡ ወአዕዋፍኒ፡ ይብዝኁ፡ ውስተ፡ ምድር። ወኮነ፡ ሌሊተ፡ ወጸብሐ፡ ወኮነ፡ ኃምስተ፡ ዕለተ። ወይቤ፡ እግዚአብሔር፡ ለታውጽእ፡ ምድር፡ ዘመደ፡ እንስሳ፡ ወዘይትሐወስ፡ ወአራዊተ፡ ምድር፡ ዘበበ፡ ዘመዱ፡ ወኮነ፡ ከማሁ። ወገብረ፡ እግዚአብሔር፡ እንስሳ፡ ዘበበ፡ ዘመዱ፡ ወኵሎ፡ ዘይትሐወስ፡ ውስተ፡ ምድር፡ በበዘመዱ፡ ወአራዊተ፡ ምድር፡ በበዘመዱ፡ ወርእየ፡ እግዚአብሔር፡ ከመ፡ ሠናይ። ወይቤ፡ እግዚአብሔር፡ ንግበር፡ ሰብአ፡ በአርአያነ፡ ወበአምሳሊነ፡ ወይኰንን፡ ዐሣተ፡ ባሕር፡ ወአራዊተ፡ ምድር፡ ወአዕዋፈ፡ ሰማይ፡ ወእንስሳሂ፡ ወኵሎ፡ ምድረ፡ ወአራዊተ፡ ዘይትሐወስ፡ ዲበ፡ ምድር። ወገብሮ፡ እግዚአብሔር፡ ለእጓለ፡ እመሕያው፡ በአምሳለ፡ እግዚአብሔር፡ ተባዕተ፡ ወአንስተ፡ ገብሮሙ። ወባረኮሙ፡ እግዚአብሔር፡ ወይቤሎሙ፡ ብዝኁ፡ ወተባዝኁ፡ ወምልእዋ፡ ለምድር፡ ወቅንይዋ፡ ወኰንንዎሙ፡ ለዓሣተ፡ ባሕር፡ ወለአዕዋፈ፡ ሰማይ፡ ወለኵሉ፡ እንስሳ፡ ወለኵሉ፡ ዘይትሐወስ፡ ዲበ፡ ምድር። ወይቤ፡ እግዚአብሔር፡ ናሁ፡ ወሀብኩክሙ፡ ኵሎ፡ ሣዕረ፡ ዘይዘራእ፡ ወይበቍል፡ በዘርኡ፡ ተዘሪኦ፡ ዲበ፡ ኵሉ፡ ምድር፡ ወኵሉ፡ ዕፀው፡ ዘሀሎ፡ ውስቴቱ፡ ዘርኡ፡ ዘይዘራእ፡ በፍሬሁ፡ ለክሙ፡ ውእቱ፡ መብልዕ ፤ ወለኵሉ፡ አራዊተ፡ ምድር፡ ወለኵሉ፡ አዕዋፈ፡ ሰማይ፡ ወለኵሉ፡ ዘይትሐወስ፡ ውስተ፡ ምድር፡ ዘቦ፡ መንፈሰ፡ ሕይወት፡ ወኵሉ፡ ሐመልማለ፡ ሣዕር፡ ይኩንክሙ፡ መብልዐ፡ ወኮነ፡ ከማሁ። ወርእየ፡ እግዚአብሔር፡ ኵሎ፡ ዘገብረ፡ ከመ፡ ጥቀ፡ ሠናይ፡ ወኮነ፡ ሌሊተ፡ ወጸብሐ፡ ወኮነ፡ ሳድስተ፡ ዕለተ። </p>
+          </div>
+          <div class="samplebox">
+            <p><em>Prameyakamalamārtaṇḍa</em> incipit</p>
+            <p class="sample">śrīmāṇikyanandyācāryaviracitaparīkṣāmukhasūtrasya vyākhyārūpaḥ śrīprabhācandrācāryaviracitaḥ prameyakamalamārtaṇḍaḥ śrīsyādvādavidyāyai namaḥ siddher dhāma mahārimohahananaṃ kīrteḥ paraṃ mandiram mithyātvapratipakṣam akṣayasukhaṃ saṃśītividhvaṃsanam sarvaprāṇihitaṃ prabhendubhavanaṃ siddhaṃ pramālakṣaṇam santaś cetasi cintayantu sudhiyaḥ śrīvardhamānaṃ jinam śāstraṃ karomi varam alpatarāvabodho māṇikyanandipadapaṅkajasatprasādāt arthaṃ na kiṃ sphuṭayati prakṛtaṃ laghīyāṃl lokasya bhānukaravisphuritād gavākṣaḥ ye nūnaṃ prathayanti no 'samaguṇā mohād avajñāṃ janāḥ te tiṣṭhantu na tān prati prayatitaḥ prārabhyate prakramaḥ santaḥ santi guṇānurāgamanaso ye dhīdhanās tān prati prāyaḥ śāstrakṛto yad atra hṛdaye vṛttaṃ tad ākhyāyate tyajati na vidadhānaḥ kāryam udvijya dhīmān khalajanaparivṛtteḥ spardhate kin tu tena kim u na vitanute 'rkaḥ padmabodhaṃ prabuddhas tadapahṛtividhāyī śītaraśmir yadīha ajaḍam adoṣaṃ dṛṣṭvā mitraṃ suśrīkam udyatam atuṣyat viparītabandhusaṅgatim udgirati hi kuvalayaṃ kiṃ na śrīmadakalaṅkārtho 'vyutpannaprajñair avagantuṃ na śakyata iti tadvyutpādanāya karatalāmalakavat tadartham uddhṛtya pratipādayitukāmas tatparijñānānugrahecchāpreritas tadarthapratipādanapravaṇaṃ prakaraṇam idam ācāryaḥ prāha tatra prakaraṇasya sambandhābhidheyarahitatvāśaṅkāpanodārthaṃ tadabhidheyasya cāprayojanavattvaparihārānabhimataprayojanavattvavyudāsāśakyānuṣṭhānatvanirākaraṇadakṣam akṣuṇṇasakalaśāstrārthasaṅgrahasamarthaṃ pramāṇaityādiślokam āha pramāṇād arthasaṃsiddhis tadābhāsād viparyayaḥ iti vakṣye tayor lakṣma siddham alpaṃ laghīyasaḥ sambandhābhidheyaśakyānuṣṭhāneṣṭaprayojanavanti hi śāstrāṇi prekṣāvadbhir ādriyante netarāṇi sambandhābhidheyarahitasyonmattādivākyavat tadvato 'py aprayojanavataḥ kākadantaparīkṣāvat anabhimataprayojanavato vā mātṛvivāhopadeśavat aśakyānuṣṭhānasya vā sarvajvaraharatakṣakacūḍāratnālaṅkāropadeśavat tair anādaraṇīyatvāt tad uktam siddhārthaṃ siddhasambandhaṃ śrotā śrotuṃ pravartate śāstrādau tena vaktavyaḥ sambandhaḥ saprayojanaḥ mīmāṃsāślokavārttika pratijñāsūtra śloka  sarvasyaiva hi śāstrasya karmaṇo vāpi kasyacit yāvat prayojanaṃ noktaṃ tāvat tat kena gṛhyatām mīmāṃsāślokavārttika pratijñāsūtra śloka  anirdiṣṭaphalaṃ sarvaṃ na prekṣāpūrvakāribhiḥ śāstram ādriyate tena vācyam agre prayojanam   śāstrasya tu phale jñāte tatprāptyāśāvaśīkṛtāḥ prekṣāvantaḥ pravartante tena vācyaṃ prayojanam   yāvat prayojanenāsya sambandho nābhidhīyate asambaddhapralāpitvād bhavet tāvad asaṅgatiḥ mīmāṃsāślokavārttika pratijñāsūtra śloka  tasmād vyākhyāṅgam icchadbhiḥ sahetuḥ saprayojanaḥ śāstrāvatārasambandho vācyo nānyo 'sti niṣphalaḥ mīmāṃsāślokavārttika pratijñāsūtra śloka  iti tatrāsya prakaraṇasya pramāṇatadābhāsayor lakṣaṇam abhidheyam anena ca sahāsya pratipādyapratipādakabhāvalakṣaṇaḥ sambandhaḥ śakyānuṣṭhāneṣṭaprayojanaṃ tu sākṣāt tallakṣaṇavyutpattir eva iti vakṣye tayor lakṣma ity anenābhidhīyate pramāṇād arthasaṃsiddhiḥ ityādikaṃ tu paramparayeti samudāyārthaḥ athedānīṃ vyutpattidvāreṇāvayavārtho 'bhidhīyate atra pramāṇaśabdaḥ kartṛkaraṇabhāvasādhanaḥ dravyaparyāyayor bhedābhedātmakatvāt svātantryasādhakatamatvādivivakṣāpekṣayā tadbhāvāvirodhāt tatra kṣayopaśamaviśeṣavaśāt svaparaprameyasvarūpaṃ pramimīte yathāvaj jānāti iti pramāṇam ātmā svaparagrahaṇapariṇatasyāparatantryātmana eva hi kartṛsādhanapramāṇaśabdenābhidhānaṃ svātantryeṇa vivakṣitatvāt svaparaprakāśātmakasya pradīpādeḥ prakāśābhidhānavat sādhakatamatvādivivakṣāyāṃ tu pramīyate yena tat pramāṇaṃ pramitimātraṃ vā pratibandhāpāye prādurbhūtavijñānaparyāyasya prādhānyenāśrayaṇāt pradīpādeḥ prabhābhārātmakaprakāśavat bhedābhedayoḥ parasparaparihāreṇāvasthānād anyatarasyaiva vāstavatvād ubhayātmakatvam ayuktam ity asamīkṣitābhidhānam bādhakapramāṇābhāvāt anupalambho hi bādhakaṃ pramāṇam na cātra so 'sti sakalabhāveṣūbhayātmakatvagrāhakatvenaivākhilāskhalatpratyayapratīteḥ virodho bādhakaḥ ity apy asamīcīnam upalambhasambhavāt virodho hy anupalambhasādhyo yathā turaṅgamottamāṅge śṛṅgasya anyathā svarūpeṇāpi tadvato virodhaḥ syāt na cānayor ekatra vastuny anupalambho 'sti abhedamātrasya bhedamātrasya vetaranirapekṣasya vastuny apratīteḥ kalpayatāpy abhedamātraṃ bhedamātraṃ vā pratītir avaśyābhyupagamanīyā tannibandhanatvād vastuvyavasthāyāḥ sā ced ubhayātmany apy asti kiṃ tatra svasiddhāntaviṣamagrahanibandhanapradveṣeṇa aprāmāṇikatvaprasaṅgād ity alam atiprasaṅgena anekāntasiddhiprakrame vistareṇopakramāt vakṣyamāṇalakṣaṇalakṣitapramāṇabhedam anabhipretyānantarasakalapramāṇaviśeṣasādhāraṇapramāṇalakṣaṇapuraḥsaraḥ pramāṇād ity ekavacananirdeśaḥ kṛtaḥ kā hetau arthyate 'bhilaṣyate prayojanārthibhir ity artho heya upādeyaś ca upekṣaṇīyasyāpi parityajanīyatvād dheyatvam upādānakriyāṃ praty akarmabhāvān nopādeyatvam hānakriyāṃ prati viparyayāt tattvam tathā ca loko vadati aham anenopekṣaṇīyatvena parityaktaḥ iti siddhir asataḥ prādurbhāvo 'bhilaṣitaprāptir bhāvajñaptiś cocyate tatra jñāpakaprakaraṇād asataḥ prādurbhāvalakṣaṇā siddhir neha gṛhyate samīcīnā siddhiḥ saṃsiddhir arthasya saṃsiddhiḥ arthasaṃsiddhiḥ iti anena kāraṇāntarāhitaviparyāsādijñānanibandhanārthasiddhir nirastā jātiprakṛtyādibhedenopakārakārthasiddhis tu saṃgṛhītā tathā hi kevalanimbalavaṇarasādāv asmadādīnāṃ dveṣabuddhiviṣaye nimbakīṭoṣṭrādīnāṃ jātyābhilāṣabuddhir upajāyate asmadādyabhilāṣaviṣaye candanādau tu teṣāṃ dveṣaḥ tathā pittaprakṛter uṣṇasparśe dveṣo vātaprakṛter abhilāṣaḥ śītasparśe tu vātaprakṛter dveṣo na pittaprakṛter iti na caitaj jñānam asatyam eva hitāhitaprāptiparihārasamarthatvāt prasiddhasatyajñānavat hitāhitavyavasthā copakārakatvāpakārakatvābhyāṃ prasiddheti tad iva svaparaprameyasvarūpapratibhāsipramāṇam ivābhāsata iti tadābhāsam sakalamatasammatāvabuddhyakṣaṇikādyekāntatattvajñānaṃ sannikarṣāvikalpakajñānāpratyakṣajñānajñānāntarapratyakṣajñānānāptapraṇītāgamāvinābhāvavikalaliṅganibandhanābhinibodhādikaṃ saṃśayaviparyāsānadhyavasāyajñānaṃ ca tasmād viparyayo 'bhilaṣitārthasya svargāpavargāder anavadyatatsādhanasya vaihikasukhaduḥkhādisādhanasya vā samprāptijñaptilakṣaṇasamīcīnasiddhyabhāvaḥ pramāṇasya prathamato 'bhidhānaṃ pradhānatvāt na caitad asiddham samyagjñānasya niḥśreyasaprāpteḥ sakalapuruṣārthopayogitvāt nikhilaprayāsasya prekṣāvatāṃ tadarthatvāt pramāṇetaravivekasyāpi tatprasādhyatvāc ca tadābhāsasya tūktaprakārāsambhavād aprādhānyam iti hetvarthe puruṣārthasiddhyasiddhinibandhanatvād iti hetoḥ tayoḥ pramāṇatadābhāsayo lakṣma asādhāraṇasvarūpaṃ vyaktibhedena tajjñaptinimittaṃ lakṣaṇaṃ vakṣye vyutpādanārhatvāt tallakṣaṇasya yathāvat tatsvarūpaṃ praspaṣṭaṃ kathayiṣye anena granthakārasya tadvyutpādane svātantryavyāpāro 'vasīyate nikhilalakṣyalakṣaṇabhāvāvabodhānyopakāraniyatacetovṛttitvāt tasya nanu cedaṃ vakṣyamāṇaṃ pramāṇetaralakṣaṇaṃ pūrvaśāstrāprasiddham tadviparītaṃ vā? yadi pūrvaśāstrāprasiddham tarhi tadvyutpādanaprayāso nārambhaṇīyaḥ svaruciviracitatvena satām anādaraṇīyatvāt tatprasiddhaṃ tu nitarām etan na vyutpādanīyaṃ piṣṭapeṣaṇaprasaṅgād ity āha siddham alpam prathamaviśeṣaṇena vyutpādanavattallakṣaṇapraṇayane svātantryaṃ parihṛtam tad eva ākalaṅkam idaṃ pūrvaśāstraparamparāpramāṇaprasiddhaṃ laghūpāyena pratipādya prajñāparipākārthaṃ vyutpādyate na svaruciviracitaṃ nāpi pramāṇānupapannaṃ paropakāraniyatacetaso granthakṛto vineyavisaṃvādane prayojanābhāvāt tathābhūtaṃ hi vadan visaṃvādakaḥ syāt alpam iti viśeṣaṇena yad anyatra akalaṅkadevair vistareṇoktaṃ pramāṇetaralakṣaṇaṃ tad evātra saṃkṣepeṇa vineyavyutpādanārtham abhidhīyata iti punaruktatvanirāsaḥ vistareṇānyatrābhihitasyātra saṃkṣepābhidhāne vistararucivineyaviduṣāṃ nitarām anādaraṇīyatvam ko hi nāma viśeṣavyutpattyarthī prekṣāvāṃs tatsādhanānyasadbhāve saty anyatrātatsādhane kṛtādaro bhaved ity āha laghīyasaḥ atiśayena laghavo hi laghīyāṃsaḥ saṃkṣeparucaya ity arthaḥ kālaśarīraparimāṇakṛtaṃ tu lāghavaṃ neha gṛhyate tasya vyutpādyatvavyabhicārāt kvacit tathāvidhe vyutpādakasyāpy upalambhāt tasmād abhiprāyakṛtam iha lāghavaṃ gṛhyate yeṣāṃ saṃkṣepeṇa vyutpattyabhiprāyo vineyānāṃ tān pradīpam abhidhīyate pratipādakasya pratipādyāśayavaśavartitvāt akathitam pāṇinisūtra  ity anena karmasaṃjñāyāṃ satyāṃ karmaṇīp nanu ceṣṭadevatānamaskārakaraṇam antareṇaivoktaprakārādiślokābhidhānam ācāryasyāyuktam avighnena śāstraparisamāptyādikaṃ hi phalam uddiśyeṣṭadevatānamaskāraṃ kurvāṇāḥ śāstrakṛtaḥ śāstrādau pratīyante ity apy asamīkṣitābhidhānam vāṅnamaskārākaraṇe 'pi kāyamanonamaskārakaraṇāt trividho hi namaskāro manovākkāyakāraṇabhedāt dṛśyate cātilaghūpāyena vineyavyutpādanamanasāṃ dharmakīrtyādīnām apy evaṃvidhā pravṛttiḥ vāṅnamaskārakaraṇam antareṇaiva samyagjñānapūrvikā sarvapuruṣārthasiddhiḥ nyāyabindu  ityādivākyopanyāsāt yad vā vāṅnamaskāro 'py anenaivādiślokena kṛto granthakṛtā tathā hi mā antaraṅgabahiraṅgānantajñānaprāptihāryādiśrīḥ aṇyate śabdyate yenārtho 'sāvāṇaḥ śabdaḥ mā cāṇaś ca māṇau prakṛṣṭau maheśvarādyasambhavinau māṇau yasyāsau pramāṇo bhagavān sarvajño dṛṣṭeṣṭāviruddhavāk ca tasmād uktaprakārārthasaṃsiddhir bhavati tadabhāsāt tu maheśvarāder viparyayas tatsaṃsiddhyabhāvaḥ iti vakṣye tayor lakṣma sāmagrīviśeṣaviśleṣitākhilāvaraṇam atīndriyam ityādyasādhāraṇsvarūpaṃ pramāṇasya kiṃviśiṣṭam? siddhaṃ vakṣyamāṇapramāṇaprasiddham tadviparītaṃ tu tadābhāsasya taccālpaṃ saṃkṣiptaṃ yathā bhavati tathā laghīyasaḥ prati vakṣye tayor lakṣmeti śāstrārambhe cāparimitaguṇodadher bhagavato guṇalavavyāvarṇanam eva vākstutir ity akam atiprasaṅgenacha pramāṇaviśeṣalakṣaṇopalakṣaṇākāṅkṣāyās tatsāmānyalakṣaṇopalakṣaṇapūrvakatvāt pramāṇasvarūpavipratipattinirākaraṇadvāreṇābādhatatsāmānyalakṣaṇopalakṣaṇāyedam abhidhīyate svāpūrvārthavyavasāyātmakaṃ jñānaṃ pramāṇam pramāṇatvānyathānupapatter ity ayam atra hetur dṛṣṭavyaḥ viśeṣaṇaṃ hi vyavacchedaphalaṃ bhavati tatra pramāṇasya jñānam iti viśeṣaṇena avyabhicārādiviśeṣaṇaviśiṣṭārthopalabdhijanakaṃ kārakasākalyaṃ sādhakatamatvāt pramāṇam iti pratyākhyātam tasyājñānarūpasya prameyārthavat svaparaparicchittau sādhakatamatvābhāvataḥ pramāṇatvāyogāt tatparicchittau sādhakatamatvasyājñānavirodhinā jñānena vyāptatvāt chidau paraśvādinā sādhakatamena vyabhicāra ity ayuktam tatparicchittāv iti viśeṣaṇāt na khalu sarvatra sādhakatamatvaṃ jñānena vyāptaṃ paraśvāder api jñānarūpatāprasaṅgāt ajñānarūpasyāpi pradīpādeḥ svaparaparicchittau sādhakatamatvopalambhāt tena tasyāvyāptir ity apy ayuktam tasyopacārāt tatra sādhakatamatvavyavahārāt sākalyasyāpy upacāreṇa sādhakatamatvopagame na kiṃcid aniṣṭam mukhyarūpatayā hi svaparaparicchittau sādhakatamasya jñānasyotpādakatvāt tasyāpi sādhakatamatvam tasmāc ca pramāṇaṃ kāraṇe kāryopacārāt annaṃ vai prāṇā ityādivat pradīpena mayā dṛṣṭaṃ cakṣuṣāvagataṃ dhūmena pratipannam iti lokavyavahāro 'py upacārataḥ yathā mamāyaṃ puruṣaś cakṣur iti teṣāṃ pramitiṃ prati bodhena vyavadhānāt tasya tv apareṇāvyavadhānāt tanmukhyam na ca vyapadeśamātrāt pāramārthikavastuvyavasthā naḍvalodakaṃ pādarogaḥ ityādivat tato yadbodhābodharūpasya pramāṇatvābhidhānakam likhitaṃ sākṣiṇo bhuktiḥ pramāṇaṃ trividhaṃ smṛtam   iti tat pratyākhyātam jñānasyaivānupacaritapramāṇavyapadeśārhatvāt tathā hi yad yatrāpareṇa vyavahitaṃ na tat tatra mukhyarūpatayā sādhakatamavyapadeśārham yathā hi cchidikriyāyāṃ kuṭhāreṇa vyavahito 'yaskāraḥ svaparaparicchittau vijñānena vyavahitaṃ ca paraparikalpitaṃ sākalyādikam iti tasmāt kārakasākalyādikaṃ sādhakatamavyapadeśārhaṃ na bhavati</p>
+          </div>
+            </details>
+        </section>
+        <section style="display: flex; flex-direction: row; align-items: center; justify-content: center; width: fit-content; gap: 2rem">
+          <div style="flex-grow: 1; display: flex; flex-direction:column; align-items: center; gap: 1rem">
+            <textarea id="textinput" rows="30" cols="75" style="font-size: 1.2rem"></textarea>
+            <button id="tokenizesubmit" style="font-size: 1.2rem; padding: 0.5rem; width: fit-content">Tokenize</button>
+          </div>
+          <fieldset class="options" style="flex-grow: 0; flex-direction: column; width: max-content">
+              <details open>
+                  <summary>Initial tokenization</summary>
+                  <div>
+                      <input type="radio" name="tokenization" id="token-grapheme" value="grapheme" /><label for="token-grapheme">Unicode grapheme</label>
+                  </div>
+                  <div>
+                      <input type="radio" name="tokenization" id="token-aksara" value="aksara" /><label for="token-aksara">Syllables/Akṣaras (conjuncts and vowels together)</label>
+                  </div>
+                  <div>
+                      <input type="radio" name="tokenization" id="token-eluttu" value="eluttu" checked /><label for="token-eluttu">Eḻuttu (without conjuncts)</label>
+                  </div>
+                  <div>
+                      <input type="radio" name="tokenization" id="token-char" value="char" /><label for="token-char">Consonants and vowels separate</label>
+                  </div>
+              </details>
+              <details open>
+                  <summary>BPE iterations</summary>
+                  <div>
+                      <input type="number" name="tokenization" id="bpe-iters" value="600" min="1"/>
+                  </div>
+              </details>
+          </fieldset>
+        </section>
+        <section>
+            <hr />
+            <div>
+                <div id="results">
+                </div>
+            </div>
+        </section>
+    </article>
+</body>
+<script type="module" src="bpe.mjs"></script>
+</html>

@@ -165,15 +165,21 @@ In recent years, more complex methods of tokenization have been employed for doi
 
 Broder, Andrei Z. et al. 1997. "Syntactic clustering of the Web." *Computer Networks and ISDN Systems* 29: 1157–1166.
 
+Castles, Anne et al. 2018. "Ending the Reading Wars: Reading Acquisition From Novice to Expert." _Psychological Science in the Public Interest_ 19(1): 5–51. [doi:10.1177/1529100618772271](https://www.psychologicalscience.org/publications/ending-the-reading-wars-reading-acquisition-from-novice-to-expert.html)
+
 Delétang, Grégoire et al. 2024. "Language Modeling is Compression." ICLR 2024. [arxiv:2309.10668](https://arxiv.org/abs/2309.10668)
 
 Filliozat, Pierre-Sylvain. 2004. "Ancient Sanskrit Mathematics: An Oral Tradition and a Written Literature." In *History of Science, History of Text.* Edited by Karine Chemla. 137–157.
+
+Jelinek, Frederick. 2005. "Some of my Best Friends are Linguists." _Language Resources and Evaluation_ 39: 25–34. [doi:10.1007/s10579-005-2693-4](https://link.springer.com/article/10.1007/s10579-005-2693-4)
 
 Karpathy, Andrej. 2024. "minbpe: Minimal, clean code for the Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization." *GitHub*. [github.com/karpathy/minbpe](https://github.com/karpathy/minbpe)
 
 Liu Ting-Chun & Leon-Etienne Kühr. 2025. "51 Ways to Spell the Image Giraffe: The Hidden Politics of Token Languages in Generative AI." Paper presented at 39C3, Congress Center Hamburg, 28 December. [media.ccc.de/v/39c3-51-ways-to-spell-the-image-giraffe-the-hidden-politics-of-token-languages-in-generative-ai](https://media.ccc.de/v/39c3-51-ways-to-spell-the-image-giraffe-the-hidden-politics-of-token-languages-in-generative-ai)
 
-Wilkenfeld, Daniel A. 2018. "Understanding as compression." *Philosophical Studies* 176: 2807–2813.
+Sennrich et al. 2016. "Neural Machine Translation of Rare Words with Subword Units." _arXiv._ [arXiv:1508.07909](https://arxiv.org/abs/1508.07909)
+
+Wilkenfeld, Daniel A. 2018. "Understanding as compression." *Philosophical Studies* 176: 2807–2831.
 
 
 ## Week 7 | 23 November | Comparing texts: alignment

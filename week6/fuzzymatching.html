@@ -1,0 +1,268 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Fuzzy matching</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<link rel="stylesheet" href="https://tst-project.github.io/lib/css/tufte.css" />
+<link rel="stylesheet" href="https://tst-project.github.io/lib/css/fonts.css" />
+<link rel="stylesheet" href="https://tst-project.github.io/lib/css/tst.css" />
+<style type="text/css">
+    body {
+        display: inherit;
+        padding-left: 12.5%;
+        margin: auto;
+        width: unset;
+        height: unset;
+        max-width: unset;
+    }
+
+    th {
+        text-align: left;
+    }
+    figure {
+    	margin: revert;
+    }
+    figcaption {
+    	float: initial;
+    	clear: initial;
+    	max-width: initial;
+    }
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 85%;
+}
+
+.highlight {
+  background: yellow;
+}
+label {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+.inputbox {
+    font-size: 1.2rem;
+    min-width: 60ch;
+    min-height: 30ch;
+    max-width: 80ch;
+    border: 1px dashed black;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    height: 2rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+input[type="number"] {
+    width: 3.5rem;
+}
+
+details {
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+details > :not(summary) {
+    margin-left: 1rem;
+}
+summary {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.horizontal > label {
+    width: 4rem;
+}
+
+details details > div {
+    width: 15rem;
+}
+
+input[name="language"] {
+    margin-top: 0.6rem;
+}
+
+input[name="language"] ~ details {
+    margin-top: 0.3rem;
+}
+input[name="language"] ~ details summary {
+    height: 0;
+}
+
+input[name="language"]:not(:checked) ~ details {
+    display: none;
+}
+#scoring label {
+    display: inline-block;
+    width: 9.5rem;
+}
+
+#results {
+    width: fit-content;
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+#results div {
+  border: 1px solid black;
+  padding: 0.2rem;
+  font-size: 1.4rem;
+}
+.sample1, .sample2 {
+  display: none;
+}
+.samplebox:hover {
+    background-color: yellow;
+    cursor: pointer;
+    width: fit-content;
+}
+</style>
+</head>
+
+<body lang="en">
+    <article>
+        <h1>Fuzzy matching with ngrams</h1>
+        <section>
+            <p>Use this tool to experiment with fuzzy matching, using different tokenization strategies. The input can be in IAST/Madras Lexicon transliteration or in Bengali, Burmese, Devanagari, Grantha, Malayalam, Newa, Sarada, Sinhalese, Tamil, Telugu, Tibetan, or Ge'ez script. Some options will additionally work for other scripts.</p>
+            <details id="samples">
+              <summary>Sample texts</summary>
+              <div class="samplebox">
+                <p>LIT0001MMDZYohannes vs. LIT0002MMDZYohannes</p>
+                <p class="sample1">
+ተአምር፡ ዘገብረት፡ እግዝእትነ፡ ማርያም፡ በመዋዕሊሁ፡ ለአቡነ፡ ዮሐንስ፡ አመ፡ በዐሉ፡ ለአቡነ፡ በርተሎሜዎስ፡ መምህረ፡ ዘመዶ። ሶበ፡ ተጋብኡ፡ ሰብእ፡ በዕለተ፡ ተዝካሩ፡ ለገቢረ፡ በዐል፡ እስመ፡ ተሠርዐ፡ ቅድመ፡ ከመ፡ ይትጋብኡ፡ ሰብእ፡ ለገቢረ፡ በዐል፡ እለ፡ ሀለዉ፡ ታሕተ፡ ምኵናኑ፡ ለአቡነ፡ በርተሎሜዎስ፡ ወእለ፡ ተሰምዩ፡ በሢመተ፡ ዚአሁ፡ ወእም፬ ማዕዘኒሃ፡ ለምድር፡ ይትጋብኡ፡ ሰብእ፡ ከመ፡ ይሳተፉ፡ እምበረከታ፡ ለእግዝእትነ፡ ማርያም፡ ወላዲተ፡ አምላክ፡ እስመ፡ ይነጽሩ፡ ሥዕላ፡ በዕለተ፡ ዕረፍቱ፡ ለአቡነ፡
+                </p>
+                <p class="sample2">
+ስምዑ፡ አኃዊነ፡ ንነግረክሙ፡ ተአምር፡ ዘገብረት፡ እግዝእትነ፡ ማርያም፡ ወላዲተ፡ አምላክ፡ ለአቡነ፡ ዮሐንስ። ወነበረ፡ ፩ብእሲ፡ በመዋዕሊሁ፡ ለቡነ፡ ዮሐንስ፡ በምድረ፡ መልኮ፡ አምባ። አመ፡ ተበአሰ፡ ምስለ፡ ብእሲቱ፡ ለአከት፡ ብእሲቱ፡ ኀበ፡ አቡነ፡ ዮሐንስ፡ መምህረ፡ ዘመዶ። ለአከት፡ እንዘ፡ ትብል፡ እፎ፡ እከውን፡ እምዝንቱ፡ ብእሲየ። እስመ፡ ብዙኀ፡ አሕዘነኒ፡ ወጥቀ፡ አተከዘኒ። እምፃእኑ፡ ኀቤከ፡ ወእኅድጎ፡ ይትርፍ። እስመ፡ አብአ፡ ብእሲተ፡ በላዕሌየ።
+                </p>
+              </div>
+              <div class="samplebox">
+            <p>Cēṉāvaraiyar vs. Nacciṉārkkiṉiyar on <em>Collatikāram</em> 81</p>
+                <p class="sample1">
+i - ḷ. kaṇṇeṉap peyar koṭuttōtappaṭṭa vēṟṟumaiccol ēḻāvatām. atu viṉaiceyyāniṟṟalākiya iṭattiṉkaṇṇum, nilamākiya iṭattiṉkaṇṇum, kālamākiya iṭattiṉkaṇṇumeṉa ammūvakaikkuṟippiṉkaṇṇuntōṉṟum. e-ṟu. eṉavē, ēḻāvatu iṭapporuṇmaitteṉṟavāṟām. kuṟippiṟṟōṉṟumatuveṉṟatu avaṟṟaiyiṭamākak kuṟittavaḻi avvēṟṟumai tōṉṟumeṉṟavāṟu. eṉavē, iṭamākak kuṟikkappaṭātavaḻi appeyarkkaṇ vēṟṟumai tōṉṟāteṉpatām. taṉṉiṉamuṭittaleṉpataṉāṉ ēṉaivēṟṟumaiccoṟkaḷum avvapporuṭkaṭkuṟippilvaḻi avvappeyarkkaṇ vārāmai koḷka. u - m. taṭṭuppuṭaikkaṇ vantāṉ; māṭattiṉ kaṇiruntāṉ; kūtirkkaṇ vantāṉ eṉa varum.
+                </p>
+                <p class="sample2">
+itu, muṟaiyāṉē ēḻāvatu ipporuṭkaṇ varum eṉkiṉṟatu. (i-ḷ.) kaṇ eṉap peyariya vēṟṟumaik kiḷavi ēḻākuvatē- mēl kaṇ eṉṟu peyar koṭuttu ōtappaṭṭa vēṟṟumaiccol ēḻāvatām; atu viṉai cey iṭattiṉ nilattiṉ kālattiṉ aṉai vakaik kuṟippiṉ tōṉṟum- atu viṉai ceyyāniṟṟalākiya iṭattiṉkaṇṇum viṉai nikaḻātu varaiyaṟai uṭaiyatōr nilamākiya iṭattiṉkaṇṇum viṉai nikaḻātu varaiyaraippaṭṭu niṟkum kālamākiya iṭattiṉkaṇṇum eṉa mūvakaik kuṟippiṉkaṇṇum tōṉṟum(e-ṟu.) eṉavē, ēḻāvatu iṭapporuṭṭu āyiṟṟu. (u-m.) taṭṭuppuṭaikkaṇ vantāṉ. māṭattiṉkaṇ iruntāṉ. kūtirkkaṇ vantāṉ. eṉa varum. ivai iṭamum iṭattu nikaḻ poruḷum vēṟāy vantaṉa. kuṉṟattiṉkaṇ kuvaṭu iḵtu avviraṇṭum oṉṟāy vantatu. 'kuṟippiṉ tōṉṟum,' eṉṟatu, 'avaṟṟai iṭam eṉak karutiya vaḻiyē avvēḻaṉ urupu tōṉṟuvatu; alluḻit tōṉṟātu,' eṉṟavāṟu.
+          </p>
+              </div>
+              <div class="samplebox">
+                <p>A quotation from Vyāḍi's <em>Utpalinī</em></p>
+                <p class="sample1">
+དཔལ་མོ་དབྱངས་ཅན་བློ་དང་སྡེ་གསུམ་གྱི༎
+ཕུན་སུམ་ཚོགས་དང་འབྱོར་བ་མཛེས་པ་དང་༎
+འཚོགས་ཆས་འཇིགས་མེད་ཚལ་དང་འཕགས་པ་དང་༎
+བདུད་རྩི་རྣམས་ལ་དཔལ་ཞེས་རབ་ཏུ་གྲགས་༎ 
+                </p>
+                <p class="sample2">
+ པལ་དང་དབྱངས་དང་བློ་ཡི་སྡེ་གསུམ་གྱི། །ཕུན་ཚོགས་འབྱོར་པ་ས་མཛེས་པ་ར་གྱུར་རྣམས་ལ། །འཇིགས་པ་མེད་པ་འི་ཡོ་བྱད་གང་ཡིན་པའི། །ཡོན་ཏན་དེ་ཡང་དཔལ་ཞེས་རབ་ཏུ་བཤད། 
+            </p>
+              </div>
+              <div class="samplebox">
+                <p><em>Caturvargacintāmaṇi</em> vs. <em>Kṛtyakalpataru</em></p>
+                <p class="sample1">
+nandipurāṇe | marutāṃ sūkṣmadehānāṃ tathā ca vyādhitātmanāṃ | hiṃsrāṇāṃ saumyamūrttināṃ tathā hy aphaladābhayaṃ || varam ekasya sattvasya jīvitābhayarakṣaṇaṃ | na tu viprasahasrasya gosahasraṃ sadakṣiṇaṃ || dhik tasya jīvitaṃ puṃsaḥ śaraṇārthinam āturaṃ | yo nārttam anugṛhṇāti vairapakṣam api dhruvaṃ || yajñadānatapāṃsīha paratra ca na bhūtaye | bhavanti tasya yasyārthaparitrāṇe na mānasaṃ || 
+                </p>
+                <p class="sample2">
+nandipurāṇe mahatāṃ sūkṣmadehānāṃ tathā ca vyādhitātmanāṃ | hiṃsrāṇāṃ saumyamūrtīnāṃ sarvathā hy abhayāt phalaṃ || varam ekasya sattvasya jīvitābhayarakṣaṇam | na tu viprasahasrasya gosahasraṃ sadakṣiṇam || mārkaṇḍeyapurāṇe dhik tasya jīvitaṃ puṃsaḥ śaraṇārthinam āturaṃ | yo nārtam anugṛhṇāti vairapakṣam api dhruvam || yajñadānatapāṃsīha paratra ca na bhūtaye | bhavanti tasya yasyārthaparitrāṇe na mānasam || 
+                </p>
+              </div>
+              <div class="samplebox">
+            <p><em>Therīgāthā</em>: Cittā vs. Mettikā</p>
+            <p class="sample1">
+kiñcāpi khomhi kisikā gilānā bāḷhadubbalā | daṇḍam olubbha gacchāmi pabbataṃ abhirūhiya || saṅghāṭiṃ nikkhipitvāna pattakaṃ ca nikujjiya | sele khambhesim attānaṃ tamokkhandhaṃ padāliyā ti ||
+            </p>
+            <p class="sample2">
+kiñ cāpi kho mhi dukkhitā dubbalā gatayobbanā | daṇḍam olubbha gacchāmi pabbataṃ abhirūhiya || nikkhipitvāna saṃghāṭiṃ pattakaṃ ca nikujjiya | nisinnā camhi selamhi atha cittaṃ vimucci me | tisso vijjā anuppattā kataṃ buddhassa sāsanan ti ||
+            </p>
+              </div>
+              <div class="samplebox">
+                <p><em>Tirukkuṟaḷ</em> vs. <em>Tiruvuntiyār</em> (courtesy of R. Dávalos &amp; K. Nachimuthu)</p>
+                <p class="sample1">paṟṟuka paṟṟaṟṟāṉ paṟṟiṉai yappaṟṟaip / paṟṟuka paṟṟu viṭaṟku.</p>
+                <p class="sample2">paṟṟai yaṟuppatōr paṟṟiṉai paṟṟilap / paṟṟai yaṟuppareṉ ṟuntīpaṟa / pāvikka vārāteṉ ṟuntīpaṟa.</p>
+              </div>
+            </details>
+        </section>
+        <section style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: fit-content; gap: 2rem">
+          <div style="flex-grow: 1; display: flex; flex-direction:row; align-items: center; gap: 1rem">
+            <div id="textinput1" class="inputbox" autocorrect="off" spellcheck="false" contenteditable>
+niṟutta muṟaiyāṉē iṭaiccoluṇarttiya veṭuttukkoṇṭār. ataṉāṉ ivvōttu iṭaiyiyaleṉṉum peyarttāyiṟṟu. moḻikku muṉṉum piṉṉum varumāyiṉum perumpāṉmaiyum iṭai varutaliṉ iṭaiccol lāyiṟṟu.
+
+iccūttirattiṉ poruḷ. iṭaiccolleṉṟu collappaṭuvaṉa peyaroṭum viṉaiyoṭum vaḻakkuppeṟṟiyalum; tāmāka naṭakkumiyalpila. e-ṟu.
+
+“iṭaiccoṟ kiḷaviyu muriccoṟ kiḷaviyu―mavaṟṟuvaḻi maruṅkiṟ ṟōṉṟum” eṉṟataṉāṉ iṭaiccoṟ peyarum viṉaiyuñcārntu varutal peṟappaṭṭamaiyāl, peyaroṭum viṉayoṭu naṭaipeṟṟiyalun tamakkiyalpilaveṉṟatu, īṇṭup peyarum viṉaiyumuṇarttum poruḷaic cārntu niṉṟu avaṟṟai veḷippaṭuppatallatu tamakkeṉap poruḷuṭaiyavallaveṉṟavāṟām. </div>
+            <div id="textinput2" class="inputbox" autocorrect="off" spellcheck="false" contenteditable>
+eṉpatu cūttiram itu, niṟutta muṟaiyāṉē yiṭaic col luṇarttu kiṉṟamaiyi ṉivvōttiṭaiccol lōtteṉṉum peyarttāyiṟṟu. iccūttiram, iṭaic coṟkellām potu vilakkaṇaṅ kūṟukiṉṟatu.
+
+(i-ḷ) iṭaiyeṉappaṭupa―iṭaiccolleṉṟu collappaṭuvaṉa. peyaroṭum viṉaiyoṭum naṭai peṟṟiyalum-peyarum viṉaiyumuṇarttum poruḷaic cārntu niṉṟu avaṟṟaiyē veḷippaṭuttu naṭakkum. tamakkiyalpila-tamakkeṉa vēṟār poruḷai yuṇarttu milakkaṇa muṭaiya valla veṉṟavāṟu.
+
+muṉṉum piṉṉum niṟkumēṉum, perumpāṉmaiyu miṭaiyē niṟṟali, ṉiṭaiccolleṉṟār. 
+          </div>
+          </div>
+          <button id="comparesubmit" style="font-size: 1.2rem; padding: 0.5rem; width: fit-content">Compare</button>
+          <fieldset class="options" style="flex-grow: 0; width: max-content">
+              <details open>
+                  <summary>Tokenize by</summary>
+                  <div>
+                      <input type="radio" name="tokenization" value="whitespace" /><label>Whitespace</label>
+                  </div>
+                  <div>
+                      <input type="radio" name="tokenization" value="wordboundary" /><label>Unicode word boundaries</label>
+                  </div>
+                  <div>
+                      <input type="radio" name="tokenization" value="grapheme" /><label>Unicode grapheme</label>
+                  </div>
+                  <div>
+                      <input type="radio" name="tokenization" value="aksara" /><label>Syllables/Akṣaras (conjuncts and vowels together)</label>
+                  </div>
+                  <div>
+                      <input type="radio" name="tokenization" value="eluttu" checked /><label>Eḻuttu (without conjuncts)</label>
+                  </div>
+                  <div>
+                      <input type="radio" name="tokenization" value="char" /><label>Consonants and vowels separate</label>
+                  </div>
+              </details>
+              <details open>
+                  <summary>Ngram size</summary>
+                  <div>
+                    <input type="number" id="ngramsize" name="ngramsize" min="1" value="3"/>
+                  </div>
+              </details>
+              <details id="normalization" open>
+                <summary>Normalization</summary>
+                <div class="horizontal">
+                    <input type="checkbox" name="language" id="check_tamil" autocomplete="off"/><label for="check_tamil">Tamil</label>
+                    <details class="tamil">
+                        <summary></summary>
+                    </details>
+                </div>
+                <div class="horizontal">
+                    <input type="checkbox" name="language" id="check_sanskrit" autocomplete="off"/><label for="check_sanskrit">Sanskrit</label>
+                    <details class="sanskrit">
+                        <summary></summary>
+                    </details>
+                </div>
+                <div class="horizontal">
+                    <input type="checkbox" name="language" id="check_pali" autocomplete="off"/><label for="check_pali">Pali</label>
+                    <details class="pali">
+                        <summary></summary>
+                    </details>
+                </div>
+              </details>
+          </fieldset>
+        </section>
+    </article>
+</body>
+<script type="module" src="script.mjs"></script>
+</html>

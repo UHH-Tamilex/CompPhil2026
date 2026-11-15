@@ -147,22 +147,22 @@ input[name="language"]:not(:checked) ~ details {
               <details open>
                   <summary>Tokenize by</summary>
                   <div>
-                      <input type="radio" name="tokenization" value="whitespace" /><label>Whitespace</label>
+                      <input type="radio" name="tokenization" id="token-whitespace" value="whitespace" /><label for="token-whitespace">Whitespace</label>
                   </div>
                   <div>
-                      <input type="radio" name="tokenization" value="wordboundary" /><label>Unicode word boundaries</label>
+                      <input type="radio" name="tokenization" id="token-wordboundary" value="wordboundary" /><label for="token-wordboundary">Unicode word boundaries</label>
                   </div>
                   <div>
-                      <input type="radio" name="tokenization" value="grapheme" /><label>Unicode grapheme</label>
+                      <input type="radio" name="tokenization" id="token-grapheme" value="grapheme" /><label for="token-grapheme">Unicode grapheme</label>
                   </div>
                   <div>
-                      <input type="radio" name="tokenization" value="aksara" /><label>Syllables/Akṣaras (conjuncts and vowels together)</label>
+                      <input type="radio" name="tokenization" id="token-aksara" value="aksara" /><label for="token-aksara">Syllables/Akṣaras (conjuncts and vowels together)</label>
                   </div>
                   <div>
-                      <input type="radio" name="tokenization" value="eluttu" checked /><label>Eḻuttu (without conjuncts)</label>
+                      <input type="radio" name="tokenization" id="token-eluttu" value="eluttu" checked /><label for="token-eluttu">Eḻuttu (without conjuncts)</label>
                   </div>
                   <div>
-                      <input type="radio" name="tokenization" value="char" /><label>Consonants and vowels separate</label>
+                      <input type="radio" name="tokenization" id="token-char" value="char" /><label for="token-char">Consonants and vowels separate</label>
                   </div>
               </details>
           </fieldset>
@@ -176,5 +176,5 @@ input[name="language"]:not(:checked) ~ details {
         </section>
     </article>
 </body>
-<script type="module" src="tokenize.mjs"></script>
+<script type="module" src="script.mjs"></script>
 </html>
