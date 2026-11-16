@@ -163,6 +163,8 @@ In recent years, more complex methods of tokenization have been employed for doi
 
 ### Bibliography
 
+Arazi, Benjamin. 1988. _A Commonsense Approach to the Theory of Error Correcting Codes._  Cambridge, Mass: Massachusetts Institute of Technology.
+
 Broder, Andrei Z. et al. 1997. "Syntactic clustering of the Web." *Computer Networks and ISDN Systems* 29: 1157–1166.
 
 Castles, Anne et al. 2018. "Ending the Reading Wars: Reading Acquisition From Novice to Expert." _Psychological Science in the Public Interest_ 19(1): 5–51. [doi:10.1177/1529100618772271](https://www.psychologicalscience.org/publications/ending-the-reading-wars-reading-acquisition-from-novice-to-expert.html)
