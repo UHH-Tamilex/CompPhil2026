@@ -179,7 +179,7 @@ Karpathy, Andrej. 2024. "minbpe: Minimal, clean code for the Byte Pair Encoding 
 
 Liu Ting-Chun & Leon-Etienne Kühr. 2025. "51 Ways to Spell the Image Giraffe: The Hidden Politics of Token Languages in Generative AI." Paper presented at 39C3, Congress Center Hamburg, 28 December. [media.ccc.de/v/39c3-51-ways-to-spell-the-image-giraffe-the-hidden-politics-of-token-languages-in-generative-ai](https://media.ccc.de/v/39c3-51-ways-to-spell-the-image-giraffe-the-hidden-politics-of-token-languages-in-generative-ai)
 
-Sennrich et al. 2016. "Neural Machine Translation of Rare Words with Subword Units." _arXiv._ [arXiv:1508.07909](https://arxiv.org/abs/1508.07909)
+Sennrich, Rico et al. 2016. "Neural Machine Translation of Rare Words with Subword Units." _arXiv._ [arXiv:1508.07909](https://arxiv.org/abs/1508.07909)
 
 Wilkenfeld, Daniel A. 2018. "Understanding as compression." *Philosophical Studies* 176: 2807–2831.
 
