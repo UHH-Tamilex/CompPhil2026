@@ -184,7 +184,7 @@ Sennrich et al. 2016. "Neural Machine Translation of Rare Words with Subword Uni
 Wilkenfeld, Daniel A. 2018. "Understanding as compression." *Philosophical Studies* 176: 2807–2831.
 
 
-## Week 7 | 23 November | Comparing texts: alignment
+## Week 7 | 23 November | Alignment I: From DNA to akṣaras
 
 The problem of comparing two texts is known as the pairwise alignment problem. In this session, we will introduce the algorithm and consider the different parameters that can be used to fine-tune it. This session can contain as little or as much math as is bearable; it is usually enough to press a button and get results without understanding the underlying process. But a little understanding will enable you to adjust the software to better suit your needs.
 
