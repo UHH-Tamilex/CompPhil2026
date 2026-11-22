@@ -199,7 +199,7 @@ Needleman, S. B. & C. D. Wunsch. 1970. "A General Method Applicable to the Searc
 Sung Wing-Kin. 2009. *Algorithms in Bioinformatics: A Practical Introduction*. London: CRC Press.
 
 
-## Week 8 | 30 November | Comparing texts: alignment
+## Week 8 | 30 November | Alignment II: The Holy Grail
 
 Most texts that we work on are present in more than two manuscripts, so we will need to solve the multisequence alignment problem in order to collate them. However, it has been shown that this problem has a computational complexity such that it is practically unsolvable as the number of texts, and their length, grow large. This session will introduce a practical algorithm that will produce a fairly accurate collation of a multiwitness text in a reasonable amount of time. As with last week, if you are not interested in the math, it is enough to know how to press a button.
 
