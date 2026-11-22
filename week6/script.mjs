@@ -65,7 +65,7 @@ const populateFilters = par => {
     checkbox.addEventListener('click',checkAll);
 
   const langMap = new Map();
-  for(const lang of ['tamil','sanskrit','pali']) {
+  for(const lang of ['tamil','sanskrit','pali','geez']) {
     const deets = normies.querySelector(`details.${lang}`);
     deets.addEventListener('click',checkFilterBox);
     langMap.set(lang, deets);
@@ -107,7 +107,7 @@ const getFilterIndices = norm => {
 const shouldTransliterate = (filternames, method) => {
   if(['aksara','eluttu','char'].includes(method)) return true;
   for(const name of filternames) {
-    if(!['ignore punctuation','remove spaces'].includes(name))
+    if(!['ignore punctuation','remove spaces','ignore vowels'].includes(name))
       return true;
   }
   return false;
@@ -130,7 +130,7 @@ const submit = () => {
   const method = getMethod();
   const [filterindices, filternames] = getFilterIndices(document);
   for(const input of inputs) {
-    const orig = input.box.textContent;
+    const orig = input.box.textContent.trim();
     if(shouldTransliterate(filternames, method)) {
       const script = detectScript(orig);
       if(script === 'geez') input.trans = transgeez(orig);
