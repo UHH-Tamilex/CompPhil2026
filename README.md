@@ -194,6 +194,8 @@ The problem of comparing two texts is known as the pairwise alignment problem. I
 
 Gotoh Osamu. 1982. "An Improved Algorithm for Matching Biological Sequences." *Journal of Molecular Biology* 162: 705–708.
 
+Groot Koerkamp, Ragnar. 2025. "Optimal Throughput Bioinformatics." PhD Thesis, ETH Zurich. [doi:10.3929/ethz-c-000783091](https://doi.org/10.3929/ethz-c-000783091)
+
 Needleman, S. B. & C. D. Wunsch. 1970. "A General Method Applicable to the Search for Similarities in the Amino Acid Sequence of Two Proteins." *Journal of Molecular Biology* 48: 443–453.
 
 Sung Wing-Kin. 2009. *Algorithms in Bioinformatics: A Practical Introduction*. London: CRC Press.
